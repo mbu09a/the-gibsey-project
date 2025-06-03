@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base Typography */
+body {
+  @apply bg-black text-phosphor-green font-crt;
+  font-family: 'VT323', 'Courier New', monospace;
+  letter-spacing: 0.05em;
+}
+
+/* Custom Scrollbar - will be styled dynamically */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-color, rgba(52, 255, 120, 0.1));
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-color, rgba(52, 255, 120, 0.4));
+  border-radius: 4px;
+  box-shadow: 0 0 10px var(--scrollbar-glow-color, rgba(52, 255, 120, 0.5));
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover-color, rgba(52, 255, 120, 0.6));
+}
+
+/* Scanline Animation */
+.scanline {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(52, 255, 120, 0.03) 50%,
+    transparent 100%
+  );
+  animation: scanline 8s linear infinite;
+}
+
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(200%); }
+}
+
+/* CRT Screen Effects */
+.crt-screen::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 1px,
+    rgba(52, 255, 120, 0.03) 1px,
+    rgba(52, 255, 120, 0.03) 2px
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Text Selection */
+::selection {
+  background: rgba(52, 255, 120, 0.3);
+  color: #000;
+}
+
+/* Focus States */
+*:focus {
+  outline: none;
+  box-shadow: 0 0 20px rgba(52, 255, 120, 0.5);
+}
+
+/* Button Hover Effects */
+button {
+  transition: all 0.2s ease;
+}
+
+button:hover:not(:disabled) {
+  transform: scale(1.02);
+}
+
+/* Glow Text Utility */
+.text-glow {
+  text-shadow: 
+    0 0 10px currentColor,
+    0 0 20px currentColor,
+    0 0 30px currentColor;
+}
+
+/* Phosphor Fade Animation */
+@keyframes phosphor-fade {
+  0% { opacity: 1; }
+  100% { opacity: 0.8; }
+}
+
+/* CRT Curve Effect */
+.crt-curve {
+  border-radius: 20px / 50px;
+}
+
+/* Static Noise */
+@keyframes noise {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 0.02; }
+}
+
+/* Blinking Cursor */
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+/* AI Message Bubble - will be styled dynamically by React */
+.ai-message-bubble {
+  position: relative;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.ai-message-bubble::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: 20px;
+  width: 16px;
+  height: 16px;
+  transform: rotate(45deg);
+}
+
+.crt-noise {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj4KICA8ZmlsdGVyIGlkPSJub2lzZSI+CiAgICA8ZmVUdXJidWxlbmNlIHR5cGU9ImZyYWN0YWxOb2lzZSIgYmFzZUZyZXF1ZW5jeT0iMC45IiBudW1PY3RhdmVzPSI0IiAvPgogIDwvZmlsdGVyPgogIDxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbHRlcj0idXJsKCNub2lzZSkiIG9wYWNpdHk9IjAuMDIiIC8+Cjwvc3ZnPg==');
+  pointer-events: none;
+  animation: noise 0.2s infinite;
+}
+
+/* Corpus Symbol Styling */
+.corpus-symbol-filter {
+  filter: invert(1) sepia(1) saturate(5) hue-rotate(96deg);
+}

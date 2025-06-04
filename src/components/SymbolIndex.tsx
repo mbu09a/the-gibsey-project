@@ -8,12 +8,12 @@ const SymbolIndex: React.FC = () => {
 
   return (
     <div className="symbol-index h-full flex flex-col">
-      <h3 className="text-lg font-bold mb-4 font-crt"
+      <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4 font-crt"
           style={{ color: currentColor }}>
         TABLE OF CONTENTS
       </h3>
-      <div className="symbol-index__list flex-1 overflow-y-auto pr-2 custom-scrollbar">
-        <ul className="space-y-2">
+      <div className="symbol-index__list flex-1 overflow-y-auto pr-1 sm:pr-2 custom-scrollbar">
+        <ul className="space-y-1 sm:space-y-2">
           {symbols.map((symbolData) => {
             // Check if this TOC entry is active based on current page
             let isActive = false;
@@ -33,15 +33,15 @@ const SymbolIndex: React.FC = () => {
             return (
               <li key={symbolData.id}>
                 <button
-                  className="w-full text-left p-3 rounded transition-all font-crt text-sm"
+                  className="w-full text-left p-2 sm:p-3 rounded transition-all font-crt text-xs sm:text-sm touch-manipulation"
                   onClick={() => navigateToSymbol(symbolData.id)}
                   style={{ 
                     color: symbolData.color, // Always use the symbol's original color
                     borderColor: isActive ? symbolData.color : 'transparent',
                     borderWidth: '1px',
                     borderStyle: 'solid',
-                    boxShadow: isActive ? `0 0 20px ${symbolData.color}40` : 'none',
-                    textShadow: isActive ? `0 0 5px ${symbolData.color}` : 'none',
+                    boxShadow: isActive ? `0 0 15px ${symbolData.color}40` : 'none',
+                    textShadow: isActive ? `0 0 3px ${symbolData.color}` : 'none',
                     backgroundColor: isActive ? `${symbolData.color}20` : 'transparent'
                   }}
                   onMouseEnter={(e) => {
@@ -55,8 +55,8 @@ const SymbolIndex: React.FC = () => {
                     }
                   }}
                 >
-                  <div className="flex items-center gap-3">
-                    <div className="w-6 h-6 flex-shrink-0 flex items-center justify-center">
+                  <div className="flex items-center gap-2 sm:gap-3">
+                    <div className="w-5 h-5 sm:w-6 sm:h-6 flex-shrink-0 flex items-center justify-center">
                       <CorpusSymbol 
                         symbolId={
                           symbolData.id.startsWith('glyph-marrow-') ? 'glyph-marrow' :
@@ -68,19 +68,20 @@ const SymbolIndex: React.FC = () => {
                           symbolData.id
                         }
                         color={symbolData.color}
-                        size="20px"
+                        size="16px"
+                        className="sm:w-5 sm:h-5"
                       />
                     </div>
-                    <div className="flex-1">
-                      <div className="flex items-center justify-between">
-                        <span className="symbol-index__symbol">
-                          [{symbolData.id}]
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center justify-between gap-2">
+                        <span className="symbol-index__symbol truncate">
+                          <span className="hidden sm:inline">[</span>{symbolData.id}<span className="hidden sm:inline">]</span>
                         </span>
-                        <span className="symbol-index__count text-xs opacity-50">
-                          {symbolData.pageCount} {symbolData.pageCount === 1 ? 'page' : 'pages'}
+                        <span className="symbol-index__count text-xs opacity-50 flex-shrink-0">
+                          {symbolData.pageCount}<span className="hidden sm:inline"> {symbolData.pageCount === 1 ? 'page' : 'pages'}</span>
                         </span>
                       </div>
-                      <div className="symbol-index__name mt-1 text-xs opacity-75">
+                      <div className="symbol-index__name mt-1 text-xs opacity-75 truncate">
                         {symbolData.name}
                       </div>
                     </div>
@@ -91,11 +92,12 @@ const SymbolIndex: React.FC = () => {
           })}
         </ul>
       </div>
-      <div className="mt-4 pt-4 border-t border-opacity-20"
+      <div className="mt-3 sm:mt-4 pt-3 sm:pt-4 border-t border-opacity-20"
            style={{ borderColor: currentColor }}>
         <p className="text-xs font-crt opacity-50 text-center"
            style={{ color: currentColor }}>
-          Use ← → keys to navigate
+          <span className="hidden sm:inline">Use ← → keys to navigate</span>
+          <span className="sm:hidden">Tap to navigate</span>
         </p>
       </div>
     </div>

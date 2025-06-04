@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import CRTFrame from '../components/CRTFrame';
 import PageViewer from '../components/PageViewer';
 import SymbolIndex from '../components/SymbolIndex';
@@ -7,6 +7,7 @@ import { useStory } from '../context/StoryContext';
 
 const HomePage: React.FC = () => {
   const { currentColor } = useStory();
+  const [showTOC, setShowTOC] = useState(false);
 
   return (
     <CRTFrame>
@@ -17,8 +18,10 @@ const HomePage: React.FC = () => {
              '--scrollbar-glow-color': `${currentColor}80`,
              '--scrollbar-thumb-hover-color': `${currentColor}99`
            } as React.CSSProperties}>
-        <header className="mb-8 text-center">
-          <h1 className="text-4xl font-bold mb-4 font-crt"
+        
+        {/* Header - responsive */}
+        <header className="mb-4 sm:mb-6 lg:mb-8 text-center px-2">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-2 sm:mb-4 font-crt"
               style={{ 
                 color: currentColor,
                 textShadow: `0 0 20px ${currentColor}CC, 0 0 40px ${currentColor}66` 
@@ -26,28 +29,68 @@ const HomePage: React.FC = () => {
             THE GIBSEY PROJECT
           </h1>
           <SymbolTag />
+          
+          {/* Mobile TOC Toggle Button */}
+          <button
+            className="lg:hidden mt-4 px-4 py-2 border rounded font-crt text-sm transition-all"
+            onClick={() => setShowTOC(!showTOC)}
+            style={{
+              color: currentColor,
+              borderColor: currentColor,
+              boxShadow: `0 0 10px ${currentColor}40`
+            }}
+          >
+            {showTOC ? '← Back to Story' : 'Table of Contents →'}
+          </button>
         </header>
 
-        <div className="flex-1 grid grid-cols-1 lg:grid-cols-4 gap-8 min-h-0">
-          <aside className="lg:col-span-1 h-full overflow-hidden">
-            <div className="h-full border border-opacity-30 rounded p-4"
-                 style={{ 
-                   borderColor: currentColor,
-                   boxShadow: `inset 0 0 20px ${currentColor}1A` 
-                 }}>
-              <SymbolIndex />
-            </div>
-          </aside>
+        {/* Main Content Area - responsive layout */}
+        <div className="flex-1 min-h-0 px-2 lg:px-0">
+          {/* Desktop Layout */}
+          <div className="hidden lg:grid lg:grid-cols-4 gap-8 h-full">
+            <aside className="col-span-1 h-full overflow-hidden">
+              <div className="h-full border border-opacity-30 rounded p-4"
+                   style={{ 
+                     borderColor: currentColor,
+                     boxShadow: `inset 0 0 20px ${currentColor}1A` 
+                   }}>
+                <SymbolIndex />
+              </div>
+            </aside>
 
-          <main className="lg:col-span-3 h-full overflow-hidden">
-            <div className="h-full border border-opacity-30 rounded p-6"
-                 style={{ 
-                   borderColor: currentColor,
-                   boxShadow: `inset 0 0 20px ${currentColor}1A` 
-                 }}>
-              <PageViewer />
-            </div>
-          </main>
+            <main className="col-span-3 h-full overflow-hidden">
+              <div className="h-full border border-opacity-30 rounded p-6"
+                   style={{ 
+                     borderColor: currentColor,
+                     boxShadow: `inset 0 0 20px ${currentColor}1A` 
+                   }}>
+                <PageViewer />
+              </div>
+            </main>
+          </div>
+
+          {/* Mobile Layout */}
+          <div className="lg:hidden h-full">
+            {showTOC ? (
+              /* Mobile TOC View */
+              <div className="h-full border border-opacity-30 rounded p-4"
+                   style={{ 
+                     borderColor: currentColor,
+                     boxShadow: `inset 0 0 20px ${currentColor}1A` 
+                   }}>
+                <SymbolIndex />
+              </div>
+            ) : (
+              /* Mobile Story View */
+              <div className="h-full border border-opacity-30 rounded p-4 sm:p-6"
+                   style={{ 
+                     borderColor: currentColor,
+                     boxShadow: `inset 0 0 20px ${currentColor}1A` 
+                   }}>
+                <PageViewer />
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </CRTFrame>

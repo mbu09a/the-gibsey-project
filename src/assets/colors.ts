@@ -7,19 +7,19 @@ export const symbolColors: Record<string, string> = {
   'glyph-marrow-chapter-1': '#00A2FF', // Terminal blue
   'glyph-marrow-chapter-2': '#00A2FF', // Terminal blue  
   'glyph-marrow-chapter-3': '#00A2FF', // Terminal blue
-  'phillip-bafflemint': '#FFB33B',  // Terminal orange
-  'jacklyn-variance': '#B33BFF',    // Terminal purple
-  'oren-progresso': '#3BB3FF',      // Terminal blue
-  'old-natalie': '#FFFF3B',         // Terminal yellow
-  'princhetta': '#FF3BFF',          // Terminal magenta
-  'copy-e-right': '#3BFFFF',        // Terminal cyan
-  'new-natalie': '#B3FF3B',         // Lime green
-  'arieol-owlist': '#FF943B',       // Amber
-  'jack-parlance': '#943BFF',       // Violet
-  'manny-valentinas': '#3B94FF',    // Sky blue
-  'shamrock-stillman': '#94FF3B',   // Bright green
-  'todd-fishbone': '#FF3B94',       // Pink
-  'the-author': '#FFFFFF',          // White
+  'phillip-bafflemint': '#FFFF33',  // Terminal yellow
+  'jacklyn-variance': '#FF00FF',    // Terminal magenta
+  'oren-progresso': '#00FFAA',      // Terminal cyan-green
+  'old-natalie': '#7A3CFF',         // Terminal purple
+  'princhetta': '#AAAAAA',          // Gray
+  'cop-e-right': '#FFFFFF',         // White
+  'new-natalie': '#CC66FF',         // Pinkish purple
+  'arieol-owlist': '#99CCFF',       // Light blue
+  'jack-parlance': '#FF3385',       // Pink/Magenta
+  'manny-valentinas': '#FFB000',    // Orange/Gold
+  'shamrock-stillman': '#00FFFF',   // Cyan
+  'todd-fishbone': '#FF7744',       // Orange
+  'the-author': '#BFFF00',          // Bright lime
   
   // Default fallback
   default: '#34FF78'                // Terminal green

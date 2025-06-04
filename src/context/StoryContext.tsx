@@ -39,6 +39,56 @@ export const StoryProvider: React.FC<{ children: React.ReactNode }> = ({ childre
         page.symbolId === 'glyph-marrow' && 
         (page as any).chapter === chapterName
       );
+    } 
+    // Handle chapter-specific navigation for Phillip Bafflemint
+    else if (tocId.startsWith('phillip-bafflemint-chapter-')) {
+      // Extract chapter from the tocId (e.g., "phillip-bafflemint-chapter-1" -> "Chapter 1")
+      const chapterNum = tocId.replace('phillip-bafflemint-chapter-', '');
+      const chapterName = `Chapter ${chapterNum}`;
+      firstPageIndex = pages.findIndex(page => 
+        page.symbolId === 'phillip-bafflemint' && 
+        (page as any).chapter === chapterName
+      );
+    }
+    // Handle part-specific navigation for Jacklyn Variance
+    else if (tocId.startsWith('jacklyn-variance-part-')) {
+      // Extract part from the tocId (e.g., "jacklyn-variance-part-1" -> "Part 1")
+      const partNum = tocId.replace('jacklyn-variance-part-', '');
+      const partName = `Part ${partNum}`;
+      firstPageIndex = pages.findIndex(page => 
+        page.symbolId === 'jacklyn-variance' && 
+        (page as any).chapter === partName
+      );
+    }
+    // Handle part-specific navigation for Arieol Owlist
+    else if (tocId.startsWith('arieol-owlist-part-')) {
+      // Extract part from the tocId (e.g., "arieol-owlist-part-1" -> "Part 1")
+      const partNum = tocId.replace('arieol-owlist-part-', '');
+      const partName = `Part ${partNum}`;
+      firstPageIndex = pages.findIndex(page => 
+        page.symbolId === 'arieol-owlist' && 
+        (page as any).chapter === partName
+      );
+    }
+    // Handle chapter-specific navigation for Manny Valentinas
+    else if (tocId.startsWith('manny-valentinas-chapter-')) {
+      // Extract chapter from the tocId (e.g., "manny-valentinas-chapter-4" -> "Chapter 4")
+      const chapterNum = tocId.replace('manny-valentinas-chapter-', '');
+      const chapterName = `Chapter ${chapterNum}`;
+      firstPageIndex = pages.findIndex(page => 
+        page.symbolId === 'manny-valentinas' && 
+        (page as any).chapter === chapterName
+      );
+    }
+    // Handle chapter-specific navigation for Shamrock Stillman
+    else if (tocId.startsWith('shamrock-stillman-chapter-')) {
+      // Extract chapter from the tocId (e.g., "shamrock-stillman-chapter-7" -> "Chapter 7")
+      const chapterNum = tocId.replace('shamrock-stillman-chapter-', '');
+      const chapterName = `Chapter ${chapterNum}`;
+      firstPageIndex = pages.findIndex(page => 
+        page.symbolId === 'shamrock-stillman' && 
+        (page as any).chapter === chapterName
+      );
     } else {
       // For other symbols, find by symbolId
       firstPageIndex = pages.findIndex(page => page.symbolId === tocId);
@@ -71,9 +121,9 @@ export const StoryProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     
     pages.forEach(page => {
       // Create unique identifier for table of contents
-      // For Glyph Marrow, use symbolId + chapter, for others just use symbolId
+      // For Glyph Marrow, Phillip Bafflemint, Jacklyn Variance, Arieol Owlist, Manny Valentinas, and Shamrock Stillman, use symbolId + chapter/part, for others just use symbolId
       let tocId = page.symbolId;
-      if (page.symbolId === 'glyph-marrow' && (page as any).chapter) {
+      if ((page.symbolId === 'glyph-marrow' || page.symbolId === 'phillip-bafflemint' || page.symbolId === 'jacklyn-variance' || page.symbolId === 'arieol-owlist' || page.symbolId === 'manny-valentinas' || page.symbolId === 'shamrock-stillman') && (page as any).chapter) {
         tocId = `${page.symbolId}-${(page as any).chapter.toLowerCase().replace(/\s+/g, '-')}`;
       }
       

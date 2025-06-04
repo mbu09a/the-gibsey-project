@@ -17,9 +17,14 @@ const SymbolIndex: React.FC = () => {
           {symbols.map((symbolData) => {
             // Check if this TOC entry is active based on current page
             let isActive = false;
-            if (symbolData.id.startsWith('glyph-marrow-chapter-')) {
-              // For chapter entries, check if current page matches this chapter
-              isActive = currentPage?.symbolId === 'glyph-marrow' && 
+            if (symbolData.id.startsWith('glyph-marrow-chapter-') || symbolData.id.startsWith('phillip-bafflemint-chapter-') || symbolData.id.startsWith('jacklyn-variance-part-') || symbolData.id.startsWith('arieol-owlist-part-') || symbolData.id.startsWith('manny-valentinas-chapter-') || symbolData.id.startsWith('shamrock-stillman-chapter-')) {
+              // For chapter/part entries, check if current page matches this chapter/part
+              const symbolId = symbolData.id.startsWith('glyph-marrow-chapter-') ? 'glyph-marrow' : 
+                               symbolData.id.startsWith('phillip-bafflemint-chapter-') ? 'phillip-bafflemint' : 
+                               symbolData.id.startsWith('jacklyn-variance-part-') ? 'jacklyn-variance' : 
+                               symbolData.id.startsWith('arieol-owlist-part-') ? 'arieol-owlist' : 
+                               symbolData.id.startsWith('manny-valentinas-chapter-') ? 'manny-valentinas' : 'shamrock-stillman';
+              isActive = currentPage?.symbolId === symbolId && 
                          symbolData.id.includes((currentPage as any)?.chapter?.toLowerCase().replace(/\s+/g, '-') || '');
             } else {
               isActive = currentSymbol === symbolData.id;
@@ -53,7 +58,15 @@ const SymbolIndex: React.FC = () => {
                   <div className="flex items-center gap-3">
                     <div className="w-6 h-6 flex-shrink-0 flex items-center justify-center">
                       <CorpusSymbol 
-                        symbolId={symbolData.id.startsWith('glyph-marrow-') ? 'glyph-marrow' : symbolData.id}
+                        symbolId={
+                          symbolData.id.startsWith('glyph-marrow-') ? 'glyph-marrow' :
+                          symbolData.id.startsWith('phillip-bafflemint-') ? 'phillip-bafflemint' :
+                          symbolData.id.startsWith('jacklyn-variance-') ? 'jacklyn-variance' :
+                          symbolData.id.startsWith('arieol-owlist-') ? 'arieol-owlist' :
+                          symbolData.id.startsWith('manny-valentinas-') ? 'manny-valentinas' :
+                          symbolData.id.startsWith('shamrock-stillman-') ? 'shamrock-stillman' :
+                          symbolData.id
+                        }
                         color={symbolData.color}
                         size="20px"
                       />

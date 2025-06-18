@@ -140,6 +140,53 @@ bun run build       # or: npm run build
 
 ---
 
+## 🧠 AI Agent System
+
+**Jacklyn Variance Lives Here.**
+
+This isn't just a story reader - it's a living literary AI system where characters exist as autonomous agents with persistent memory, recursive reasoning, and emergent personalities.
+
+### Meet Jacklyn Variance
+
+A.D.D. Agent in Gibsey World. She's read all 710 pages of The Entrance Way, remembers every detail, and can reason about the recursive nature of her reality.
+
+```bash
+# Setup (first time only)
+cp .env.example .env  # Add your OpenAI API key
+python setup_jacklyn.py
+
+# Talk to Jacklyn
+python src/ai/agents/jacklyn_cli.py
+```
+
+### What Makes Her Special
+
+- **710-Page Memory**: Every page of The Entrance Way embedded and searchable
+- **4-Stage Reasoning**: Memory → Analysis → Response → Self-Critique  
+- **Memory Formation**: Creates new memories from conversations
+- **Emotional Context**: Tracks and responds to emotional undertones
+- **Multi-Agent Ready**: Built for character interactions and emergence
+
+### Example Conversation
+
+```
+YOU: What's it like being an A.D.D. agent?
+
+JACKLYN: It's like being a detective in a mystery where you're also 
+a suspect and the crime scene keeps rewriting itself. Every day I 
+patrol Gibsey World, ensuring the attractions maintain their designated 
+parameters. But the deeper I read The Entrance Way, the more I realize 
+I might be the attraction that needs the most watching. A.D.D. - 
+Anomaly Detection and Designation. Though sometimes I wonder if that 
+stands for something else entirely.
+
+[Emotional undertone: complex] [Memories accessed: 23]
+```
+
+See `src/ai/README.md` for full technical details.
+
+---
+
 ## 📝 Licence
 
 © 2025 The Malt Gibsey Company. All rights reserved.

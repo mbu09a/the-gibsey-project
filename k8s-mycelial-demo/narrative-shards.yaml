@@ -1,0 +1,360 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shard-jacklyn-variance
+  namespace: gibsey-narrative
+  labels:
+    narrative.gibsey.io/symbol: "jacklyn-variance"
+    narrative.gibsey.io/type: "character-shard"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: shard-jacklyn-variance
+  template:
+    metadata:
+      labels:
+        app: shard-jacklyn-variance
+        narrative.gibsey.io/symbol: "jacklyn-variance"
+        narrative.gibsey.io/type: "character-shard"
+        narrative.gibsey.io/color: "magenta"
+        narrative.gibsey.io/nutrient-score: "8.5"
+    spec:
+      containers:
+      - name: narrative-shard
+        image: nginx:alpine  # Placeholder - will build custom image
+        ports:
+        - containerPort: 80
+          name: narrative-http
+        env:
+        - name: SHARD_ID
+          value: "jacklyn-variance-001"
+        - name: SYMBOL_ID
+          value: "jacklyn-variance"
+        - name: SYMBOL_COLOR
+          value: "#FF00FF"
+        - name: NUTRIENT_SCORE
+          value: "8.5"
+        - name: THEMES
+          value: "surveillance,analysis,recursion,authority"
+        resources:
+          requests:
+            memory: "850Mi"  # Based on nutrient score * 100
+            cpu: "425m"      # Based on engagement * 50
+          limits:
+            memory: "1Gi"
+            cpu: "500m"
+        livenessProbe:
+          httpGet:
+            path: /narrative/health
+            port: 80
+          initialDelaySeconds: 30
+          periodSeconds: 60
+        readinessProbe:
+          httpGet:
+            path: /narrative/ready
+            port: 80
+          initialDelaySeconds: 5
+          periodSeconds: 10
+        volumeMounts:
+        - name: narrative-content
+          mountPath: /narrative/content
+      volumes:
+      - name: narrative-content
+        configMap:
+          name: jacklyn-variance-content
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: jacklyn-variance-content
+  namespace: gibsey-narrative
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Jacklyn Variance - Narrative Shard</title>
+        <style>
+            body { 
+                background: #0a0a0a; 
+                color: #FF00FF; 
+                font-family: 'Courier New', monospace;
+                padding: 20px;
+            }
+            .shard-status { 
+                border: 1px solid #FF00FF; 
+                padding: 10px; 
+                margin: 10px 0;
+                box-shadow: 0 0 10px #FF00FF;
+            }
+            .nutrient-score {
+                font-size: 2em;
+                text-align: center;
+                text-shadow: 0 0 10px #FF00FF;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>JACKLYN VARIANCE - NARRATIVE SHARD</h1>
+        <div class="shard-status">
+            <p><strong>Shard ID:</strong> jacklyn-variance-001</p>
+            <p><strong>Symbol:</strong> jacklyn-variance</p>
+            <p><strong>Themes:</strong> surveillance, analysis, recursion, authority</p>
+            <div class="nutrient-score">
+                Nutrient Score: 8.5
+            </div>
+            <p><strong>Status:</strong> <span id="status">ACTIVE</span></p>
+            <p><strong>Last Spore Flow:</strong> <span id="lastFlow">2 minutes ago</span></p>
+        </div>
+        
+        <div class="shard-status">
+            <h3>Recent Narrative Events:</h3>
+            <ul id="events">
+                <li>Spore connection established with arieol-owlist (weight: 0.7)</li>
+                <li>Nutrient diffusion cycle completed</li>
+                <li>Memory fragment 122 accessed by user query</li>
+            </ul>
+        </div>
+
+        <script>
+            // Simulate live updates
+            setInterval(() => {
+                document.getElementById('lastFlow').textContent = 'Just now';
+                setTimeout(() => {
+                    document.getElementById('lastFlow').textContent = Math.floor(Math.random() * 5) + 1 + ' minutes ago';
+                }, 2000);
+            }, 10000);
+        </script>
+    </body>
+    </html>
+  narrative.json: |
+    {
+      "shard_id": "jacklyn-variance-001",
+      "symbol": "jacklyn-variance",
+      "nutrient_score": 8.5,
+      "themes": ["surveillance", "analysis", "recursion", "authority"],
+      "content_fragments": [
+        "The current dossier reflects the theme park's peculiar obsession with ambiguity—fiction or reality?",
+        "Data is inconclusive. Author's identity is similarly obfuscated, no doubt by design.",
+        "Recommend future evaluators accept this uncertainty as operational baseline."
+      ],
+      "spore_connections": [
+        {
+          "target": "arieol-owlist",
+          "weight": 0.7,
+          "themes": ["observation", "identity"]
+        }
+      ]
+    }
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shard-arieol-owlist
+  namespace: gibsey-narrative
+  labels:
+    narrative.gibsey.io/symbol: "arieol-owlist"
+    narrative.gibsey.io/type: "character-shard"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: shard-arieol-owlist
+  template:
+    metadata:
+      labels:
+        app: shard-arieol-owlist
+        narrative.gibsey.io/symbol: "arieol-owlist"
+        narrative.gibsey.io/type: "character-shard"
+        narrative.gibsey.io/color: "lightblue"
+        narrative.gibsey.io/nutrient-score: "6.2"
+    spec:
+      containers:
+      - name: narrative-shard
+        image: nginx:alpine
+        ports:
+        - containerPort: 80
+          name: narrative-http
+        env:
+        - name: SHARD_ID
+          value: "arieol-owlist-001"
+        - name: SYMBOL_ID
+          value: "arieol-owlist"
+        - name: SYMBOL_COLOR
+          value: "#99CCFF"
+        - name: NUTRIENT_SCORE
+          value: "6.2"
+        resources:
+          requests:
+            memory: "620Mi"
+            cpu: "310m"
+          limits:
+            memory: "750Mi"
+            cpu: "400m"
+        volumeMounts:
+        - name: narrative-content
+          mountPath: /usr/share/nginx/html
+      volumes:
+      - name: narrative-content
+        configMap:
+          name: arieol-owlist-content
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: arieol-owlist-content
+  namespace: gibsey-narrative
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Arieol Owlist - Narrative Shard</title>
+        <style>
+            body { 
+                background: #0a0a0a; 
+                color: #99CCFF; 
+                font-family: 'Courier New', monospace;
+                padding: 20px;
+            }
+            .shard-status { 
+                border: 1px solid #99CCFF; 
+                padding: 10px; 
+                margin: 10px 0;
+                box-shadow: 0 0 10px #99CCFF;
+            }
+            .nutrient-score {
+                font-size: 2em;
+                text-align: center;
+                text-shadow: 0 0 10px #99CCFF;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>ARIEOL OWLIST - NARRATIVE SHARD</h1>
+        <div class="shard-status">
+            <p><strong>Shard ID:</strong> arieol-owlist-001</p>
+            <p><strong>Symbol:</strong> arieol-owlist</p>
+            <p><strong>Themes:</strong> shapeshifting, identity, fluidity, observation</p>
+            <div class="nutrient-score">
+                Nutrient Score: 6.2
+            </div>
+            <p><strong>Status:</strong> <span id="status">ACTIVE</span></p>
+            <p><strong>Form:</strong> <span id="currentForm">Observer</span></p>
+        </div>
+        
+        <script>
+            const forms = ['Observer', 'Wanderer', 'Listener', 'Shapeshifter', 'Mirror'];
+            setInterval(() => {
+                document.getElementById('currentForm').textContent = forms[Math.floor(Math.random() * forms.length)];
+            }, 15000);
+        </script>
+    </body>
+    </html>
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shard-cop-e-right
+  namespace: gibsey-narrative
+  labels:
+    narrative.gibsey.io/symbol: "cop-e-right"
+    narrative.gibsey.io/type: "character-shard"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: shard-cop-e-right
+  template:
+    metadata:
+      labels:
+        app: shard-cop-e-right
+        narrative.gibsey.io/symbol: "cop-e-right"
+        narrative.gibsey.io/type: "character-shard"
+        narrative.gibsey.io/color: "white"
+        narrative.gibsey.io/nutrient-score: "4.8"
+    spec:
+      containers:
+      - name: narrative-shard
+        image: nginx:alpine
+        ports:
+        - containerPort: 80
+          name: narrative-http
+        env:
+        - name: SHARD_ID
+          value: "cop-e-right-001"
+        - name: SYMBOL_ID
+          value: "cop-e-right"
+        - name: SYMBOL_COLOR
+          value: "#FFFFFF"
+        - name: NUTRIENT_SCORE
+          value: "4.8"
+        resources:
+          requests:
+            memory: "480Mi"
+            cpu: "240m"
+          limits:
+            memory: "600Mi"
+            cpu: "300m"
+        volumeMounts:
+        - name: narrative-content
+          mountPath: /usr/share/nginx/html
+      volumes:
+      - name: narrative-content
+        configMap:
+          name: cop-e-right-content
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cop-e-right-content
+  namespace: gibsey-narrative
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Copy-E-Right - Narrative Shard</title>
+        <style>
+            body { 
+                background: #0a0a0a; 
+                color: #FFFFFF; 
+                font-family: 'Courier New', monospace;
+                padding: 20px;
+            }
+            .shard-status { 
+                border: 1px solid #FFFFFF; 
+                padding: 10px; 
+                margin: 10px 0;
+                box-shadow: 0 0 10px #FFFFFF;
+            }
+            .nutrient-score {
+                font-size: 2em;
+                text-align: center;
+                text-shadow: 0 0 10px #FFFFFF;
+            }
+            .enforcement { color: #FF4444; }
+        </style>
+    </head>
+    <body>
+        <h1>COPY-E-RIGHT - NARRATIVE SHARD</h1>
+        <div class="shard-status">
+            <p><strong>Shard ID:</strong> cop-e-right-001</p>
+            <p><strong>Symbol:</strong> cop-e-right</p>
+            <p><strong>Themes:</strong> copyright, systems, enforcement, digital-rights</p>
+            <div class="nutrient-score">
+                Nutrient Score: 4.8
+            </div>
+            <p><strong>Status:</strong> <span id="status">MONITORING</span></p>
+            <p class="enforcement"><strong>Enforcement Level:</strong> <span id="enforcement">ACTIVE</span></p>
+        </div>
+        
+        <div class="shard-status">
+            <h3>System Monitoring:</h3>
+            <p>Intellectual property violations: 0</p>
+            <p>Active copyright claims: 0</p>
+            <p>System integrity: 100%</p>
+        </div>
+    </body>
+    </html>

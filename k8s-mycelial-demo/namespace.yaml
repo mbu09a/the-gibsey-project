@@ -1,0 +1,33 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: gibsey-narrative
+  labels:
+    narrative.gibsey.io/cluster-consciousness: "enabled"
+    narrative.gibsey.io/mycelial-network: "main"
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: symbol-colors
+  namespace: gibsey-narrative
+data:
+  colors.json: |
+    {
+      "jacklyn-variance": "#FF00FF",
+      "arieol-owlist": "#99CCFF", 
+      "cop-e-right": "#FFFFFF"
+    }
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: narrative-themes
+  namespace: gibsey-narrative
+data:
+  themes.json: |
+    {
+      "jacklyn-variance": ["surveillance", "analysis", "recursion", "authority"],
+      "arieol-owlist": ["shapeshifting", "identity", "fluidity", "observation"],
+      "cop-e-right": ["copyright", "systems", "enforcement", "digital-rights"]
+    }

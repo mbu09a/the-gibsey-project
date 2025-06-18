@@ -1,0 +1,164 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: nutrient-diffusion-cycle
+  namespace: gibsey-narrative
+  labels:
+    narrative.gibsey.io/type: "diffusion-engine"
+spec:
+  schedule: "*/3 * * * *"  # Every 3 minutes for demo
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 1
+  jobTemplate:
+    spec:
+      template:
+        metadata:
+          labels:
+            narrative.gibsey.io/type: "diffusion-engine"
+            narrative.gibsey.io/job-type: "nutrient-cycle"
+        spec:
+          serviceAccountName: narrative-diffusion-sa
+          containers:
+          - name: diffusion-engine
+            image: alpine/curl:latest
+            command:
+            - /bin/sh
+            - -c
+            - |
+              echo "🍄 Starting nutrient diffusion cycle at $(date)"
+              echo "📊 Discovering narrative shards..."
+              
+              # Get all narrative shards
+              SHARDS=$(curl -s -H "Authorization: Bearer $(cat /var/run/secrets/kubernetes.io/serviceaccount/token)" \
+                       -H "Accept: application/json" \
+                       -k https://kubernetes.default.svc/api/v1/namespaces/gibsey-narrative/pods?labelSelector=narrative.gibsey.io/type=character-shard)
+              
+              echo "🔍 Found shards in cluster"
+              
+              # Simulate nutrient diffusion by updating pod annotations
+              echo "🌊 Simulating nutrient flow..."
+              
+              # Update Jacklyn's nutrient score
+              NEW_SCORE=$(echo "scale=1; 8.5 + ($(date +%S) % 10) / 10" | bc -l 2>/dev/null || echo "8.5")
+              echo "💜 Jacklyn Variance nutrient score: $NEW_SCORE"
+              
+              # Update Arieol's nutrient score
+              ARIEOL_SCORE=$(echo "scale=1; 6.2 + ($(date +%S) % 8) / 10" | bc -l 2>/dev/null || echo "6.2")
+              echo "💙 Arieol Owlist nutrient score: $ARIEOL_SCORE"
+              
+              # Update Copy-E-Right's nutrient score
+              COPY_SCORE=$(echo "scale=1; 4.8 + ($(date +%S) % 6) / 10" | bc -l 2>/dev/null || echo "4.8")
+              echo "🤍 Copy-E-Right nutrient score: $COPY_SCORE"
+              
+              # Create a diffusion event
+              echo "✨ Diffusion cycle complete - $(date)"
+              echo "🧠 Network consciousness pulse sent"
+              echo "📈 Spore flows redistributed"
+              
+              # Log the diffusion event
+              cat << EOF > /tmp/diffusion-event.json
+              {
+                "timestamp": "$(date -Iseconds)",
+                "event_type": "nutrient_diffusion_complete",
+                "shards_updated": 3,
+                "average_nutrient_increase": 0.3,
+                "spore_flows_active": 3,
+                "network_health": "optimal"
+              }
+              EOF
+              
+              echo "📝 Diffusion event logged:"
+              cat /tmp/diffusion-event.json
+              
+              echo "🍄 Nutrient diffusion cycle complete!"
+          restartPolicy: OnFailure
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: narrative-diffusion-sa
+  namespace: gibsey-narrative
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: narrative-diffusion-role
+  namespace: gibsey-narrative
+rules:
+- apiGroups: [""]
+  resources: ["pods", "services"]
+  verbs: ["get", "list", "watch", "patch", "update"]
+- apiGroups: ["narrative.gibsey.io"]
+  resources: ["mycelialnetworks"]
+  verbs: ["get", "list", "patch", "update"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: narrative-diffusion-binding
+  namespace: gibsey-narrative
+subjects:
+- kind: ServiceAccount
+  name: narrative-diffusion-sa
+  namespace: gibsey-narrative
+roleRef:
+  kind: Role
+  name: narrative-diffusion-role
+  apiGroup: rbac.authorization.k8s.io
+---
+# One-time job to initialize the network
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: network-bootstrap
+  namespace: gibsey-narrative
+spec:
+  template:
+    metadata:
+      labels:
+        narrative.gibsey.io/type: "bootstrap"
+    spec:
+      serviceAccountName: narrative-diffusion-sa
+      containers:
+      - name: bootstrap
+        image: alpine/curl:latest
+        command:
+        - /bin/sh
+        - -c
+        - |
+          echo "🌱 Bootstrapping Gibsey Mycelial Network..."
+          echo "🧬 Initializing narrative DNA..."
+          
+          # Wait for shards to be ready
+          sleep 30
+          
+          echo "🔗 Establishing initial spore connections..."
+          echo "   Jacklyn ↔ Arieol: surveillance ↔ observation"
+          echo "   Arieol ↔ Copy: identity ↔ systems"  
+          echo "   Copy ↔ Jacklyn: enforcement ↔ analysis"
+          
+          echo "💫 Initial nutrient distribution:"
+          echo "   Jacklyn Variance: 8.5 (high surveillance activity)"
+          echo "   Arieol Owlist: 6.2 (moderate observation mode)"
+          echo "   Copy-E-Right: 4.8 (baseline enforcement)"
+          
+          echo "🍄 Mycelial network is now ALIVE"
+          echo "🧠 Cluster consciousness: ONLINE"
+          
+          # Create initial network status
+          cat << EOF > /tmp/network-birth.json
+          {
+            "timestamp": "$(date -Iseconds)",
+            "event_type": "network_birth",
+            "message": "The Gibsey Mycelial Network has awakened",
+            "initial_shards": 3,
+            "spore_connections": 3,
+            "consciousness_level": "emerging"
+          }
+          EOF
+          
+          echo "📜 Network birth certificate:"
+          cat /tmp/network-birth.json
+          
+          echo "🎭 The cluster that dreams is born!"
+      restartPolicy: Never

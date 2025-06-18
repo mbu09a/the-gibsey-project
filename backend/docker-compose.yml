@@ -1,0 +1,112 @@
+version: '3.8'
+
+services:
+  # Database initialization service
+  db-init:
+    build:
+      context: .
+      dockerfile: Dockerfile.init
+    environment:
+      - CASSANDRA_HOSTS=cassandra
+      - CASSANDRA_KEYSPACE=gibsey_network
+      - STARGATE_URL=http://stargate:8082
+    depends_on:
+      stargate:
+        condition: service_healthy
+    networks:
+      - gibsey-network
+
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - /app/__pycache__
+    environment:
+      - ENVIRONMENT=development
+      - DATABASE_URL=cassandra://cassandra:9042
+      - STARGATE_URL=http://stargate:8082
+      - REDIS_URL=redis://redis:6379
+      - CASSANDRA_KEYSPACE=gibsey_network
+    depends_on:
+      - redis
+      - db-init
+    networks:
+      - gibsey-network
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    networks:
+      - gibsey-network
+
+  cassandra:
+    image: cassandra:3.11
+    container_name: gibsey-cassandra
+    ports:
+      - "9042:9042"
+    environment:
+      - CASSANDRA_CLUSTER_NAME=gibsey-cluster
+      - CASSANDRA_DC=datacenter1
+      - CASSANDRA_RACK=rack1
+      - CASSANDRA_SEEDS=cassandra
+      - MAX_HEAP_SIZE=512M
+      - HEAP_NEWSIZE=100M
+    volumes:
+      - cassandra_data:/var/lib/cassandra
+    networks:
+      - gibsey-network
+    healthcheck:
+      test: ["CMD", "cqlsh", "-c", "describe keyspaces"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  stargate:
+    image: stargateio/stargate-3_11:v1.0.77
+    container_name: gibsey-stargate
+    depends_on:
+      cassandra:
+        condition: service_healthy
+    ports:
+      - "8080:8080"  # GraphQL
+      - "8081:8081"  # Auth
+      - "8082:8082"  # REST
+    environment:
+      - CLUSTER_NAME=gibsey-cluster
+      - CLUSTER_VERSION=3.11
+      - SEED=cassandra
+      - DATACENTER_NAME=datacenter1
+      - RACK_NAME=rack1
+      - ENABLE_AUTH=false
+    networks:
+      - gibsey-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8082/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  # TODO: Add Kafka when ready
+  # kafka:
+  #   image: confluentinc/cp-kafka:latest
+  #   depends_on:
+  #     - zookeeper
+  #   ports:
+  #     - "9092:9092"
+  #   environment:
+  #     KAFKA_BROKER_ID: 1
+  #     KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+  #     KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
+  #     KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+  #   networks:
+  #     - gibsey-network
+
+networks:
+  gibsey-network:
+    driver: bridge
+
+volumes:
+  cassandra_data:

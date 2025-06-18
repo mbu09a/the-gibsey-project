@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 import CRTFrame from '../components/CRTFrame';
 import PageViewer from '../components/PageViewer';
-import SymbolIndex from '../components/SymbolIndex';
+import { VaultIndex } from '../components/VaultIndex';
 import SymbolTag from '../components/SymbolTag';
+import ClusterSync from '../components/ClusterSync';
 import { useStory } from '../context/StoryContext';
 
 const HomePage: React.FC = () => {
   const { currentColor } = useStory();
   const [showTOC, setShowTOC] = useState(false);
+  const [showClusterSync, setShowClusterSync] = useState(false);
 
   return (
     <CRTFrame>
@@ -40,7 +42,7 @@ const HomePage: React.FC = () => {
               boxShadow: `0 0 10px ${currentColor}40`
             }}
           >
-            {showTOC ? '← Back to Story' : 'Table of Contents →'}
+            {showTOC ? '← Back to Story' : 'Vault →'}
           </button>
         </header>
 
@@ -54,7 +56,7 @@ const HomePage: React.FC = () => {
                      borderColor: currentColor,
                      boxShadow: `inset 0 0 20px ${currentColor}1A` 
                    }}>
-                <SymbolIndex />
+                <VaultIndex />
               </div>
             </aside>
 
@@ -78,7 +80,7 @@ const HomePage: React.FC = () => {
                      borderColor: currentColor,
                      boxShadow: `inset 0 0 20px ${currentColor}1A` 
                    }}>
-                <SymbolIndex />
+                <VaultIndex />
               </div>
             ) : (
               /* Mobile Story View */
@@ -92,6 +94,12 @@ const HomePage: React.FC = () => {
             )}
           </div>
         </div>
+        
+        {/* Mycelial Cluster Sync - Fixed Overlay */}
+        <ClusterSync 
+          isVisible={showClusterSync} 
+          onToggle={() => setShowClusterSync(!showClusterSync)} 
+        />
       </div>
     </CRTFrame>
   );

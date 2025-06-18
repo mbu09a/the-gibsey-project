@@ -1,0 +1,101 @@
+apiVersion: apiextensions.k8s.io/v1
+kind: CustomResourceDefinition
+metadata:
+  name: mycelialnetworks.narrative.gibsey.io
+spec:
+  group: narrative.gibsey.io
+  versions:
+  - name: v1
+    served: true
+    storage: true
+    schema:
+      openAPIV3Schema:
+        type: object
+        properties:
+          spec:
+            type: object
+            properties:
+              symbols:
+                type: array
+                items:
+                  type: string
+                description: "Active character symbols in the network"
+              diffusionParams:
+                type: object
+                properties:
+                  kSteps:
+                    type: integer
+                    default: 2
+                    description: "Number of nutrient diffusion steps"
+                  decay:
+                    type: number
+                    default: 0.85
+                    description: "Decay factor for nutrient flow"
+                  interval:
+                    type: string
+                    default: "5m"
+                    description: "Diffusion cycle interval"
+              networkHealth:
+                type: object
+                properties:
+                  minActiveShards:
+                    type: integer
+                    default: 3
+                  maxSporeFlow:
+                    type: integer
+                    default: 1000
+          status:
+            type: object
+            properties:
+              totalShards:
+                type: integer
+              activeSpores:
+                type: integer
+              networkHealth:
+                type: string
+                enum: ["healthy", "degraded", "critical"]
+              lastDiffusion:
+                type: string
+                format: date-time
+              connectedSymbols:
+                type: array
+                items:
+                  type: string
+    additionalPrinterColumns:
+    - name: Symbols
+      type: string
+      jsonPath: .spec.symbols
+    - name: Health
+      type: string  
+      jsonPath: .status.networkHealth
+    - name: Shards
+      type: integer
+      jsonPath: .status.totalShards
+    - name: Age
+      type: date
+      jsonPath: .metadata.creationTimestamp
+  scope: Namespaced
+  names:
+    plural: mycelialnetworks
+    singular: mycelialnetwork
+    kind: MycelialNetwork
+    shortNames:
+    - mnr
+---
+apiVersion: narrative.gibsey.io/v1
+kind: MycelialNetwork
+metadata:
+  name: gibsey-main
+  namespace: gibsey-narrative
+spec:
+  symbols:
+  - "jacklyn-variance"
+  - "arieol-owlist" 
+  - "cop-e-right"
+  diffusionParams:
+    kSteps: 2
+    decay: 0.85
+    interval: "5m"
+  networkHealth:
+    minActiveShards: 3
+    maxSporeFlow: 500

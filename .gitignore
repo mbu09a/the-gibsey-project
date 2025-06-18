@@ -22,3 +22,40 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment files with secrets
+.env
+backend/.env
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
+# Virtual environments
+.venv/
+backend/.venv/
+*.dylib
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo

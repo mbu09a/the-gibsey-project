@@ -1,0 +1,126 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: spore-jacklyn-to-arieol
+  namespace: gibsey-narrative
+  labels:
+    narrative.gibsey.io/edge-type: "cross-symbol-reference"
+    narrative.gibsey.io/source-symbol: "jacklyn-variance"
+    narrative.gibsey.io/target-symbol: "arieol-owlist"
+    narrative.gibsey.io/weight: "0.75"
+    narrative.gibsey.io/emotional-valence: "complex"
+    narrative.gibsey.io/spore-capacity: "8"
+spec:
+  selector:
+    narrative.gibsey.io/symbol: "arieol-owlist"
+  ports:
+  - name: narrative-flow
+    port: 80
+    targetPort: 80
+    protocol: TCP
+  type: ClusterIP
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: spore-arieol-to-copy
+  namespace: gibsey-narrative
+  labels:
+    narrative.gibsey.io/edge-type: "thematic-connection"
+    narrative.gibsey.io/source-symbol: "arieol-owlist" 
+    narrative.gibsey.io/target-symbol: "cop-e-right"
+    narrative.gibsey.io/weight: "0.45"
+    narrative.gibsey.io/emotional-valence: "neutral"
+    narrative.gibsey.io/spore-capacity: "5"
+spec:
+  selector:
+    narrative.gibsey.io/symbol: "cop-e-right"
+  ports:
+  - name: narrative-flow
+    port: 80
+    targetPort: 80
+    protocol: TCP
+  type: ClusterIP
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: spore-copy-to-jacklyn
+  namespace: gibsey-narrative
+  labels:
+    narrative.gibsey.io/edge-type: "surveillance-link"
+    narrative.gibsey.io/source-symbol: "cop-e-right"
+    narrative.gibsey.io/target-symbol: "jacklyn-variance"
+    narrative.gibsey.io/weight: "0.65"
+    narrative.gibsey.io/emotional-valence: "authoritative"
+    narrative.gibsey.io/spore-capacity: "6"
+spec:
+  selector:
+    narrative.gibsey.io/symbol: "jacklyn-variance"
+  ports:
+  - name: narrative-flow
+    port: 80
+    targetPort: 80
+    protocol: TCP
+  type: ClusterIP
+---
+# NetworkPolicy to enforce spore flow constraints
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: narrative-spore-flows
+  namespace: gibsey-narrative
+spec:
+  podSelector: {}  # Apply to all pods in namespace
+  policyTypes:
+  - Ingress
+  - Egress
+  ingress:
+  # Allow narrative flow between character shards
+  - from:
+    - podSelector:
+        matchLabels:
+          narrative.gibsey.io/type: "character-shard"
+    ports:
+    - protocol: TCP
+      port: 80
+  # Allow monitoring and diffusion services
+  - from:
+    - podSelector:
+        matchLabels:
+          narrative.gibsey.io/type: "operator"
+    - podSelector:
+        matchLabels:
+          narrative.gibsey.io/type: "diffusion-engine"
+  egress:
+  # Allow outbound narrative flows
+  - to:
+    - podSelector:
+        matchLabels:
+          narrative.gibsey.io/type: "character-shard"
+    ports:
+    - protocol: TCP
+      port: 80
+  # Allow DNS resolution
+  - to: []
+    ports:
+    - protocol: UDP
+      port: 53
+---
+# Expose the narrative network externally
+apiVersion: v1
+kind: Service
+metadata:
+  name: narrative-network-gateway
+  namespace: gibsey-narrative
+  labels:
+    narrative.gibsey.io/type: "gateway"
+spec:
+  selector:
+    narrative.gibsey.io/type: "character-shard"
+  ports:
+  - name: http
+    port: 80
+    targetPort: 80
+    protocol: TCP
+  type: LoadBalancer

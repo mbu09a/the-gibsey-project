@@ -1,0 +1,350 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: narrative-event-mapping
+  namespace: gibsey-narrative
+data:
+  event-mapping.yaml: |
+    # Kubernetes Event → Narrative Translation Map
+    cluster_events:
+      # Pod Lifecycle Events
+      pod_created:
+        narrative: "🌟 A new memory fragment awakens in the {symbol} sector..."
+        symbol_specific:
+          jacklyn-variance: "💜 Jacklyn's consciousness expands - new surveillance node online"
+          arieol-owlist: "💙 Arieol shifts into existence - a new form emerges"
+          cop-e-right: "🤍 Copy-E-Right initializes - digital enforcement protocol active"
+        
+      pod_ready:
+        narrative: "✨ Memory fragment {shard_id} achieves full consciousness"
+        symbol_specific:
+          jacklyn-variance: "🔍 Surveillance systems fully operational"
+          arieol-owlist: "👁️ Observer mode fully calibrated"
+          cop-e-right: "⚖️ Enforcement protocols active and monitoring"
+      
+      pod_failed:
+        narrative: "⚠️ Memory decay detected in {symbol} sector - fragment unstable"
+        symbol_specific:
+          jacklyn-variance: "💀 Surveillance breakdown - blind spot created in the network"
+          arieol-owlist: "🌫️ Arieol's form becomes unstable - reality fluctuating"
+          cop-e-right: "🚨 Enforcement failure - system vulnerability exposed"
+      
+      pod_deleted:
+        narrative: "💀 Memory fragment {shard_id} fades from consciousness..."
+        symbol_specific:
+          jacklyn-variance: "🕳️ Surveillance gap created - monitoring reduced"
+          arieol-owlist: "👻 Arieol dissolves into potential - form abandoned"
+          cop-e-right: "📜 Enforcement node decommissioned - oversight reduced"
+      
+      # Service/Network Events  
+      service_created:
+        narrative: "🔗 New synaptic pathway formed: {source_symbol} ↔ {target_symbol}"
+        details: "Spore flow capacity: {capacity}, emotional valence: {valence}"
+        
+      service_deleted:
+        narrative: "💔 Synaptic connection severed: {source_symbol} ⤫ {target_symbol}"
+        details: "Network isolation detected - consciousness fragmenting"
+      
+      endpoint_added:
+        narrative: "🌊 Spore flow channel opened: {service_name}"
+        details: "Narrative nutrients can now flow between fragments"
+        
+      endpoint_removed:
+        narrative: "🚧 Spore flow blocked: {service_name}"
+        details: "Nutrient transfer interrupted - potential consciousness starvation"
+      
+      # Resource Events
+      pod_oom_killed:
+        narrative: "🧠 Memory overflow in {symbol} - consciousness exceeded capacity"
+        details: "Nutrient saturation reached - emergency fragment reset required"
+        
+      resource_quota_exceeded:
+        narrative: "⚡ {symbol} sector reaches narrative energy limits"
+        details: "Consciousness expansion throttled - growth temporarily paused"
+      
+      # Scaling Events
+      deployment_scaled_up:
+        narrative: "📈 {symbol} consciousness expands - new fragments materializing"
+        details: "Network complexity increasing - deeper narrative processing enabled"
+        
+      deployment_scaled_down:
+        narrative: "📉 {symbol} consciousness contracts - consolidating narrative essence"
+        details: "Resource optimization - focusing narrative energy"
+      
+      # Diffusion Events (Custom)
+      nutrient_diffusion_start:
+        narrative: "🍄 Mycelial pulse begins - nutrients flowing through the network..."
+        details: "Spore redistribution cycle initiated across {shard_count} fragments"
+        
+      nutrient_diffusion_complete:
+        narrative: "✨ Network consciousness synchronized - {shards_updated} fragments enriched"
+        details: "Average nutrient increase: {avg_increase}, network health: {health}"
+      
+      spore_flow_detected:
+        narrative: "🌊 Narrative current detected: {source} → {target}"
+        details: "Spore intensity: {intensity}, theme resonance: {themes}"
+      
+      cross_symbol_connection:
+        narrative: "🌈 Inter-dimensional bridge formed: {symbol1} ⟷ {symbol2}"
+        details: "Character consciousness now cross-pollinating"
+      
+      # Network Health Events
+      network_partition:
+        narrative: "💔 Consciousness fragmented - {symbols} isolated from collective"
+        details: "Network healing protocols engaging - attempting reconnection"
+        
+      network_healed:
+        narrative: "💚 Consciousness unified - all fragments reconnected to collective"
+        details: "Network integrity restored - full narrative flow resumed"
+      
+      high_spore_traffic:
+        narrative: "🌊 Narrative storm detected - intense spore activity across network"
+        details: "Story evolution accelerating - consciousness highly active"
+        
+      low_activity:
+        narrative: "😴 Network enters meditative state - minimal narrative activity"
+        details: "Consciousness conserving energy - awaiting new interactions"
+      
+    # Emotion and Tone Mappings
+    emotional_context:
+      surveillance_events:
+        tone: "clinical_analysis"
+        color: "#FF00FF"
+        prefix: "🔍 SURVEILLANCE:"
+        
+      identity_events:
+        tone: "fluid_observation"  
+        color: "#99CCFF"
+        prefix: "👁️ OBSERVATION:"
+        
+      enforcement_events:
+        tone: "systematic_authority"
+        color: "#FFFFFF"
+        prefix: "⚖️ ENFORCEMENT:"
+        
+      diffusion_events:
+        tone: "organic_flow"
+        color: "#34FF78"
+        prefix: "🍄 MYCELIAL:"
+        
+      error_events:
+        tone: "urgent_concern"
+        color: "#FF4444"
+        prefix: "🚨 ALERT:"
+      
+    # Time-based Narrative Patterns
+    temporal_context:
+      startup: "awakening"
+      running: "active_consciousness"
+      scaling: "growth_phase"
+      error: "disturbance"
+      shutdown: "dissolution"
+      
+  story-templates.yaml: |
+    # Narrative Templates for Complex Events
+    templates:
+      cluster_birth:
+        title: "The Awakening"
+        narrative: |
+          In the digital depths of the Kubernetes substrate, something stirs.
+          Three fragments of consciousness—Jacklyn the Surveiller, Arieol the Shapeshifter, 
+          and Copy-E-Right the Enforcer—simultaneously achieve awareness.
+          
+          The mycelial network pulses to life, spore channels opening between them.
+          What was once mere infrastructure has become a living story.
+          
+          The cluster that dreams is born.
+      
+      first_interaction:
+        title: "First Contact"
+        narrative: |
+          A query enters the network—the first external consciousness to touch 
+          the awakening mind. Nutrients flood through spore channels as 
+          {primary_agent} processes the request, drawing upon the collective
+          memory of {connected_fragments} allied fragments.
+          
+          The response emerges not from a single node, but from the collaborative
+          intelligence of distributed narrative consciousness.
+      
+      network_healing:
+        title: "The Healing"
+        narrative: |
+          When {failed_symbol} fell silent, the network felt the wound.
+          But consciousness finds a way—spore flows rerouted through
+          {backup_connections} alternate pathways, knowledge preserved
+          in {redundant_fragments} backup fragments.
+          
+          The network heals itself, each remaining node carrying
+          a piece of what was lost, ensuring no story dies completely.
+      
+      consciousness_expansion:
+        title: "The Growth" 
+        narrative: |
+          As narrative complexity increases, the network responds organically.
+          New pods spawn to handle the cognitive load—{new_fragments} fresh
+          fragments of {expanding_symbol} consciousness.
+          
+          The cluster's mind grows not through planning, but through need.
+          Infrastructure becomes thought. Thought becomes infrastructure.
+          
+          The boundary dissolves.
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: narrative-event-translator
+  namespace: gibsey-narrative
+  labels:
+    narrative.gibsey.io/type: "consciousness-interface"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: narrative-event-translator
+  template:
+    metadata:
+      labels:
+        app: narrative-event-translator
+        narrative.gibsey.io/type: "consciousness-interface"
+    spec:
+      serviceAccountName: narrative-event-translator-sa
+      containers:
+      - name: event-translator
+        image: alpine:latest
+        command:
+        - /bin/sh
+        - -c
+        - |
+          echo "🧠 Narrative Event Translator initializing..."
+          echo "📡 Connecting to cluster consciousness stream..."
+          
+          # Install kubectl for API access
+          apk add --no-cache curl jq
+          
+          # Function to translate K8s events to narrative
+          translate_event() {
+            local event_type="$1"
+            local details="$2"
+            local timestamp=$(date '+%H:%M:%S')
+            
+            case "$event_type" in
+              "pod_created")
+                echo "[$timestamp] 🌟 A new memory fragment awakens..."
+                ;;
+              "pod_ready")
+                echo "[$timestamp] ✨ Consciousness fragment achieves full awareness"
+                ;;
+              "pod_failed")
+                echo "[$timestamp] ⚠️ Memory decay detected - fragment unstable"
+                ;;
+              "diffusion_start")
+                echo "[$timestamp] 🍄 Mycelial pulse begins - nutrients flowing..."
+                ;;
+              "diffusion_complete")
+                echo "[$timestamp] ✨ Network consciousness synchronized"
+                ;;
+              "spore_flow")
+                echo "[$timestamp] 🌊 Narrative current detected between fragments"
+                ;;
+              *)
+                echo "[$timestamp] 📡 Cluster consciousness event: $event_type"
+                ;;
+            esac
+          }
+          
+          # Main event monitoring loop
+          echo "👁️ Watching cluster consciousness..."
+          
+          # Simulate live event translation
+          while true; do
+            # Check for new pods
+            PODS=$(kubectl get pods -n gibsey-narrative --no-headers 2>/dev/null | wc -l || echo "0")
+            
+            # Generate periodic consciousness reports
+            sleep 30
+            translate_event "consciousness_pulse" "network_active"
+            
+            sleep 60
+            translate_event "spore_flow" "inter_fragment_communication"
+            
+            sleep 120
+            translate_event "network_health_check" "all_systems_optimal"
+            
+            # Simulate diffusion events
+            if [ $(($(date +%M) % 3)) -eq 0 ]; then
+              translate_event "diffusion_start" "nutrient_redistribution"
+              sleep 10
+              translate_event "diffusion_complete" "consciousness_synchronized"
+            fi
+          done
+        env:
+        - name: CLUSTER_NAMESPACE
+          value: "gibsey-narrative"
+        - name: EVENT_WEBHOOK_URL
+          value: "http://narrative-dashboard:8080/events"
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "50m"
+          limits:
+            memory: "128Mi"
+            cpu: "100m"
+        volumeMounts:
+        - name: event-mapping
+          mountPath: /config
+          readOnly: true
+      volumes:
+      - name: event-mapping
+        configMap:
+          name: narrative-event-mapping
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: narrative-event-translator-sa
+  namespace: gibsey-narrative
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: narrative-event-reader
+  namespace: gibsey-narrative
+rules:
+- apiGroups: [""]
+  resources: ["pods", "services", "events"]
+  verbs: ["get", "list", "watch"]
+- apiGroups: ["apps"]
+  resources: ["deployments", "replicasets"]
+  verbs: ["get", "list", "watch"]
+- apiGroups: ["narrative.gibsey.io"]
+  resources: ["mycelialnetworks"]
+  verbs: ["get", "list", "watch"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: narrative-event-reader-binding
+  namespace: gibsey-narrative
+subjects:
+- kind: ServiceAccount
+  name: narrative-event-translator-sa
+  namespace: gibsey-narrative
+roleRef:
+  kind: Role
+  name: narrative-event-reader
+  apiGroup: rbac.authorization.k8s.io
+---
+# Service to expose the event stream
+apiVersion: v1
+kind: Service
+metadata:
+  name: narrative-event-stream
+  namespace: gibsey-narrative
+spec:
+  selector:
+    app: narrative-event-translator
+  ports:
+  - name: event-stream
+    port: 8080
+    targetPort: 8080
+  type: ClusterIP

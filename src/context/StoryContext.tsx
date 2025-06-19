@@ -15,6 +15,16 @@ interface StoryContextType {
   previousPage: () => void;
   getPagesBySymbol: (symbolId: string) => StoryPage[];
   getAllSymbols: () => { id: string; name: string; color: string; pageCount: number }[];
+  // New methods for recovered components
+  getCurrentPrompts: () => any[];
+  createBranch: (prompt: any) => void;
+  rotateSymbol: (symbolId: string, rotation: number) => void;
+  getBranchTree: () => any;
+  navigateToBranch: (branchId: string) => void;
+  furthestPageIndex: number;
+  navigateToSection: (sectionId: string) => void;
+  getCurrentSection: () => any;
+  getAccessibleSections: () => any[];
 }
 
 const StoryContext = createContext<StoryContextType | undefined>(undefined);
@@ -154,6 +164,16 @@ export const StoryProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     return () => window.removeEventListener('keydown', handleKeyPress);
   }, [currentPageIndex]);
 
+  // Stub implementations for recovered component compatibility
+  const getCurrentPrompts = () => [];
+  const createBranch = (prompt: any) => {};
+  const rotateSymbol = (symbolId: string, rotation: number) => {};
+  const getBranchTree = () => ({ branches: [], currentBranch: null });
+  const navigateToBranch = (branchId: string) => {};
+  const navigateToSection = (sectionId: string) => {};
+  const getCurrentSection = () => ({ id: 'main', name: 'Main Story' });
+  const getAccessibleSections = () => [{ id: 'main', name: 'Main Story' }];
+
   return (
     <StoryContext.Provider
       value={{
@@ -167,7 +187,16 @@ export const StoryProvider: React.FC<{ children: React.ReactNode }> = ({ childre
         nextPage,
         previousPage,
         getPagesBySymbol,
-        getAllSymbols
+        getAllSymbols,
+        getCurrentPrompts,
+        createBranch,
+        rotateSymbol,
+        getBranchTree,
+        navigateToBranch,
+        furthestPageIndex: pages.length - 1,
+        navigateToSection,
+        getCurrentSection,
+        getAccessibleSections
       }}
     >
       {children}

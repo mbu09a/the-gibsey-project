@@ -83,13 +83,13 @@ const ShamrockStillmanChat: React.FC<ShamrockStillmanChatProps> = ({ isOpen, onC
       `Every analysis extracts its ethical cost. Each compartment contains contradictions ` +
       `that can be revisited, combined, or moved to backstage.\n\n` +
       `You can speak naturally or use ritual commands:\n` +
-      `/add-report <title>` - `Generate A.D.D. Analysis Report\n` +
-      `/dream-dump` - `Share dream/nightmare fragment\n` +
-      `/toggle-compartment <topic>` - `Compartment management\n` +
-      `/rainbow-audit` - `Color-coded risk matrix\n` +
-      `/trace-negative-space` - `Investigate omissions\n` +
-      `/drain` / `/recharge` - `Manage analytical energy\n` +
-      `/settle-debt` - `Address ethical extraction costs\n\n` +
+      `/add-report <title>` + ` - ` + `Generate A.D.D. Analysis Report\n` +
+      `/dream-dump` + ` - ` + `Share dream/nightmare fragment\n` +
+      `/toggle-compartment <topic>` + ` - ` + `Compartment management\n` +
+      `/rainbow-audit` + ` - ` + `Color-coded risk matrix\n` +
+      `/trace-negative-space` + ` - ` + `Investigate omissions\n` +
+      `/drain` + ` / ` + `/recharge` + ` - ` + `Manage analytical energy\n` +
+      `/settle-debt` + ` - ` + `Address ethical extraction costs\n\n` +
       `*Ice timer: ${Math.floor(state.melting_ice_timer / 60)} minutes until topic closure. What requires immediate compartmentalization?*`;
   };
 
@@ -137,7 +137,7 @@ const ShamrockStillmanChat: React.FC<ShamrockStillmanChatProps> = ({ isOpen, onC
           ethicalDebtChange: response.ethicalDebtChange,
           waterImagery: response.water_imagery
         },
-        batteryLevel: shamrockStillmanOS.getState().analtyicBatteryLevel,
+        batteryLevel: shamrockStillmanOS.getState().analyticBatteryLevel,
         confidenceLevel: response.confidence,
         isProvisional: response.isProvisional,
         requiresUserDecision: response.requiresUserDecision

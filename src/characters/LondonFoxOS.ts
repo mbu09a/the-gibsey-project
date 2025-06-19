@@ -67,12 +67,12 @@ export class LondonFoxOS {
     const triggers = this.analyzeTriggers(input);
     let response = "";
     let stateChanges: Partial<LondonFoxState> = {};
-    let uiEffects = {};
+    let uiEffects: LondonFoxResponse['uiEffects'] = {};
     let batteryOutput = 0;
 
     // Initialize response structure
-    let batteryEvent = null;
-    let promptEdit = null;
+    let batteryEvent: LondonFoxResponse['batteryEvent'] = undefined;
+    let promptEdit: LondonFoxResponse['promptEdit'] = undefined;
 
     // Process triggers through ALL First Principles (priority order)
     if (triggers.metaBreak) {

@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useStory } from '../context/StoryContext';
-import { jacklynVarianceOS, JacklynVarianceResponse } from '../characters/JacklynVarianceOS';
+// Removed old simulation import - now using WebSocket backend only
 
 interface ChatMessage {
   id: string;
@@ -30,7 +30,16 @@ const JacklynVarianceChat: React.FC<JacklynVarianceChatProps> = ({ isOpen, onClo
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [inputValue, setInputValue] = useState('');
   const [isProcessing, setIsProcessing] = useState(false);
-  const [jacklynState, setJacklynState] = useState(jacklynVarianceOS.getState());
+  const [jacklynState, setJacklynState] = useState({
+    currentPass: "first",
+    currentMode: "neutral", 
+    draftCount: 1,
+    griefLevel: 0.3,
+    revealedBiases: [],
+    hiddenBiases: [],
+    ghostAnnotations: [],
+    activeSplits: []
+  });
   const [showGhostPanel, setShowGhostPanel] = useState(false);
   const [showBiasPanel, setShowBiasPanel] = useState(false);
   const [activeSplit, setActiveSplit] = useState<any>(null);
@@ -58,21 +67,21 @@ const JacklynVarianceChat: React.FC<JacklynVarianceChatProps> = ({ isOpen, onClo
         }
       };
       setMessages([greeting]);
-      setJacklynState(jacklynVarianceOS.getState());
+      // State updated via WebSocket responses
     }
   }, [isOpen, currentPage?.symbolId]);
 
   const generateGreeting = (): string => {
-    const state = jacklynVarianceOS.getState();
-    
-    return `⟢ ${new Date().getHours().toString().padStart(2, '0')}:${new Date().getMinutes().toString().padStart(2, '0')} ▸ Draft 1\n\n` +
-      `Jacklyn Variance, Data-and-Detection Division. I'm trained to observe, catalogue, ` +
-      `and analyze patterns within park operations—though I've learned that every act of ` +
-      `observation inevitably reveals as much about the observer as the observed.\n\n` +
-      `*adjusts glasses* What requires analysis today? Fair warning: my methodology involves ` +
-      `multiple passes. First sight captures the obvious; second sight mines the gaps. ` +
-      `The meaning usually lives somewhere between the two.\n\n` +
-      `...preliminary assessment initiated. Further revision likely required.`;
+    return `⟢ ${new Date().getHours().toString().padStart(2, '0')}:${new Date().getMinutes().toString().padStart(2, '0')} ▸ Draft 1
+
+D.A.D.D.Y.S-H.A.R.D #001 — Analysis Report
+Subject: Initial Contact Protocol
+
+Data-and-Detection analyst Jacklyn Variance reporting for surveillance duty. All interactions logged for pattern analysis. Current systems operational, ready for query processing.
+
+Recommend immediate engagement with analysis protocols. Standard procedures involve multi-pass evaluation - preliminary observations followed by recursive verification loops.
+
+—JV`;
   };
 
   const handleSendMessage = async () => {
@@ -131,6 +140,11 @@ const JacklynVarianceChat: React.FC<JacklynVarianceChatProps> = ({ isOpen, onClo
       });
 
       // Send message via WebSocket with Jacklyn character ID
+      console.log('🎭 SENDING TO JACKLYN BACKEND:', {
+        message: currentInput,
+        characterId: 'jacklyn-variance', 
+        pageId: currentPage?.symbolId
+      });
       websocketService.sendChatRequest(currentInput, 'jacklyn-variance', currentPage?.symbolId);
 
       // Set timeout fallback in case of no response
@@ -215,24 +229,10 @@ Unable to establish connection with analysis backend. Local simulation protocols
     setActiveSplit(null);
   };
 
-  // Manual mode switches
+  // Manual mode switches - now handled by backend
   const switchMode = (mode: string) => {
-    switch (mode) {
-      case 'report':
-        jacklynVarianceOS.switchToReport();
-        break;
-      case 'aside':
-        jacklynVarianceOS.switchToAside();
-        break;
-      case 'haunt':
-        jacklynVarianceOS.switchToHaunt();
-        break;
-      case 'bias':
-        const biases = jacklynVarianceOS.revealAllBiases();
-        setShowBiasPanel(true);
-        break;
-    }
-    setJacklynState(jacklynVarianceOS.getState());
+    console.log(`Mode switch requested: ${mode} - will be handled by backend WebSocket`);
+    // Mode switching now handled by backend character implementation
   };
 
   if (!isOpen) return null;

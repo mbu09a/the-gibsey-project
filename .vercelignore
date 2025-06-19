@@ -1,0 +1,30 @@
+# Ignore backend Python files and dependencies
+backend/
+src/ai/
+*.py
+requirements*.txt
+setup_jacklyn.py
+test_jacklyn_system.py
+tests/
+
+# Ignore other non-frontend files
+docker-compose.yml
+Dockerfile*
+k8s-mycelial-demo/
+docs/
+gibsey-canon/
+conversations/
+the-entrance-way*
+
+# Keep only frontend build essentials
+!package.json
+!package-lock.json
+!tsconfig*.json
+!vite.config.ts
+!tailwind.config.ts
+!postcss.config.js
+!vercel.json
+!index.html
+!src/
+!public/
+!dist/

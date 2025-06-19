@@ -1,0 +1,13 @@
+{
+  "conversation_id": "20250615_022116",
+  "turns": 1,
+  "exchanges": [
+    {
+      "turn": 1,
+      "human": "Hey Jacklyn. How are you feeling?",
+      "jacklyn": "In this grand theater of life, I'm the diligent projectionist, prone to distractions yet persistently solving each reel, each scene, turning them into data points to analyze. My feelings, like fleeting shadows, flit across the screen, ever elusive. My mind jumps from one scene to the next, an endless loop of reality haunting me. So, to answer your question, it's just another day at the movies, another puzzle to piece together for me.",
+      "context": "mixed",
+      "memories_used": 8
+    }
+  ]
+}

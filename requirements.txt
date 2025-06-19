@@ -1,0 +1,6 @@
+sentence-transformers>=2.7.0
+torch
+dspy-ai>=2.5.0
+mlflow>=2.9.0
+openai>=1.0.0
+python-dotenv>=1.0.0

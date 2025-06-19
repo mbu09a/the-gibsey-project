@@ -198,7 +198,8 @@ class JacklynVarianceService:
         """
         
         try:
-            logger.info(f"Generating Jacklyn response for query: {user_query[:100]}...")
+            logger.info(f"🎭 JACKLYN SERVICE CALLED - Generating response for query: {user_query[:100]}...")
+            logger.info(f"🎭 Session ID: {session_id}")
             
             # Step 1: Input Moderation
             input_moderation = self.moderator.moderate_input(user_query, session_id)

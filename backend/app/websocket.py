@@ -189,6 +189,7 @@ async def stream_character_response(session_id: str, prompt: str, character_id: 
     
     try:
         logger.info(f"Streaming response for {character_id}: {prompt[:100]}...")
+        logger.info(f"Character ID match check: '{character_id}' == 'jacklyn-variance': {character_id == 'jacklyn-variance'}")
         
         # Use specialized Jacklyn service for jacklyn-variance
         if character_id == "jacklyn-variance":

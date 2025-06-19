@@ -86,65 +86,109 @@ const JacklynVarianceChat: React.FC<JacklynVarianceChatProps> = ({ isOpen, onClo
     };
 
     setMessages(prev => [...prev, userMessage]);
+    const currentInput = inputValue;
     setInputValue('');
     setIsProcessing(true);
 
     try {
-      // Process through Jacklyn Variance OS
-      const response: JacklynVarianceResponse = jacklynVarianceOS.generateResponse(inputValue);
+      // Use WebSocket service for backend communication
+      const { websocketService } = await import('../services/websocketService');
+      
+      // Connect to WebSocket if not already connected
+      await websocketService.connect();
 
-      // Update Jacklyn's state
-      setJacklynState(jacklynVarianceOS.getState());
-
-      // Create main response message
-      const responseMessage: ChatMessage = {
-        id: `jacklyn-${Date.now()}`,
-        type: 'jacklyn',
-        content: response.text,
-        timestamp: new Date(),
-        metadata: response.metadata,
-        ghostAnnotations: response.ghostAnnotations,
-        splitOptions: response.splitOptions,
-        visualEffects: response.visualEffects,
-        biasDisclosure: response.biasDisclosure
-      };
-
-      setMessages(prev => [...prev, responseMessage]);
-
-      // Handle ghost annotations
-      if (response.ghostAnnotations && response.ghostAnnotations.length > 0) {
-        setTimeout(() => {
-          response.ghostAnnotations?.forEach((ghost, idx) => {
-            const ghostMessage: ChatMessage = {
-              id: `ghost-${Date.now()}-${idx}`,
-              type: 'ghost',
-              content: ghost.text,
-              timestamp: new Date()
+      let responseContent = '';
+      let responseMetadata = {};
+      
+      // Listen for streaming response
+      const unsubscribe = websocketService.onMessage((message: any) => {
+        if (message.type === 'ai_response_stream') {
+          responseContent += message.data.token;
+          
+          if (message.data.isComplete) {
+            responseMetadata = message.data.metadata || {};
+            
+            // Create response message with backend data
+            const responseMessage: ChatMessage = {
+              id: `jacklyn-${Date.now()}`,
+              type: 'jacklyn',
+              content: responseContent,
+              timestamp: new Date(),
+              metadata: {
+                jv_pass: "backend",
+                mode: "D.A.D.D.Y.S-H.A.R.D",
+                draftNumber: responseMetadata.rag_pages || 1,
+                biasLevel: responseMetadata.critique_applied ? 0.8 : 0.3,
+                timestamp: new Date().toLocaleTimeString()
+              }
             };
-            setMessages(prev => [...prev, ghostMessage]);
-          });
-        }, 1500);
-      }
 
-      // Handle split options
-      if (response.splitOptions) {
-        setActiveSplit(response.splitOptions);
-      }
-
-      // Log state changes for debugging
-      console.log('Jacklyn State Update:', {
-        mode: jacklynState.currentMode,
-        pass: jacklynState.currentPass,
-        drafts: jacklynState.draftCount,
-        grief: jacklynState.griefLevel,
-        biases: jacklynState.revealedBiases.length,
-        splits: jacklynState.activeSplits.length
+            setMessages(prev => [...prev, responseMessage]);
+            setIsProcessing(false);
+            unsubscribe();
+          }
+        }
       });
 
+      // Send message via WebSocket with Jacklyn character ID
+      websocketService.sendChatRequest(currentInput, 'jacklyn-variance', currentPage?.symbolId);
+
+      // Set timeout fallback in case of no response
+      setTimeout(() => {
+        if (isProcessing) {
+          console.warn('WebSocket response timeout');
+          setIsProcessing(false);
+          unsubscribe();
+          
+          // Fallback error message in Jacklyn's voice
+          const errorMessage: ChatMessage = {
+            id: `jacklyn-error-${Date.now()}`,
+            type: 'jacklyn',
+            content: `D.A.D.D.Y.S-H.A.R.D #ERROR — Analysis Report
+Subject: System Malfunction
+
+Analysis systems experiencing technical difficulties. Recommend retry or alternative approach. Data integrity compromised.
+
+—JV`,
+            timestamp: new Date(),
+            metadata: {
+              jv_pass: "error",
+              mode: "error",
+              draftNumber: 1,
+              biasLevel: 0,
+              timestamp: new Date().toLocaleTimeString()
+            }
+          };
+          
+          setMessages(prev => [...prev, errorMessage]);
+        }
+      }, 30000); // 30 second timeout
+
     } catch (error) {
-      console.error('Error generating Jacklyn response:', error);
-    } finally {
+      console.error('Error with WebSocket communication:', error);
       setIsProcessing(false);
+      
+      // Error message in Jacklyn's voice
+      const errorMessage: ChatMessage = {
+        id: `jacklyn-error-${Date.now()}`,
+        type: 'jacklyn',
+        content: `D.A.D.D.Y.S-H.A.R.D #COMM_ERROR — Analysis Report
+Subject: Communication Failure
+
+Unable to establish connection with analysis backend. Local simulation protocols unavailable. Recommend checking system connectivity.
+
+—JV`,
+        timestamp: new Date(),
+        metadata: {
+          jv_pass: "error",
+          mode: "error", 
+          draftNumber: 1,
+          biasLevel: 0,
+          timestamp: new Date().toLocaleTimeString()
+        }
+      };
+      
+      setMessages(prev => [...prev, errorMessage]);
     }
   };
 

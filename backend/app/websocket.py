@@ -181,37 +181,97 @@ manager = ConnectionManager()
 
 # Real AI streaming functions (Phase 3)
 async def stream_character_response(session_id: str, prompt: str, character_id: str, current_page_id: str = None):
-    """Stream real AI character response using RAG and LLM"""
+    """
+    Stream character response using appropriate service
+    Uses specialized Jacklyn service for jacklyn-variance, RAG service for others
+    """
     response_id = str(uuid.uuid4())
     
     try:
-        # Import here to avoid circular imports
-        from .rag_service import get_rag_service
-        from .llm_service import ChatMessage
+        logger.info(f"Streaming response for {character_id}: {prompt[:100]}...")
         
-        rag_service = get_rag_service()
-        
-        # Get conversation history from connection metadata if available
-        conversation_history = []  # TODO: Implement conversation history storage
-        
-        # Stream response from RAG service
-        async for token in rag_service.get_character_response(
-            character_id=character_id,
-            user_query=prompt,
-            conversation_history=conversation_history,
-            current_page_id=current_page_id,
-            stream=True
-        ):
-            await manager.stream_ai_response(
-                session_id=session_id,
-                response_id=response_id,
-                token=token.token,
-                is_complete=token.is_complete
-            )
+        # Use specialized Jacklyn service for jacklyn-variance
+        if character_id == "jacklyn-variance":
+            from .jacklyn_service import get_jacklyn_service
             
-            # Break if response is complete
-            if token.is_complete:
-                break
+            jacklyn_service = get_jacklyn_service()
+            
+            # Get conversation history from connection metadata if available
+            conversation_history = []  # TODO: Implement conversation history storage
+            
+            # Stream response from Jacklyn service (includes full pipeline)
+            async for token in jacklyn_service.generate_response(
+                user_query=prompt,
+                conversation_history=conversation_history,
+                current_page_id=current_page_id,
+                session_id=session_id
+            ):
+                # Stream token to user
+                await manager.stream_ai_response(
+                    session_id=session_id,
+                    response_id=response_id,
+                    token=token.token,
+                    is_complete=token.is_complete
+                )
+                
+                # Log completion metadata
+                if token.is_complete and token.metadata:
+                    logger.info(f"Jacklyn response completed: {token.metadata}")
+                    break
+        
+        else:
+            # Use standard RAG service for other characters
+            from .rag_service import get_rag_service
+            from .llm_service import ChatMessage
+            from .moderation import get_moderator
+            
+            rag_service = get_rag_service()
+            moderator = get_moderator()
+            
+            # Moderate user input first
+            moderation_result = moderator.moderate_input(prompt, user_id=session_id)
+            if not moderation_result.is_safe:
+                logger.warning(f"Blocked unsafe input from {session_id}: {moderation_result.reason}")
+                await manager.stream_ai_response(
+                    session_id=session_id,
+                    response_id=response_id,
+                    token=f"I'm sorry, but I cannot process that request. ({moderation_result.reason})",
+                    is_complete=True
+                )
+                return
+            
+            # Get conversation history from connection metadata if available
+            conversation_history = []  # TODO: Implement conversation history storage
+            
+            # Collect full response for output moderation
+            full_response = ""
+            
+            # Stream response from RAG service
+            async for token in rag_service.get_character_response(
+                character_id=character_id,
+                user_query=prompt,
+                conversation_history=conversation_history,
+                current_page_id=current_page_id,
+                stream=True
+            ):
+                # Accumulate response for moderation
+                full_response += token.token
+                
+                # Stream token to user (before output moderation for responsiveness)
+                await manager.stream_ai_response(
+                    session_id=session_id,
+                    response_id=response_id,
+                    token=token.token,
+                    is_complete=token.is_complete
+                )
+                
+                # Break if response is complete
+                if token.is_complete:
+                    # Moderate the complete output (log only, don't block)
+                    output_moderation = moderator.moderate_output(full_response, character_id=character_id)
+                    if output_moderation.flagged_content:
+                        logger.info(f"AI output from {character_id} flagged: {output_moderation.flagged_content}")
+                    break
     
     except Exception as e:
         logger.error(f"Error in character response streaming: {e}")

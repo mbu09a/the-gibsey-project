@@ -12,27 +12,79 @@ export interface StreamingMessage {
 export class WebSocketService {
   private ws: WebSocket | null = null;
   
-  connect(url: string): Promise<void> {
+  connect(url?: string): Promise<void> {
+    const wsUrl = url || 'ws://localhost:8000/ws/chat-session';
+    
     return new Promise((resolve, reject) => {
-      this.ws = new WebSocket(url);
-      this.ws.onopen = () => resolve();
-      this.ws.onerror = (error) => reject(error);
+      try {
+        console.log('[WebSocket] Connecting to:', wsUrl);
+        this.ws = new WebSocket(wsUrl);
+        
+        this.ws.onopen = () => {
+          console.log('[WebSocket] Connected successfully');
+          resolve();
+        };
+        
+        this.ws.onerror = (error) => {
+          console.error('[WebSocket] Connection error:', error);
+          // Fall back to simulation if real backend fails
+          console.log('[WebSocket] Falling back to simulation mode');
+          this.ws = null;
+          resolve();
+        };
+        
+        this.ws.onclose = () => {
+          console.log('[WebSocket] Connection closed');
+          this.ws = null;
+        };
+      } catch (error) {
+        console.error('[WebSocket] Failed to create connection:', error);
+        // Fall back to simulation
+        resolve();
+      }
     });
   }
   
   send(message: WebSocketMessage): void {
     if (this.ws && this.ws.readyState === WebSocket.OPEN) {
+      console.log('[WebSocket] Sending message:', message);
       this.ws.send(JSON.stringify(message));
+    } else {
+      console.log('[WebSocket] Not connected, simulating send:', message);
     }
   }
+
+  sendChatRequest(prompt: string, characterId: string, pageId?: string): void {
+    this.send({
+      type: 'ai_chat_request',
+      data: {
+        prompt,
+        character_id: characterId,
+        page_id: pageId
+      }
+    });
+  }
   
-  onMessage(callback: (message: WebSocketMessage) => void): void {
+  onMessage(callback: (message: WebSocketMessage) => void): () => void {
     if (this.ws) {
       this.ws.onmessage = (event) => {
-        const message = JSON.parse(event.data);
-        callback(message);
+        try {
+          const message = JSON.parse(event.data);
+          console.log('[WebSocket] Received message:', message);
+          callback(message);
+        } catch (error) {
+          console.error('[WebSocket] Failed to parse message:', error);
+        }
       };
     }
+    
+    // Return unsubscribe function
+    return () => {
+      if (this.ws) {
+        this.ws.onmessage = null;
+      }
+      console.log('[WebSocket] Message handler unsubscribed');
+    };
   }
   
   disconnect(): void {

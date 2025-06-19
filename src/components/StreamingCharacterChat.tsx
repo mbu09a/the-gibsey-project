@@ -153,8 +153,71 @@ const StreamingCharacterChat: React.FC<StreamingCharacterChatProps> = ({
     }
   }, [characterId]);
 
+  const generateLocalResponse = (input: string): string => {
+    const responses = {
+      'jacklyn-variance': [
+        `*adjusts glasses* Interesting observation. I'm detecting patterns in your query that suggest deeper analytical frameworks at work. Let me process this through my variance-detection protocols...`,
+        `⟢ ${new Date().toLocaleTimeString()} ▸ Analysis complete. Your question reveals fascinating meta-textual layers. I observe you observing me observe you—a perfect recursive loop.`,
+        `*scribbles notes* This conversation is definitely going into my second-pass analysis files. The patterns you're presenting align with my bias-detection algorithms in unexpected ways.`
+      ],
+      'arieol-owlist': [
+        `@pause. *Time freezes briefly* You've triggered something in the narrative engine... @play. Let me shift into prophet mode for a moment. I sense you're seeking something beyond the obvious answer.`,
+        `*pulls ethereal Tarot card* The card reads: "Threshold Walker." Fitting. Your question opens doorways I hadn't noticed before. My agency meter just spiked to 47%.`,
+        `*jazz notation materializes in the air* ♪ Your words have a syncopated rhythm... I'm gifting you this fragment: unexpected beats in familiar measures. What song does your question sing?`
+      ]
+    };
+
+    const characterResponses = responses[characterId as keyof typeof responses] || [
+      `That's a fascinating perspective. Let me think about that...`,
+      `I see what you're getting at. There are deeper layers to consider here.`,
+      `Your question opens up some interesting avenues of exploration.`
+    ];
+
+    return characterResponses[Math.floor(Math.random() * characterResponses.length)];
+  };
+
+  const simulateStreamingResponse = async (content: string) => {
+    const responseId = `response-${Date.now()}`;
+    const words = content.split(' ');
+    
+    // Create initial message
+    const initialMessage: ChatMessage = {
+      id: responseId,
+      type: 'character',
+      content: '',
+      timestamp: new Date(),
+      characterId,
+      isStreaming: true,
+      isComplete: false
+    };
+    
+    setMessages(prev => [...prev, initialMessage]);
+    setCurrentStreamingId(responseId);
+
+    // Simulate streaming word by word
+    for (let i = 0; i < words.length; i++) {
+      await new Promise(resolve => setTimeout(resolve, 100 + Math.random() * 100));
+      
+      setMessages(prev => prev.map(msg => 
+        msg.id === responseId 
+          ? { ...msg, content: words.slice(0, i + 1).join(' ') }
+          : msg
+      ));
+    }
+
+    // Mark as complete
+    setMessages(prev => prev.map(msg => 
+      msg.id === responseId 
+        ? { ...msg, isStreaming: false, isComplete: true }
+        : msg
+    ));
+    
+    setCurrentStreamingId(null);
+    setIsProcessing(false);
+  };
+
   const handleSendMessage = async () => {
-    if (!inputValue.trim() || isProcessing || !isConnected) return;
+    if (!inputValue.trim() || isProcessing) return;
 
     const userMessage: ChatMessage = {
       id: `user-${Date.now()}`,
@@ -164,28 +227,13 @@ const StreamingCharacterChat: React.FC<StreamingCharacterChatProps> = ({
     };
 
     setMessages(prev => [...prev, userMessage]);
+    const userInput = inputValue;
     setInputValue('');
     setIsProcessing(true);
 
-    try {
-      // Send request to backend via WebSocket
-      wsService.sendChatRequest(inputValue, characterId, currentPage?.id);
-      console.log(`[Chat] Sent request to ${characterName}:`, inputValue);
-    } catch (error) {
-      console.error('[Chat] Failed to send message:', error);
-      setIsProcessing(false);
-      
-      // Add error message
-      const errorMessage: ChatMessage = {
-        id: `error-${Date.now()}`,
-        type: 'character',
-        content: `I'm sorry, I'm having trouble connecting to the network right now. Please try again in a moment.`,
-        timestamp: new Date(),
-        characterId,
-        isComplete: true
-      };
-      setMessages(prev => [...prev, errorMessage]);
-    }
+    // Generate local response
+    const responseContent = generateLocalResponse(userInput);
+    await simulateStreamingResponse(responseContent);
   };
 
   const handleKeyPress = (e: React.KeyboardEvent) => {

@@ -39,4 +39,4 @@ __pycache__/
 # Large binary files
 *.dylib
 *.so
-*.dll
+*.dllbackend/.venv/

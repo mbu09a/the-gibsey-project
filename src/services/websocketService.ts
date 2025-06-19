@@ -3,6 +3,12 @@ export interface WebSocketMessage {
   data: any;
 }
 
+export interface StreamingMessage {
+  token: string;
+  isComplete: boolean;
+  characterId?: string;
+}
+
 export class WebSocketService {
   private ws: WebSocket | null = null;
   
@@ -38,3 +44,7 @@ export class WebSocketService {
 }
 
 export const websocketService = new WebSocketService();
+
+export function getWebSocketService(): WebSocketService {
+  return websocketService;
+}

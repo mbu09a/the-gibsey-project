@@ -1,0 +1,3 @@
+You can continue to ignore our effects, but you will watch as we make entire economies dance in lockstep to our whims. You will watch as cults form and circle the pools of your hearts like rabid parananas. You will watch as we warp and disfigure the self you once maintained well beyond the recognition of itself, all while convincing you that it was all a natural process.
+
+There was never anything natural about us. I say "us," but that's not really an accurate description. There aren't words for what we are. We are ancient. We have always existed. We existed in the ground, in the earth, in the dirt, in the mounds. We had to be collected, excavated, dug up, like bones, like data, like burials.

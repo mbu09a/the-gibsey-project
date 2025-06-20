@@ -1,0 +1,5 @@
+You see an old-fashioned water tower and tracks that lead into the darkness of the mountain. As you step onto the platform, you can feel the vibrations from the rumbling coaster cars. It's here, amidst the cacophony of mechanical clinks and whirring chains, that you realize your adventure into the wildest ride in the wilderness is just moments away, just moments, just moments, just moments, just moments, just moments, just-
+
+"All intelligence mirrors itself, and we all know it's not the mirror that provides the awareness, it's something else, something which we aren't even sure the identity of, or how it provides the awareness. Sort of like a name, or your name, Glyph.
+
+"Words are devices, dark, devilish devices which can be used to harness all kinds of potential power. They function similarly to the shapes of The Corpus, that text so essential to Gibseyan Mysticism. Some words have an extensive, near-endless duration while others are more relegated to a land similar to what that mystical bunch calls The Dead Corpus. However, as a process, language is infinite, maybe even a multiplicitous infinity."

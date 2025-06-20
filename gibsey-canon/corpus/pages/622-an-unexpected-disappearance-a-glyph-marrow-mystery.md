@@ -1,0 +1,5 @@
+The Power of Nature was scrapped, excavated, and bulldozed into a mound of dirt that the Even More Substantially Sizable Mine Train Railroad was built on, and the Western River Expansion was forever canceled to disappear forever to the cutting room floor of Davies' imagination.
+
+Ever since, it's been heavily rumored that Davies and Backstar were enemies ever since, and though I will clarify that it's just a rumor, it's one of those rumors that's so heavily circulated that it's almost become Gibstory itself. What is Gibstory after all but a flurry of such nameless voices?
+
+And it's said that the Even More Substantially Sizable Thunder Monument Railroad draws from this narrative, as well. One can easily read the flood that destroys Rainbow Revene as being an expression of some kind of invasion, can't you? It's almost as if Tobi Backstar'd decided to play Gibsey, incorporating the destruction of the fictional town into the very narrative and structure of the ride that he built on top of it. Strange no? You could say such a choice would have an effect that would sort of ripple throughout Gibstory. Would it not?

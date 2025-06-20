@@ -1,0 +1,7 @@
+Malt Gibsey had a vision of creating not just a theme park, but a crafted and created world, a living world, a world of sculptural delight where fact and fiction, meaning and magic, all blurred into a brilliant convalescence, and this vision of his, Gibseyland, opened way, way far back when time still existed and was even regularly recorded, opening at the center of America's most westward state, California in July, 1955.
+
+There's billions of things I could cover about the Gibstory of that park, literally. Its collective Gibstory knows no bounds, cannot be contained. When every decade becomes a time to celebrate Gibseyland's anniversary, and then every year, and then every month, into every minute and second, and soon to be millisecond, and so on, it comes as no surprise that the data which has been collected over Gibseyland's Gibstory is enormous. And it has always been an American tradition to obsess over such mindless trivialities.
+
+So it should come as no surprise that one has to specialize when considering the Gibstory of this ride.
+
+Our Gibstory begins in the first year of the park's opening, in the Boundaryland section of the park where the Even More Substantially Sizable Thunder Monument ride was later to be built.

@@ -1,0 +1,5 @@
+Or to put this another way, Jack didn't know very much about his world, but he did know that his professional life shouldn't at all be like his personal one. There should be a separation. His familial problems had been bad enough to begin with, so there was no reason not to try to whack-a-mole them out of his everyday experience, out of his memoires even, if he could.
+
+And in this way he was, as he would always be, just like his family. He was (and is) a product of them, after all, and he was like them because he was, and often is, just as incapable of confronting himself as they were and still are. He may have been more capable of observing himself than they were, sure, but in reality, what difference did that make? As any writer, game developer, or storyteller well knows, there is a stark contrast between observing something and confronting it.
+
+And this was an essential difference, it was maybe even the difference between a static and a dynamic character, if such definitions were worth being established, after all.

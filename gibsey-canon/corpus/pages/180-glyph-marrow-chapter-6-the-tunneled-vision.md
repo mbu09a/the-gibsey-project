@@ -1,0 +1,7 @@
+"I'm sorry," Glyph mutters, staring at his feet, "I'm sorry about before. I don't-I-I'm not used to being around others. It isn't natural for me to be perceived by other people. It's terrifying. So I, well, I check out sometimes."
+
+"Oh, don't worry about that. You're part of a large club. You could say all of human existence even, but ah, whoops. I'm not a big fan of using the word 'human' all that much, to tell you the truth. Lots of heavy baggage with that word. It's got heavy, heavy nightmare-level bull shit associated with it. I'd stay away from it entirely if I was you, especially you, Glyph. No human nature, no humankind, not even human compassion. None of it. It's mostly used as a term to justify one type of group being human and another, eh…well, not so much. That's where the nightmares come from. Let's just say, even The Author's been fucking that one up lately."
+
+"What, like, you mean they've also checked out?"
+
+"I mean, some people even say they're dead already!" Arieol stands for a moment. "You hear that!" They wave their fist at the sky, growing red with rage, "If you're not dead, then I'll fucking kill you! You hear me, you son of a bitch! Putting me here on this ride forever! I'll rip out your intestines out through your ass and swing you around like a jumping rope on the playground you thoughtless, sick, insane ass mother fucker!" They sit back down, hands on the safety bar. "We have a love/hate relationship, like The Author and Gibsey. I do enjoy the ride, though, after all. How have you been liking it by the way?"

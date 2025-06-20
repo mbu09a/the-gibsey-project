@@ -1,0 +1,7 @@
+"You know, that's something I've always been confused about Glyph, Ascension. It always struck me as a vaguely hierarchical concept. Anything that ascends—like we are now—is probably trying to get power over something else, isn't it? There's certainly plenty of evidence of such repeated occurrences begging to entrain the skipping mind. But I'd like to consider some alternative possibilities for a moment, before we descend, that may put some of this ascension business into question. Isn't there also that classic Gibseyan phrase, As Above so Below, to contend with? Or wait, was that even Gibseyan or was it Disney-esque? Or neither? Oh! I'm letting things slip, aren't I? Getting too excited about the ascent and eventual descent. It's always so exciting to go up the first hill of a ride, isn't it? I'm a fan of this one too, ya know."
+
+Glyph, unable to bring themselves to speak, checks out.
+
+His eyes glaze over into a cocoon of disaffection. It's not exactly uncommon either, for Glyph to just sit back and let the words spiral over him and into one another, to watch as they splash, pirouette. and ricochet. After all, he's had to learn to deal with his ailment, but he can feel a sadness forming, as well, growing like weeds amongst his anger's grass. Or maybe it's always been there, was the central root which formed such narrow leaves to sprout from such a base.
+
+What was he to do or say underneath all that wooden scaffolding?

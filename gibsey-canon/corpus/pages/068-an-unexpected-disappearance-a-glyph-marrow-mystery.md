@@ -1,0 +1,5 @@
+"Also, I need to clear the air, so to speak. I don't have anything at all to do with Oren Progresso's murder. He's not even dead. OK? Your instructions themselves were faulty to begin with. Bad intelligence. And you know what else? I think I want a cigar rather than a cigarette, actually. Flick of the wrist, tip of the hat, and there it is: a nice fat cigar, just like I imagined it. You may be right, though. Maybe it's better to be situated within a specific moment in time, x and y axis as they call it. The Cross. Or maybe that's not what we're going for here? Nope, not at all! This is a Gibsey joint isn't it? Not something everyday! There's plenty of those sorts of things to be found elsewhere. Leave that to Gibsey, right? We have other much more profound purposes here, now, don't we?
+
+"Though I do have this sneaking suspicion that something's missing? Or that I've forgotten something? Have I?"
+
+The cart lurches forward. The ride begins.

@@ -1,0 +1,7 @@
+"Ohhh! That's it! That's positively it! I like that! Cause I'm chattering at you, aren't I? I'm a chaterer! But you gotta say it this way: Chat-er-er. Yeah! I love it! Might not be a word, exactly, but like many words, it refers to something more than itself, outside itself, beyond itself, and it had to be invented by someone or something else. Also if I'm a chat-er-er, it almost sounds like I'm unsure of myself, as well, sort of like how you are! It sounds like a stutter of some kind, or like a glitch has occurred, or like you're still dealing with your little old ailment, mixing up words and the things they represent, subjects and objects. Maybe that's what's conjured me, Glyph? And you know what? Glitch does sound an awful lot like—"
+
+"Why isn't the ride moving yet?" Glyph interjects, terrified, clutching his chest, but Arieol is unfazed, doesn't seem to notice and is instead busy fetching out a packet of cigarettes from their front pocket.
+
+Glyph may not remember much about his identity, self, or personal agency, but he does remember the smoking restrictions around the park. There are many signs arranged about the landscape which enforce such repeated entrainment, and quite a few of them, at that.
+
+"That's not allowed," Glyph grumbles, monotone, as if drained of blood.

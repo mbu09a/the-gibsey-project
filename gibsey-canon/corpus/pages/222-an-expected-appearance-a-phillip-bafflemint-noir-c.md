@@ -1,0 +1,5 @@
+He wasn't always focused on the text at hand on any given page, spiral, notebook, sticky note, or sketchbook, because there was a lot of it to focus on at once, but he did start to notice patterns, subjects, themes, collectives, astrological links between stars, accumulating spookily distant actions, liquid flowing through underground pipes, turbulence, warp and weft, the movements of clouds, jagged edges, sudden leaps, x and y axes, cars clogging across speeding expressways, pendulums dancing in fractally interwoven play: it all had an underlying structure to it that could be simplified, minimized, and made, maybe even coherent, or if not coherent, at the very least, organized.
+
+He'd wandered into the clutter of the house feeling like a bored moth drooling on their desk as attendance was being called, only to then see that a new student, Lighty McBulberstein, had joined the class, and they weren't just sitting nearby, but they were in the seat next to him.
+
+Although he doesn't know why or where it's coming from, he doesn't want to question it.

@@ -1,0 +1,3 @@
+I stop for a moment, breathing, thinking, in the shelter of this building which houses me. This ride is a ride that shelters me. This ride is a body, my body. It allows me a place within which to dwell. It is my dwelling place. I am its untamable Gibsey which has swallowed me whole. I'm sweating, or is that blood? No, that's sweat. Gibsey, I'm so dramatic. I need to stop. The words will burst open with the images, like a hard to explain building that's thrusting me, or itself, forward, that's waiting in line, the line of an arrow, ever moving forward. I am a heliotropic wooden building.
+
+There is a moment of peace, of pause. But it doesn't last long. It never lasts long.

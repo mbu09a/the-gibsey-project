@@ -1,0 +1,3 @@
+But I can hear them. Or him? I can, I can hear him. I can hear words. Words that sound like a man's voice. I can hear the commotion, crowds of people murmuring. They surround me. Their words. Their objects. And all that's held within them. They contain so much more than I could ever perceive, let alone think. And speaking of, the words, the words they form, they form a message, a piece of dialogue, a set of dialogue, and it doesn't come quite flowing out like a thought bubble in a comic strip, but it may as well be one?
+
+"Glyph!" I hear the words speaking to me, "Glyph! Can you hear me? Are you there?" And this voice is a voice I recognize. It comes with it a familiarity, but where am I to place this set of words without images to claim their identities?

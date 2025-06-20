@@ -1,0 +1,3 @@
+I am cradling the railing, and wait, that's right, at a certain point, in the queue, it becomes wooden scaffolding? I'm hoping that the nature of my ailment is coming through, that I can convey it all to you, even though it is difficult for me to explain. One can only attempt to communicate their ailment. And to think that it was something I'd longed to be cured of for so long? Not the clinging, but the having to let go. There never was any wooden scaffolding.
+
+And yet I'm here, with the railing, thrusting myself up, like a rope, like a ladder, into the light. Again, I warned you it was going to be hard to explain. Impossible to explain. It's all so impossible to explain. Gibstory's end, supposedly.

@@ -1,0 +1,7 @@
+Public Perception and Brand Damage
+
+The legal case brought about by Cop-E-Right, although not widely publicized and thrown out immediately by the court, both due to the nature of the case and the fact that Cop-E-Right and its fellow chatbots were being represented by the same legal firm at the same time (no other firm would take them), cast a shadow over Perdition Books. Although the case was thrown out immediately and very minimally covered by the press, we believe the perception of using AI to secretly replace human authors, coupled with the ensuing legal fiasco, negatively impacted our brand image on a subconscious level. The damage to our reputation in the literary world was further exacerbated by the declining quality of our publications, leading to a loss of trust and credibility among our readership and industry peers.
+
+Conclusion
+
+The culmination of these factors-the decline in content quality, financial losses, operational challenges, and damage to our brand-created a perfect tempestuous storm that Perdition Books could not weather. Despite our best efforts to rectify the situation, the mounting pressures and constraints have led us to the inescapable conclusion that reorganization under Chapter 11 is necessary. This step, though difficult, is essential for addressing our current liabilities, reevaluating our business model, and laying the groundwork for a more sustainable and ethical future in the publishing industry.

@@ -1,0 +1,5 @@
+They are lovers, a marriage of heaven and hell, coupling, doubling, creating and recreating versions of one other, the separation between each occasionally, temporarily, temporally dissolving, but like all lovers, both fall in and out of love for one another, take one another for granted, fail to pay attention, become absorbed in themselves, sometimes even forgetting about one another entirely, only later,. to reconnect, rediscover, falling back into love, pushing and pulling into and against one another, attracting and repelling, magnetic, and the further they separate, the closer they become, and the closer they become, the greater their collisions, and their ultimate collision, the products of their ever accumulating spooky actions at a distance-death being nothing but a temporary extension of these distances- are what become their children.
+
+Each of them has a favorite child, as well as a least favorite.
+
+The child most dissimilar to themselves, they love the most, and the child which they are most represented by, they love the least, and this hatred of theirs is also not what it appears to be.

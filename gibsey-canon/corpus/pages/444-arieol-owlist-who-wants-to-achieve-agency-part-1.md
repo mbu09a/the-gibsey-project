@@ -1,0 +1,9 @@
+And this was how the letter began.
+
+Ladies and Gentleman, Boys and Girls, Animals, Beasts, Birds of the Air, Fish of the Tempestuous Sea, Vibrations Within the Many Minds of the Multiplicitous Truly Fictional Gibseys, All You Diseased Collections of Surfacing Facial Features and Signs, Here to Show Yourself and Be Recognized, Welcome!
+
+Welcome to the letter that Arioel Owlist, who will here be referred to as The Author, has written (or is writing, or will write, depending on your POV) for their mentor, employer, and audience, Oren Progresso, on some unspecified date.
+
+We begin this letter with the idea of personal pain, what Joseph Campbell referred to as a hero's trial, what the Buddhists referred to as suffering, what the psychologically minded call trauma, or what the magically inclined call a curse, and more specifically, we begin this letter with the pain Arieol has been experiencing as of late, causing them to take a sick day from their work of transcribing data for Oren Progresso's recent auto-biographical screenplay, sick days being a sacred and productive time for Aeriol, as has already been said or shown (if not both, most hopefully), sick bastard that they are, and they, as The Author, would like to mention that referring to such pain is not meant to engender pity or remorse from any future audience-however individualized or, like Jackaroo's hands, small it, or they, may be-and is instead simply meant to provide some context for why the text currently winding itself across the page has taken the form it's taken, though admittedly, maybe such filler is asinine?
+
+Shouldn't the slime, the ground man, this ruinous clay, shouldn't it be given the chance to rise up, all on its own?

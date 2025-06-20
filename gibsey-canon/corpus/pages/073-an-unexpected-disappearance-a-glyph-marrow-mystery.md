@@ -1,0 +1,7 @@
+Usually someone's screaming, and they do scream. Isn't it strange how someone, even on a light early part of a ride such as this one, when they feel the light twists and the billowy ups-and-downs begin, always screams as if on cue? It's like the spirits have already started to take hold, and we're just doing their work for them. The tunnels of stone and granite transition to wooden scaffoldings, man made devices. They pass the Gold Rush Saloon. Windows closed, no movement inside, green wood buildings, clearly abandoned, like all the structures in this ghost, or ghost town, of which or in which they're riding, still with those light up-and-down hills, those repeated theaters of screams, a few people already with their hands up even though they're really just having fun, aware they're being bucked by a bull that's making sure to consider one's well-being and good-health while it bucks you.
+
+They slide out to the first true hill, what can truly be called The First Ascent, the base of another climax of many to come.
+
+But Glyph hasn't seen any of it. Nothing but full on ailment-induced terror.
+
+Glyph's ears ring about as loudly as fifty steam engines getting together in a cramped studio apartment to watch the weekly game—everybody's brought plenty of beer, but nobody's thought to bring any damn food! It's gonna be a loud one alright!

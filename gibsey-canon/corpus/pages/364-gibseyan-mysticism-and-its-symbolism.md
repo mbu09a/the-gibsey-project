@@ -1,0 +1,7 @@
+Now, I'd like to return to a word that I used earlier, in multiple contexts, one which will be our constellation point for this next series: Tradition.
+
+I referred to Gibseyan Mysticism earlier as a tradition, which again-sorry to repetitiously and continually use this term-is ironic. Another irony within the previously mentioned one is that Gibseyan Mysticism is an unpopular tradition, a tradition that is not widely practiced, a contradiction in terms, and therefore, as a religious practice, it has largely been ignored by popular Gibstory.
+
+And being a popularizer of this tradition, I've been spoken of as a trailblazer within my department. Some have claimed that I'm some kind of revolutionary, here to restore the Gibseyan Mystical tradition on a wider scale than has ever been done before, and though I'm flattered by this description of myself, this can't ever be true. It's a myth. Yes, I've published books on the matters which I will be discussing in these lectures, and yes, I teach this very popular course. This is all true. But much in the same way I cannot teach you what you already know, I also cannot popularize something that cannot become and will never become popular.
+
+It can't be because it isn't in its nature to be so, and it never will be.

@@ -1,0 +1,1 @@
+I jumped in the water What did I see? Moon-eyed angels swam with me A tomb full of stars and miner cars And all the figures I used to be. All my lovers were there with me. All nostalgic futures. We went to heaven in a riverboat. There was nothing to fear, Nothing to doubt.

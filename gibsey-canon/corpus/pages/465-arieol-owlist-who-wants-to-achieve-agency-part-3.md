@@ -1,0 +1,9 @@
+When you're a shapeshifter, it's not always the easiest thing to stay focused and on task, now, is it? And now, they're with Progresso, which is funny, Arieol didn't even work for ADD any longer! (Well, that's not entirely accurate; as the saying goes, once an ADD agent, always an ADD agent, and look at them here, still logging data. Come to think of it, even that had the ring of the general within the specific, or vice versa, didn't it? And wait, what CEO doesn't have some sort of connection to ADD?), ah to shape-shift again.
+
+This is where the mind goes, ladies and gentleman.
+
+It can't be stopped.
+
+Let alone helped.
+
+It's gonna be a late night tonight, another long shift staring at slack-jawed customers swarminging in and out of the concession booths and park attractions like flies on shit, a form of rag-wearing, but Arieol can deal, always has, always does, always will, knows they'll eventually hit that sweet spot where they'll just be clicking away at their tasks, serving customer after customer, cranking-the-shit-on-out, much like Gibsey itself is always doing, meaning not the man but the company, the corporate-entity-interesting how such a collective parasite formed out of the mind of a singular individual, really shows you the power of the imagination, human or not, or at least it claims to have formed out of the mind of a singular individual, jury's still out on that one, one vs. many, et all-eventually doing it enough times, so many times in fact that nightmare and hallucination level symptoms have started creaking their scruffy little necks around midnight's rumored edges.

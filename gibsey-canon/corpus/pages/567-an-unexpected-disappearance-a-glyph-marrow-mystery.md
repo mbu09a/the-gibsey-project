@@ -1,0 +1,5 @@
+Oren Progresso hadn't disappeared, hadn't even been murdered.
+
+He'd just taken a break to shut himself off in a hotel room to work on the screenplay for his auto-biographical film Saving Mr. Banderas with one Arieol Owlist, his recent fixer and some would even say his right hand man-and/or-woman, the data on such details was still forthcoming. Other agents claimed the relationship between Oren and Arieol had become strained, as of late. Arieol's been almost as tough to get solid info on as Jacklyn Variance, which does spook Stillman a bit especially with Progresso being CEO and all, but time would have to tell. Stillman's been in the business long enough to know that with most intelligence, it's a waiting game. Data never lied, sometimes it just took time for the right data to be detected, but nothing ever truly escaped detection. Nothing. Not for the ADD, and especially not for Shamrock Stillman.
+
+Glass empty of scotch, he crunches through the ice as he preps another glass, again, thinking about Glyph.

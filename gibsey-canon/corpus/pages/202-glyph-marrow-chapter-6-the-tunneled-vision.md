@@ -1,0 +1,3 @@
+Glyph starts to tear up, as well, at least as much as they can. They just aren't used to letting themselves flow as much as someone like Arieol does. Most of us aren't. Hell, even The Author isn't. "Well, maybe it means you're The Author's most true self? Or a version of themselves that they most hope to be like? Maybe The Author even loses themselves within you? Or longs to. Longs to ride the ride they've been waiting in line for?"
+
+"Yeah, right. Trust me. You do not want to be me. Plus, we're not even all that different, anyway. You haven't read the other passages. I'm much less self-assured, trust me. And come on, I was just going on about my own perceived abandonment. The Author's true self, yeah right! I'm fated to wander as much as anybody else. Trust me."

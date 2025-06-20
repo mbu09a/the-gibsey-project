@@ -1,0 +1,5 @@
+The queue line snakes through a series of outdoor and indoor areas. You first venture through a mining office adorned with weathered maps, geological samples, and sepia-toned photographs of stern-faced miners. Scrawled chalkboard notes and vintage advertisements displaying the refusal of the call.
+
+The refusal of a call to what?
+
+"And this was not the good kind of physicist, mind you. This wasn't the exploratory or experimental type who actually has a sense of mystery, by Gibsey! No, no, no, no, no! Of course not! This was the kind that always has to be pragmatic about anything and everything, literally every little damn microscopic thing, the kind who especially has to be correct all the time. They had absolutely no room for mystery or depth, whatsoever. It was never about trying to discover new laws, it was about maintaining old ones, a growing industry in nearly all fields, these days, as I'm sure you've noticed.

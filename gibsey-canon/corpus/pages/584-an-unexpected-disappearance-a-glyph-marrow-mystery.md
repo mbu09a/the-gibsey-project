@@ -1,0 +1,5 @@
+Just because you collect the data, doesn't mean you arrange it in the best possible way. Sitting alone in his hot tub in this pillar of wealth, well, he doesn't need reminding.
+
+And the excess exhaustion of his herculean succession of scotches does eventually catch up, as well, forcing him to stumble out of the hot tub. The heaviness of his drunken body bangs against the wooden scaffolding of the patio guard rail, causing him to nearly tip over it and into the lake. Gibsey! He flounders in a zigzag pattern through the opulence of his Bungalow resort and into the manicured sheets of his bed, his stomach sloshing, gurgling, bubbling, the pressure building, rising.
+
+He thinks about color and streaming water, and blues and reds and yellows, and purples and oranges and greens, and he thinks about Glyph Marrow, as he falls asleep.

@@ -1,0 +1,109 @@
+name: Corpus Validation
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'gibsey-canon/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'gibsey-canon/**'
+
+jobs:
+  validate-corpus:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install markdownlint-cli2
+        
+    - name: Validate UTF-8 encoding
+      run: |
+        echo "Checking all markdown files for valid UTF-8 encoding..."
+        find gibsey-canon/corpus/pages -name "*.md" -exec python3 -c "
+        import sys
+        try:
+            with open(sys.argv[1], 'r', encoding='utf-8') as f:
+                f.read()
+            print(f'✓ {sys.argv[1]}')
+        except UnicodeDecodeError as e:
+            print(f'✗ {sys.argv[1]}: {e}')
+            sys.exit(1)
+        " {} \;
+        
+    - name: Validate corpus consistency
+      run: |
+        python3 scripts/validate_corpus.py
+        
+    - name: Check markdown formatting
+      run: |
+        echo "Validating markdown formatting in page files..."
+        npx markdownlint-cli2 "gibsey-canon/corpus/pages/*.md" --config .markdownlint.json || true
+
+    - name: Verify character structure
+      run: |
+        echo "Checking character folder structure..."
+        python3 -c "
+        import json
+        from pathlib import Path
+
+        # Load index
+        with open('gibsey-canon/corpus/index.json') as f:
+            index = json.load(f)
+        
+        characters_dir = Path('gibsey-canon/corpus/characters')
+        errors = []
+        
+        for symbol_id in index['symbols'].keys():
+            char_dir = characters_dir / symbol_id
+            if not char_dir.exists():
+                errors.append(f'Missing character directory: {symbol_id}')
+            else:
+                # Check for required files
+                if not (char_dir / 'symbol.svg').exists():
+                    errors.append(f'Missing symbol.svg for {symbol_id}')
+                if not (char_dir / 'info.json').exists():
+                    errors.append(f'Missing info.json for {symbol_id}')
+        
+        if errors:
+            for error in errors:
+                print(f'✗ {error}')
+            exit(1)
+        else:
+            print('✓ All character structures valid')
+        "
+        
+    - name: Count pages and metadata
+      run: |
+        echo "Verifying page count consistency..."
+        page_count=$(find gibsey-canon/corpus/pages -name "*.md" | wc -l)
+        metadata_count=$(python3 -c "
+        import json
+        with open('gibsey-canon/corpus/metadata/pages.json') as f:
+            pages = json.load(f)
+        print(len(pages))
+        ")
+        
+        echo "Page files: $page_count"
+        echo "Metadata entries: $metadata_count"
+        
+        if [ "$page_count" != "$metadata_count" ]; then
+          echo "✗ Page count mismatch: $page_count files vs $metadata_count metadata entries"
+          exit 1
+        elif [ "$page_count" != "710" ]; then
+          echo "✗ Expected 710 pages, found $page_count"
+          exit 1
+        else
+          echo "✓ Page count correct: 710 pages"
+        fi

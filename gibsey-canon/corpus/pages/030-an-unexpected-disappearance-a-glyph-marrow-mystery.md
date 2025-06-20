@@ -1,0 +1,5 @@
+I identify with that paint, the peeling paint I see on all the railings. And it's strange, even though I live here, I've never ridden a ride before. I don't understand how that's come to be? I'd like to ride one, but there's no one to ride with me, and also, there's no one here to operate the ride vehicles. It's probably unsafe to ride alone, anyway. Plus I have an ailment, one that's difficult to explain, and one which I've been told doesn't exist, and with all that already going on, I probably don't have time to ride the ride. I've realized this, and so I've realized it's OK that I haven't ridden one yet.
+
+At least, I think it's OK?
+
+I suppose I haven't even started talking about the exact nature of my ailment, or I've only just started to talk about it. It's not because I don't want to. It's because it's difficult to explain.

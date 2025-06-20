@@ -1,0 +1,5 @@
+All of Gibsey World's cast members and landscapes, its phrases, words, ideas, thoughts, voices, all of them, could each be lifted out and replaced, moved, transferred, bodies and faces, clones of one another, remakes, copies and originals, myths, told and re-told, both self-similar and separate from each other, and which one would be which? Which one would they become?
+
+And they are often moved, the cast members, the landscapes, are transported, shuffled, like cards, forever in a state of becoming themselves, replacing themselves, processing and reprocessing the terror of their own unlimited growth.
+
+In reality, The Author of The Wonderful Worlds of Gibsey, that notorious park of themes, that epic of a poem, was once a teacher, an educator, or at least once worked as a teacher within their daily life before becoming The Author.

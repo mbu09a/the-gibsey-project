@@ -1,0 +1,5 @@
+There was something vague about Preston's mother, in their previous discussions which she couldn't place, related to the story. She did remember their relationship, the disconnection, how strained it had become, how he'd cut off contact but had recently tried to rekindle the relationship, how she'd identified with him then, and Parlance later, cutting off her own family, herself, years later, splitting, away from it all, and here it was, in the dark, the connection, as she watches herself splitting in two, forming two separate outputs out of the single input, the energies coalescing, she realizes, somehow intuits, that this isn't the time where she'll be consciously aware of what's happening.
+
+This is the first observation.
+
+To split is to leave a place, especially to suddenly leave a place.

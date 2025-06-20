@@ -1,0 +1,5 @@
+And even though he's never ridden a ride before—at least not that he remembers—the meat-machinery Imaginatoring of his mind's own never ending queue line has to've carved out some sort of familiarity with the social expectations of this landscape, because as soon as the threshold of the entrance bars part to guide him, and others, safely forward onto the Even More Substantially Sizable Thunder Monument Railroad mine carts, however overwhelmed he may feel, he finds himself knowing exactly what he should do next.
+
+He can even mouth the words to himself which he knows he's about to hear. Keep your arms, hands, legs, and feet inside the vehicle at all times. No doubt. It's as if he's ridden this ride a thousand times before? And maybe he has? But there are other, less familiar sensations, of course. As there always are, and were, and always will be. One can ride any ride an infinite amount of times and never truly escape the unfamiliar, or the familiar, for that matter. Such training is continual. Like it is within any agency.
+
+There's always more data to collect. But this doesn't keep one from stopping to assess an individual piece of data, now, does it?

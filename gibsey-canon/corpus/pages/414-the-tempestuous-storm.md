@@ -1,0 +1,9 @@
+The soles of her Keds slap against the title floor of the Gibstory building as she clips down from her office to the lecture hall. She's taken in this walk enough times to know the exact amount of fluorescent bulbs she'll pass on her way into the space where she's to begin her popular course, though she isn't counting them today with the nerves of her first day pulsing through her, the dread. She's improved, yes, but still, every first day is bound to be littered with this unknowing dread that settles into the intensity of her gaze, the picking of her cuticles, her adjusting and re-adjusting the scrunchy which holds her bun in place. It can't be avoided, even after all these years-or after all the programming-and writing another book isn't going to change that, either.
+
+She's had to learn this over a very long time, or a simulation of a very long time, which in some ways, can feel even longer.
+
+Sometimes it's just the first day of school and you have to take the risk of facing hundreds of blank eyed, drooling young adults as they gape at you, slack-jawed, waiting for what it is you're about to tell them. She knows she'll be nervous no matter what she tries or does, even if she's put a number of diet colas in her briefcase to comfort herself. The click and hiss of opening an ice cold can at the start of the day will sometimes be as comforting as advertised, sure, but there's nothing she can really do to keep the wolves fully at bay.
+
+She isn't fully present.
+
+She's failed to notice that, as she walks to the lecture hall she frequents, large groups around her have been staring at their phones, scrolling through notifications and emails, and heading outside of the building toward some unknown evacuation.

@@ -1,0 +1,5 @@
+He first notices the quiet, the bird cages without birds, the piano without a piano player, each of these early images flashing out at him with the words which define each as objects as definitively as any name ever could.
+
+Weren't even the synaptic connections which produced the swirl of such sensations words themselves? The synapses hidden behind the screen of his eyes, his ever-deadening brain cells? Was the mind itself a tomb of death, a mummification, a tomb within a tomb, a novel within a novel, a pyramid whose underground rivers stretched far beyond even the known underworld?
+
+If Arieol was still here, squeezed in amongst the piling words, he'd likely add the idea that even the concept of an after-life came with a false linearity, that it should be called a before-during-and-after-life, that like the term Postmodernism, it existed forever trapped in a false state of either causal or affective procession, that both would be doomed to be continually defined by what had proceeded them, but again, why the need for such a doomed linearity?

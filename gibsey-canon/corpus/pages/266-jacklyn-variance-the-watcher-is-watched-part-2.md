@@ -1,0 +1,7 @@
+And so he's come to believe himself as excommunicated, and maybe he even has been. Evidence didn't point to any of his observations being embraced in such an environment.
+
+Like the content of any given dream, the root of the Parlance family's dysfunction, what Jack had identified, didn't really matter. It could have been ideological differences, differences of a political or religious origin, his sexual orientation, or his choice of gender, or his views on sexual orientation or gender, or none of these things, and anything else. The content didn't matter. What mattered was the denial, the lack of identification, of whatever he'd brought to them, the effect. Miscommunication had transformed to an unspoken ex-communication, which led to Jack speaking and conjuring his own ex-communication into existence, all of it in some search for some kind of agency, and all of it had now left him not knowing how to write his family, or even the concept of family itself, into the game he'd hoped to code, but which he was never even coding.
+
+Another of his many repeated failures.
+
+But both like and unlike The Biggest Shit of All Time, a coming attraction later to be unearthed from the Gibseyan vault, upon reflecting, or upon reflection, he'd found a solution.

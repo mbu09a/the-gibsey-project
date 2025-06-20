@@ -1,0 +1,5 @@
+"Ok, so, you accidentally say you prompted the disappearance and then claimed this as a subconscious slip, right? But later you called the same action a mistake, that's where you messed up. That was your error. Otherwise, I don't think I would have caught it. Was it a slip or a mistake? It's both. Your fake intentional slip was a mistake and your mentioning of it as a conscious mistake was a subconscious slip. But it can't be both. It's one or the other, and so you showed your hand. You wanted me to consider your innocence and your guilt simultaneously. But why?"
+
+"You really are quite clever, darling. However, did you come to be this way?"
+
+"Well, it's like Shamrock Stillman trains us, with most intelligence, it's a waiting game. Data never lies, sometimes it just takes time for the right data to be detected, but nothing ever truly escapes detection," Phillip mentions this piece of data with a smile, unfazed, confident, self-assured.

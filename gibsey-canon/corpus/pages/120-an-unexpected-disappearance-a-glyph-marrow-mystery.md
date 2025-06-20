@@ -1,0 +1,5 @@
+Well, and I know we talk about the Child Ballads a lot in my courses. They're some of the Gibseyan texts which influenced my interest in mysticism most, so I'm sure you remember them. We talked about them in a previous lecture-at least if I'm remembering correctly, sometimes I mix them up-how Jackaroo, when smuggling herself as a man, how she wore a suit of gray. Mmmhmm. Mmmhmm. Moral ambiguity, correct.
+
+Well, sometimes you can even understand something better without context, that's right. It can be stranger, or just a different experience, and doesn't that sort of put that classic Gibseyan mystical idea of knowledge as so vitally important and uniquely paramount into question a bit? What is knowledge but context, after all, and if things can be just as interesting without it-
+
+Mmmhmm. Mmmhmm. Yes. Oh sure, I'll get to it, don't worry, go ahead.

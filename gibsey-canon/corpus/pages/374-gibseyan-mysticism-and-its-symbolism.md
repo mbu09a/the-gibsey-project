@@ -1,0 +1,5 @@
+And there are glimpses into something she can see within this dream, glimpses into an awareness, an awareness of the unspoken, an awareness that this unspoken awareness, the uncreated, the liminal and transitory that appears as death, is not what it appears to be. It seems to be lifelessness, appears to be, but in reality, this forgotten realm-this dominion of disappearance, all that is forgotten-is instead what is teeming with life, what animates it. She's also learned that what seems to be alive-daily existence, sensation, data, all that is created and transmitted-is also not what it appears to be. It appears as life, but it is, instead, the true death, the always coming death. It is what hurtles her towards it and what animates its ignoble forces.
+
+But both of these forces, she's also learned, even together, are not what they appear to be. They appear as if locked in eternal battle, an endless struggle, one to dominate the other.
+
+But this was never the case and never will be.

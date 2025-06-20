@@ -1,0 +1,5 @@
+Phillip shifts his focus entirely away from his organizing and stares directly at this woman. Older, well dressed, curly colored-bright white hair, a socialite dandy-ish woman, the kind that likes to collect treasured items and who teases others incessantly Or it would seem to Phillip she was, anyway. Being a detective is quite an intuitive job, and although he does get a sense that she's been toying with him somewhat since she walkid in, he doesn't feel this woman to be a threat to either himself or the case. Though, as always with the x and y axis, only time and space would tell.
+
+Plus he does remember vague scatterings filtering in from his earlier dream with the ear about the name "Manny Valentinas" being important, and with his dreams being a space that this woman likely wouldn't have access to, he especially perks up hearing the name repeated.
+
+There was something to trust there, most likely, he could sense it, even if she felt untrustworthy.

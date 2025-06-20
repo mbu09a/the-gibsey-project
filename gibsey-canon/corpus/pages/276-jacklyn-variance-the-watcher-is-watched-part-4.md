@@ -1,0 +1,3 @@
+Cast Members from the Props department later investigate this notebook of his to find previous entries that suggest his anxiety has increased recently, almost as if he's subconsciously aware of the coming shift of focus to himself, that his own life would finally, after all these years of being the observer, become one of the observed.
+
+My anxiety's getting worse. It's in the air. I can feel that something is coming. But I don't know what it is. It's like a virus. Or maybe it could be one. Already is. Another one. I've become so afraid. The terror. Full of so much terror lately. Continual terror. Unable to sleep for very long. Coming down with a rash. Dizzy spells. But I don't think it's anything serious. But it has to be something.

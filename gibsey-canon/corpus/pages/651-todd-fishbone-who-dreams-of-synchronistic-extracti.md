@@ -1,0 +1,9 @@
+And Abd al-Malik bin Marwan gets all extra inspired and he's like,"Talib, I'm gonna, like, send letters on your behalf and you're gonna go on a journey back to those mountains like your grandpa first did and find more of those Solomonic bottles for me, and I'll do whatever it takes to make it happen. I'll look after everything you leave behind. We don't have to spare any money or anything. You've got to go do this for me! Yeah! I'm psyched!"
+
+And so Talib is sent off on this journey with all this funding and this huge crew, and he gets his chief officers together, and they're like, "You need to hire Shaykh 'Abd al-Samad, ibn 'Abd al-Kuddus, al- Samudi-holy shit that's a long ass name; makes sense that he didn't  remember that one!-as a guide. He's basically the best there is," and so they send for this guide and he's, like, super duper old, but Talib asks him to join them anyway, appealing to how much this guide knows and how little their company knows in comparison to the guide-the old and the new, classic themes, of course-and this guide is like, "I'll do it, but be warned, it's going to be super duper hard and there's so few ways to actually do it right. It's gonna be, like, two years, at least--interesting, hmmm, that's a similar amount of time to 1001 Nights, isn't it?-and there's going to be hardships and terrors, but also,  it's gonna be wondrous and marvelous, as well, so prepare yourself." But Talib agrees-and, oh yeah-this governor who's this badass warrior named Emir Musa also joins their company. That's right!
+
+And so they're off! They travel for months-I think even up to a year, maybe? Yeah, that's right, Ok, cool. Oh, and that's about the equivalent amount of time corresponding to the book so far, huh? self-reflexivity, interesting-and they eventually get lost to the point where their guide, the Shayk-Wait? What's a Shayk?
+
+He looks it up.
+
+Oh, it's like a revered old man, and original, or something like that. Ok, got it.

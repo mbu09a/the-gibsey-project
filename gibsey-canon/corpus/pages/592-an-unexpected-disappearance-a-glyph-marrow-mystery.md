@@ -1,0 +1,5 @@
+Stage left: The Victorian era.
+
+Five stories of fluorescence glinting off marble flooring, glittering chandeliers, Crystal Palaces, store fronts, stained glass, damask patterns crawling across walls and furniture, floral wallpaper, muted tones, soft beiges, pastel pinks, light gold, an overwhelming whiteness-of course-a domed ceiling arching above like some angel of death here to protect the opulence of this hidden tomb from the souls otherwise not worthy to enter it.
+
+And it is a tomb, a casket buried in the sky, hung like a hammock pendulating against chthonic distances, "distance" being the correct term for such a tomb since it, like Yama's own abode, is not quite an underworld and is more of an overworld which exists in two spaces at once, the plush settes, mahogany tables, brass lamps, and shimmering mirrors being the mountains and rivers one is fated to cross before receiving the finality of one's judgement, though also somehow, like all of Gibsey or like all such subterranean zones, it is a place beyond all judgement since it is the space where all judgements are finalized.

@@ -1,0 +1,9 @@
+"Woah, I didn't expect you to speak up this soon, Glyph, old buddy, but that's probably a good thing that you have. Might even always be, when the unexpected occurs. We crave novelty Glyph. Always remember that. Or you know what? Forget it! It'll help make it more novel when you remember it again."
+
+Glyph's eyes dart around the space of the ride entrance like a chicken with its head, arms, torso, and pretty much everything else but their legs, sliced clean off—he's enough of his body left to scurry around in place, sure, but not a fucking clue what's going on.
+
+"Why hasn't the ride started yet?" He struggles out again, wiping the sweat that's seething from the pores of his forehead like a spigot into a basin.
+
+"Dotcha worry yourself a bit there, Glyph. I've frozen time in place long before this ride's to begin. Think of it like the click of a shutter, one extended through much more imaginative and less familiar technological means. Or even better yet, think of it like waiting in line. It's an experiment in capturing time, in focusing one's attention. Plus I didn't want you to miss out on the ride with you being such a fan of it and all. It's a form of anticipation! You could say that I have my own objectives with me being here, and maybe one of them is to put the fear of Gibsey into ya, at least a little bit. It's a thrill ride, after all, isn't it? Wildest ride in the West. Most magical place on earth. And look! Your seatbelts securely fastened, so you've got nothing to worry about."
+
+Glyph pulls on the seat belt to check. It is, in fact, secure. Although he's terrified, mind spinning, words piling and assimilating, at least there's that small comfort.

@@ -1,0 +1,5 @@
+I'm trying to think of a way to convey what they meant by that. I guess you could think of it like this. Imagine this lecture was made into a transcript. You'd only either hear or read what I specifically was saying, so it would appear to be a monologue on the surface, but dialogue could be found by analyzing the absences, the gaps, the spaces in between, what was hidden or removed or taken away from the narrative, so it's a blend of both dialogue and monologue, and that style is a very Gibseyan Mysticism-esque concept isn't it? What's absent and present aren't mutually exclusive. Gibsey is still with us, in a way, transcendence of death, infinity, What You Object To, You Subject Yourself To, that sort of thing. Uh huh.
+
+Oh, yes, no, go ahead.
+
+Ah, that's very interesting. Well, and I didn't mention this before, but Glyph's ailment is that he mixes up subjects and objects, or words and images, or really I guess words and the things they represent, language and reality. Yes, that's the symbolism often found in the black and white checkered patterns we've seen repeated often, yes.

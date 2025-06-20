@@ -1,0 +1,7 @@
+But, also like I've said before, it started with words, with objects. In case you aren't already aware, the Even More Substantially Sizable Thunder Monument ride is meant to resemble a gold mine in the American Southwest from the late 1800s, and when one begins the ride, like most rides, one begins by entering a queue line.
+
+Maybe this is why I spent my time walking in the queue line so often. I've been waiting, all this time, for my chance to ride the ride. And even if there's no one to ride with me, and no one to operate the vehicles, I can at least picture what it'll be like to ride the ride, and maybe that'll be just as good as experiencing the real thing. In this way, all life is imagination.
+
+I do this often while walking through the queue line. I imagine things, words, images. I picture what they're going to be like before I do them, before I ride the ride. And maybe that's best. Or maybe it's better to ride the ride itself, and to ride it without planning for what it will be like. I've never quite been able to decide which one is better than the other: to imagine what it will be like, or to simply wait for it to happen.
+
+Either way, you start the queue line through an archway, a threshold. An Entrance Way.

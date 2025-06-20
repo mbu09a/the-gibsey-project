@@ -1,0 +1,5 @@
+He brightens enough to respond.
+
+"I'll be the one to decide that, mamn. Just to make sure I understood you, though. You said you were the first to contact us about his recent disappearance? Is that right?" Of course, he hasn't forgotten what that slip of hers from before might mean. It was either an innocuous slip made by accident that pointed to nothing, an accidental slip that suggested something hidden of the darker variety, or it could even have been a purposeful slip that she'd intended to make seem like an accident, likely to get him to pay attention to her more. The latter possibility is what he senses as being the most accurate. She does seem to enjoy having a little fun with him, or at least at his expense, and for all he knew, that tendency wasn't just the happy-go-lucky-kind and could even be full-on sociopathic glee, so he'd keep watching her.
+
+He didn't really have a choice.

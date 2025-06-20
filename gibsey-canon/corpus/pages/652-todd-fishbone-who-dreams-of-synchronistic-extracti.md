@@ -1,0 +1,7 @@
+The Shayk is like "I've got no idea what's going on, man. I can't even read the stars! Holy shit! What are we going to do? We've wandered from our path!" And they all start to freak out about it, but Emir convinces them to all keep pushing on anyway, and so they continue on forward with their journey, terrified or not, until they reach the City of Brass. But wait, that's weird?
+
+He thought it happened later in the story?
+
+Weird? They're all stoked cause Talib is like, "Woah! My grandpa said this means we're, like, 2 months out from where we need to be! Sweet!"
+
+The city is described as this high castle built of black stone with a door of gleaming steel that dazzles the eyes and wits, and round about it are a thousand steps-interesting, obviously there's the connection to the thousand tales of the book itself, again, recursivity, interesting, almost feels contemporary. He'd never noticed that aspect before?--and the Shaykh is then like, "We gotta go explore this place because it's a warning for those who need a warning," which of course is a repetition of the same theme from before, got it. But it's also weird because it's a ghost town, essentially. It's all totally empty. There's nobody around, anywhere. It's completely and totally empty which gives it this really eerie quality. Again, very contemporary, very spooky.

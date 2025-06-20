@@ -1,0 +1,7 @@
+"I feel like I've just barely started to appreciate it."
+
+"Ain't that how it goes. You just start liking it, and then it disappears. It's like when you reach the end of a book and you're sad it's nearly over. Happens to all of us. Where's that cigar of mine?" They flick their wrist behind their ear magician style, and there it is, back in their hand, already lit and everything. "There we go! So where'd we leave off before I disappeared? Do you remember?"
+
+"I'm not sure. That was a lot of words ago."
+
+"Let me see here," Arieol pulls out a park map, holds it right side up, upside down, turns it left and right, pulls it close up, stretches it far back, "We got the monologic and the dialogic-nobody's got a fucking clue about what the hell that means-and let's see, I told you about your assignment, how you're supposed to be investigating me, how I'm innocent, so that's taken care of. I will probably want to expand on your investigation though at some point. Hmmmmm. But that can wait for another volume. We got to talking about devices and power, or the devices of power, the power of words. OK, got it. I remember that. The wonder and beauty of creation, got it. The bane and profane terror of being alive. Mmmhmm. Non-linearity, of course. Huh? Would-ya-look-at-that. I knew I was missing something! Oh, yeah! I was going to talk to you about the fairies! That's right! How could I forget?" Instead of folding the map, Arieol just shoves it into a crumpled mass inside of one of their pockets.

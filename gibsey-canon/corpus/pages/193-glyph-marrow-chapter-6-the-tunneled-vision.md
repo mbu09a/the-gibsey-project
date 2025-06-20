@@ -1,0 +1,7 @@
+"And I really have to make a distinction. When I describe what I'm about to describe, I want you to remember they still are fantastical. It is not my intention or job to remove the fantastical, and if anything, it wouldn't be in my control to do so, anyway. One attempts to subvert or change one's own life at one's peril. What you object to, you subject yourself to. Fantasy is material. The material world is measured not by causes but by effects, yet so many of the supposed materialists among us are terrified and endlessly avoidant of the most powerful devices that can be used to create such effects. You'd think they'd want to study the whole data set, wouldn't they? Subjectivity has always been their ultimate enemy. Their object of worship is a corporate entity, for Gibsey's sake. All must always be objective to those kinds of people. The data must always be collected. But it isn't within the collection of the data where the invisible lurks, it's within the data itself, the cracks and crevices, the liminal spaces between the codes that we create for ourselves, the caves.
+
+"No collection is even necessary, no container.
+
+"Because nothing can ever be contained.
+
+"A culture that merely preserves itself is no kind of culture at all.

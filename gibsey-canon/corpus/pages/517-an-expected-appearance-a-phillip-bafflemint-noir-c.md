@@ -1,0 +1,7 @@
+"But wait, isn't synchronicity just glorified coincidence?"
+
+"Oh, most certainly darling, two events which seem to connect while having no discernible causal connection, precisely"
+
+"But that's not the same thing? Randomness, coincidence, that's all just pure chaos. It isn't organized. Look, I'm a detective. I have to prove how either London Fox or Manny Valentinas disappeared, why it happened, and who caused it. I can't just say there seems to be a causal connection between this fictional theme park and the Disney company and therefore they've killed him. That's like thinking that just because a chatbot repeated what you asked it to do that it's alive. That's insane!"
+
+"Well, Mr. Bafflemint, I just stopped by to check in on whoever was here, with Manny disappearing and the door open, so I can try to help you with this case. Manny's a good friend of mine who meant, and still means, the world to me, so it's fine, darling. Like I said, it's just a theory I think of from time to time. And isn't that the thing about theories? They're like magic. In magic, you have an idea, an intent, you foster connections over time, and you perform rituals to make these ideas come true. You maintain a practice to test a theory, whether magician or scientist. So just try it out. Try it. Try putting my theory into practice. and see if you get results. If you don't get the results, then I was mistaken, and it was a bad theory, or a bad intent, or hypothesis, or whatever you want to call it. Words, darling, there's so many of them, and Manny loved them all."

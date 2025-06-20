@@ -1,0 +1,7 @@
+"I'm not," She answers, climbing into the vehicle, trying to think of a way of explaining herself swiftly and coming up short."I'm actually, uh, teaching. I'm a teacher, a-uh-professor. Because of the tornado, my classes have been moved to some of the conference rooms at the Great Oak Lodge. Is there any way you could take me there?"
+
+"Oh, sure! I can take you wherever you need to go. Got a season pass, and, well, there's a tornado coming, so my day's a bust, anyway. I'm in no hurry to get to where I need to be. No joke." He grins at her, again.
+
+This is Gibsey World, after all, so traffic is always bad, but with the sky darkening, with the near-black clouds nearly at ground level and cars clogging into varicose veins, getting out of the resort and onto the highway is going to be a literal nightmare. Even if she is Natalie Weissmann, the published author of Gibseyan Mysticism: A Complex Gibstory, as an untenured professor at G.U., she doesn't have the authority to cancel any of her classes. This is out of her control. Reaching tenure, with its many privileges, has become as stifling and impossible for someone in her position as the prices for the parks have become for much of the public, and much like the flux of natural and unnatural disasters growing more and more commonplace all around them, she'll at least have to make an appearance.
+
+However late she is, an attempt must be made.

@@ -1,0 +1,9 @@
+And this is where I can return a bit to the content we discussed in the last lecture.
+
+It's often interpreted that An Unexpected Disappearance, the novel we discussed last class, is the story of this failed mentorship of Markus Davies and Tobi Backstar just put in a blender. And I do suggest you read it. This can easily be seen in the book's content, whether it be in the relation between Glyph and Arieol, or Glyph and Stillman, or even in each of the plights of the individual characters, their relationships to themselves, to time and progress, violence, to Gibsey's return from the dead, to so much of it. It puts the story of Markus Davies and Tobi Backstar's struggle almost through a dream-like kaleidoscope, mixing it in with The Author's own personal and universal ailments and malaise. The two form a narrative gestalt, a unique mixture of both the Gibstorical and personal to the point where some have wondered if Tobi Backstar is The Author of the novel itself. With it having such an interest in the Thunder Monument ride, it's an idea that's rich for speculative commentary
+
+And whether Davies and Backstar were ever actually enemies or not, what is Gibstorically undeniable was that Backstar defeated Davies, that he colonized his industry, appropriated his devices, and created a space of his own in the Gibstory of our imaginations. He was the new Gibsey that cast Davies' legacy into the underworld, leaving all he'd once made to then haunt his new roller coaster like the wrathful spirits of a dead and untamable Gibsey. Though surely, he will also one day be conquered in the same way that Davies once conquered, and his spirit will haunt the landscape which he created. They may even haunt this very lecture. This is Gibstory, after all.
+
+What's that one classic Gibseyan saying?
+
+It's a tale as old as time.

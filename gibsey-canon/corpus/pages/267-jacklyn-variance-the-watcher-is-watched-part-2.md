@@ -1,0 +1,9 @@
+It came to him outside of liminal time, at work, mid-morning, the home and shelter of his corporate clattering, chatterering. He could do the dreaded thing every (or at least most) aspiring artists are often forced to do-be it filmmaker, writer, painter, video game developer, or any other-embrace the old and focus group tested idea of the cliche.
+
+He'd kill off his family, metaphorically speaking, of course.
+
+Patricide.
+
+Wasn't this what had happened to Bambino? Dumpo? Cinderino? Didn't even Andrea eventually abandon her toys in the classic Toy Narrative franchise? And it was in all of the superhero texts, as well, a terrible familial trauma that's mirrored by another trauma, the bite of an insect, or an alien or animal or artificially-intelligent origin, or like with the classic CD Comics superhero Lemurman and his parent's murder, or even UltraPerson's less violent origin-everything with UltraPerson was always sanitized, more conservatively Gibseyan, if such a thing is possible-and even UltraPerson's parents weren't even his own; he'd been adopted as an alien, left there by parents whom he'd never find, no story without such an absence, without the becoming of a ghost, which the stories themselves haunt, time, and wasn't this all a conservative position? One of conservation? As effective and efficient as any other family or religious order or ideology with all of their endlessly deferred golden ages, or with any of their many nameless, formless, ever-changing enemies to snap one's synapses into fear and paranoia, even after the said enemy has been vanquished, since it could always return, at any moment, couldn't it?
+
+Wasn't it fated to always haunt them all?

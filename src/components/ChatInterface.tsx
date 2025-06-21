@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useStory } from '../context/StoryContext';
+import { TokenCounter } from './TokenCounter';
 
 interface ChatMessage {
   id: string;
@@ -282,6 +283,18 @@ Data reviewed. Pattern analysis inconclusive. The query reflects standard visito
               SEND
             </button>
           </div>
+          
+          {/* Token counter for input */}
+          {inputValue.trim() && (
+            <div className="mt-2 opacity-70">
+              <TokenCounter 
+                text={inputValue}
+                maxTokens={500}
+                showDetails={true}
+                className="text-xs"
+              />
+            </div>
+          )}
         </div>
       </div>
     </div>

@@ -66,11 +66,30 @@ class LLMService:
         self._claude_client = None
         
         # Token encoder for context management
+        # Try to use Gibsey tokenizer first, fallback to tiktoken
+        self.use_gibsey_tokenizer = True
+        self.gibsey_tokenizer = None
+        self.token_encoder = None
+        
         try:
-            self.token_encoder = tiktoken.get_encoding("cl100k_base")
-        except Exception:
-            self.token_encoder = None
-            logger.warning("Could not load tiktoken encoder")
+            # Try different import paths
+            try:
+                from .tokenizer_service import get_tokenizer_service
+            except ImportError:
+                from tokenizer_service import get_tokenizer_service
+            
+            self.gibsey_tokenizer = get_tokenizer_service()
+            logger.info("Using Gibsey BPE tokenizer for token counting")
+        except Exception as e:
+            logger.warning(f"Could not load Gibsey tokenizer: {e}, falling back to tiktoken")
+            self.use_gibsey_tokenizer = False
+            
+            try:
+                self.token_encoder = tiktoken.get_encoding("cl100k_base")
+                logger.info("Using tiktoken for token counting")
+            except Exception:
+                self.token_encoder = None
+                logger.warning("Could not load any tokenizer")
     
     def _load_configs(self) -> Dict[LLMProvider, LLMConfig]:
         """Load LLM configurations from environment"""
@@ -329,16 +348,20 @@ class LLMService:
             raise
     
     def count_tokens(self, text: str) -> int:
-        """Count tokens in text"""
-        if self.token_encoder:
+        """Count tokens in text using Gibsey tokenizer or fallback"""
+        if self.use_gibsey_tokenizer and self.gibsey_tokenizer:
+            return self.gibsey_tokenizer.count_tokens(text)
+        elif self.token_encoder:
             return len(self.token_encoder.encode(text))
         else:
             # Rough estimate: ~4 chars per token
             return len(text) // 4
     
     def truncate_to_tokens(self, text: str, max_tokens: int) -> str:
-        """Truncate text to max tokens"""
-        if self.token_encoder:
+        """Truncate text to max tokens using Gibsey tokenizer or fallback"""
+        if self.use_gibsey_tokenizer and self.gibsey_tokenizer:
+            return self.gibsey_tokenizer.truncate_to_tokens(text, max_tokens)
+        elif self.token_encoder:
             tokens = self.token_encoder.encode(text)
             if len(tokens) <= max_tokens:
                 return text

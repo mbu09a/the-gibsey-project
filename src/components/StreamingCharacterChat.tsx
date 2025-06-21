@@ -231,9 +231,23 @@ const StreamingCharacterChat: React.FC<StreamingCharacterChatProps> = ({
     setInputValue('');
     setIsProcessing(true);
 
-    // Generate local response
-    const responseContent = generateLocalResponse(userInput);
-    await simulateStreamingResponse(responseContent);
+    try {
+      // Send message via WebSocket to backend
+      console.log('🎭 SENDING TO BACKEND:', {
+        message: userInput,
+        characterId: characterId,
+        pageId: currentPage?.symbolId
+      });
+      
+      wsService.sendChatRequest(userInput, characterId, currentPage?.symbolId);
+      
+      // Response will come via WebSocket message handler
+    } catch (error) {
+      console.error('Failed to send message via WebSocket:', error);
+      // Fallback to local simulation only on error
+      const responseContent = generateLocalResponse(userInput);
+      await simulateStreamingResponse(responseContent);
+    }
   };
 
   const handleKeyPress = (e: React.KeyboardEvent) => {

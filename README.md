@@ -13,7 +13,8 @@ This app recreates the glow, scan‑lines, and keyboard feel of a late‑80s gre
 | **Retro CRT Aesthetic** | • Phosphor‑green text & bloom<br>• Subtle curvature + scan‑lines<br>• Bitmap font **VT323** (self‑hosted)                                                              |
 | **Reader Navigation**   | • One page on screen at all times<br>• ← / → keys or on‑screen arrows<br>• Click any symbol in the vertical index to jump chapters                                     |
 | **Symbol System**       | • 16 SVG glyphs, one per chapter<br>• Automatic theme swap (text + borders) via `colors.ts`                                                                            |
-| **Incremental Loading** | • One JSON file *per story* in `src/stories/`<br>• Hot‑reload when you drop a new file<br>• Perfect for proofreading before flooding the reader with hundreds of pages |
+| **Incremental Loading** | • Modular corpus structure in `gibsey-canon/`<br>• 710 individual page files<br>• Vector-powered semantic search |
+| **Retrieval API**       | • FastAPI backend with Cassandra vector store<br>• Semantic search with custom tokenizer<br>• Character-filtered queries |
 
 ---
 
@@ -125,6 +126,73 @@ bun run build       # or: npm run build
 * **TypeScript**
 * **TailwindCSS** (JIT mode)
 * **Bun** scripts by default – switch to your favourite package manager if you like
+
+---
+
+## 🔍 Retrieval API
+
+The Gibsey Project includes a FastAPI backend with vector-powered semantic search capabilities.
+
+### Environment Variables
+
+```bash
+# Required for embeddings
+OPENAI_API_KEY=your_openai_key
+
+# Cassandra configuration
+CASSANDRA_HOST=localhost
+CASSANDRA_PORT=9042
+CASSANDRA_KEYSPACE=gibsey
+
+# Embedding model (default: text-embedding-3-small)
+EMBED_MODEL=text-embedding-3-small
+```
+
+### Quick Start
+
+1. **Start Cassandra**:
+   ```bash
+   docker-compose -f docker-compose.cassandra.yml up -d
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   pip install -r requirements-retrieval.txt
+   ```
+
+3. **Seed the database**:
+   ```bash
+   python3 scripts/seed_embeddings.py
+   ```
+
+4. **Run the API**:
+   ```bash
+   python3 backend/app/retrieval_api.py
+   ```
+
+### API Endpoints
+
+- **`POST /read/{page_id}`** - Retrieve a specific page by ID
+- **`POST /index`** - Semantic search with optional character filtering
+- **`GET /health`** - Service health check
+- **`GET /stats`** - Corpus statistics
+
+### Example Usage
+
+```bash
+# Semantic search
+curl -X POST "http://localhost:8001/index" \
+  -H "Content-Type: application/json" \
+  -d '{"q": "jacklyn variance data analysis", "top_k": 5}'
+
+# Get specific page
+curl -X POST "http://localhost:8001/read/001-an-authors-preface"
+
+# Search within character context
+curl -X POST "http://localhost:8001/index" \
+  -H "Content-Type: application/json" \
+  -d '{"q": "surveillance patterns", "symbol_id": "jacklyn-variance", "top_k": 3}'
+```
 
 ---
 

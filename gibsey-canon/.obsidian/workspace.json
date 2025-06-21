@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6-20-2025 Documentation/Plan to Freeze and Restructure the Gibsey Corpus.md",
+                "file": "6-20-2025 Documentation/Plan For Retrieval API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Plan to Freeze and Restructure the Gibsey Corpus"
+              "title": "Plan For Retrieval API"
             }
           }
         ],
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6-20-2025 Documentation/Plan to Freeze and Restructure the Gibsey Corpus.md",
+                "file": "6-20-2025 Documentation/Plan For Retrieval API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Plan to Freeze and Restructure the Gibsey Corpus"
+              "title": "Backlinks for Plan For Retrieval API"
             }
           },
           {
@@ -146,12 +146,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6-20-2025 Documentation/Plan to Freeze and Restructure the Gibsey Corpus.md",
+                "file": "6-20-2025 Documentation/Plan For Retrieval API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Plan to Freeze and Restructure the Gibsey Corpus"
+              "title": "Outgoing links from Plan For Retrieval API"
             }
           },
           {
@@ -175,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6-20-2025 Documentation/Plan to Freeze and Restructure the Gibsey Corpus.md",
+                "file": "6-20-2025 Documentation/Plan For Retrieval API.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Plan to Freeze and Restructure the Gibsey Corpus"
+              "title": "Outline of Plan For Retrieval API"
             }
           }
         ]
@@ -203,12 +203,14 @@
   },
   "active": "e5574b8ad88a28ab",
   "lastOpenFiles": [
+    "6-20-2025 Documentation/Plan to Freeze and Restructure the Gibsey Corpus.md",
+    "6-20-2025 Documentation/Plan for Custom Tokenizer.md",
+    "6-20-2025 Documentation/Plan For Retrieval API.md",
     "corpus/pages/002-an-authors-preface.md",
     "corpus/pages/001-an-authors-preface.md",
     "corpus/characters/an-author/symbol.svg",
     "documentation/architecture.md",
     "README.md",
-    "6-20-2025 Documentation/Plan to Freeze and Restructure the Gibsey Corpus.md",
     "corpus/index.json",
     "corpus/metadata/pages.json",
     "corpus/pages/710-the-authors-preface.md",
@@ -230,8 +232,6 @@
     "corpus/pages/694-the-authors-preface.md",
     "corpus/pages/693-the-authors-preface.md",
     "corpus/pages/692-the-authors-preface.md",
-    "corpus/pages/691-the-authors-preface.md",
-    "corpus/pages/690-the-authors-preface.md",
     "corpus/characters/old-natalie/symbol.svg",
     "corpus/characters/new-natalie/symbol.svg",
     "corpus/characters/new-natalie/info.json",

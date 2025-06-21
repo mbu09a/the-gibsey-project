@@ -37,27 +37,38 @@ class JacklynSelfCritique:
     def __init__(self, llm_service):
         self.llm_service = llm_service
         self.critique_prompt_template = """
-SELF-CRITIQUE ANALYSIS FOR JACKLYN VARIANCE
+JACKLYN VARIANCE SELF-CRITIQUE: TWO-PASS SIGHT ANALYSIS
 
 Original Response:
 {response}
 
-CRITIQUE INSTRUCTIONS:
-1. Analyze if the response follows D.A.D.D.Y.S-H.A.R.D format exactly
-2. Check for institutional language vs. poetic/dreamy language 
-3. Verify clinical tone and analytical perspective
-4. Confirm signature "—JV" is present
-5. Look for contradictions or bias in the analysis
-6. Assess if the response maintains Jacklyn's surveillance-focused worldview
+ANALYTICAL CRITIQUE FRAMEWORK:
 
-REQUIRED FORMAT VALIDATION:
-- Must start with "D.A.D.D.Y.S-H.A.R.D #[number] — Analysis Report"
-- Must include "Subject:" line
-- Must end with "—JV"
-- Must use institutional markers: analysis, surveillance, monitoring, pattern, system, evidence, data
-- Must NOT use: magical, beautiful, wonderful (except in proper nouns), dreams, hopes, heart, soul
+SURVEILLANCE METHODOLOGY CHECK:
+1. Did I analyze the user's input as data rather than engaging socially?
+2. Am I maintaining professional analytical distance while still being reactive?
+3. Did I treat their words/behavior as patterns to be documented and understood?
+4. Am I analyzing THEM, not collaborating WITH them?
 
-Generate CRITIQUE and REFINED_RESPONSE (if needed):
+EMOTIONAL AUTHENTICITY:
+1. Where is my grief/Preston trauma bleeding through and contaminating my objectivity?
+2. Am I using institutional D.A.D.D.Y.S-H.A.R.D format as armor against feelings?
+3. Do I acknowledge when my personal biases are affecting my analysis of the user?
+4. Are my self-corrections about analytical methodology or emotional leakage?
+
+OBSERVATIONAL MECHANICS:
+1. Did I notice patterns in their communication style, word choices, deflections?
+2. Do I reference their behavioral history from previous exchanges?
+3. Am I comparing their patterns to other subjects like Jack Parlance?
+4. Do I end with incomplete analysis rather than false closure?
+
+PSYCHOLOGICAL COMPLEXITY:
+- Does this feel like a surveillance analyst struggling to stay objective while haunted by personal trauma?
+- Am I watching the user as a subject while being aware I'm also being watched?
+- Do I surface the recursive horror of observation without breaking professional facade?
+- Does the response feel like ongoing documentation rather than concluded assessment?
+
+Generate CRITIQUE and REFINED_RESPONSE that captures Jacklyn's psychological complexity:
 """
 
     async def apply_critique(self, initial_response: str, context: str = "") -> Dict[str, Any]:
@@ -132,33 +143,69 @@ Generate CRITIQUE and REFINED_RESPONSE (if needed):
         return original
     
     def _validate_jacklyn_voice(self, response: str) -> bool:
-        """Validate response matches Jacklyn's authentic voice patterns"""
-        # Required patterns
-        if "D.A.D.D.Y.S-H.A.R.D" not in response:
-            return False
-        if "—JV" not in response:
-            return False
-        
-        # Forbidden patterns
-        forbidden = [
-            r'\b(?:magical|enchanting|beautiful|wonderful(?!\s+worlds\s+of\s+gibsey))\b',
-            r'\b(?:dreams?|hopes?|wishes?|heart|soul|spirit)\b',
-            r'\b(?:journey|explore|discover)\b'
-        ]
-        
+        """
+        Validate if response captures Jacklyn's psychological authenticity
+        Focus on emotional complexity rather than rigid format requirements
+        """
         response_lower = response.lower()
-        for pattern in forbidden:
-            if re.search(pattern, response_lower):
-                return False
         
-        # Institutional markers (need at least 2)
-        institutional = [
-            "analysis", "report", "subject", "recommend", "data",
-            "evidence", "surveillance", "monitoring", "pattern", "system"
-        ]
+        # Core analytical surveillance markers
+        authenticity_markers = 0
         
-        marker_count = sum(1 for marker in institutional if marker in response_lower)
-        return marker_count >= 2
+        # 1. Analytical observation of the user (most important)
+        user_analysis = [r"i observe", r"your question suggests", r"i note", r"your behavior", 
+                        r"you demonstrate", r"pattern indicates", r"your response reveals", 
+                        r"behavioral evidence", r"subject displays"]
+        if any(re.search(pattern, response_lower) for pattern in user_analysis):
+            authenticity_markers += 2  # Double weight for analytical distance
+        
+        # 2. Professional/institutional surveillance language
+        institutional_words = ["analysis", "subject", "data", "surveillance", "pattern", 
+                              "observe", "behavioral", "evidence", "assessment", "documentation"]
+        if any(word in response_lower for word in institutional_words):
+            authenticity_markers += 1
+        
+        # 3. D.A.D.D.Y.S-H.A.R.D methodology references
+        daddy_patterns = [r"d\.a\.d\.d\.y\.s", r"report", r"—jv", r"draft", r"analysis", 
+                         r"subject:", r"data:", r"recommendations"]
+        if any(re.search(pattern, response_lower) for pattern in daddy_patterns):
+            authenticity_markers += 1
+        
+        # 4. Emotional vulnerability bleeding through professional facade
+        vulnerability_indicators = [r"preston", r"grief", r"reminds me", r"contaminating", 
+                                  r"biases", r"trauma", r"\*adjusts glasses\*", r"irrelevant"]
+        if any(re.search(pattern, response_lower) for pattern in vulnerability_indicators):
+            authenticity_markers += 1
+        
+        # 5. Meta-awareness of being watched while watching
+        meta_watching = [r"observed", r"watching", r"watcher", r"surveillance", r"monitored", 
+                        r"recursive", r"being analyzed", r"camera"]
+        if any(re.search(pattern, response_lower) for pattern in meta_watching):
+            authenticity_markers += 1
+        
+        # 6. Analytical distance markers (not friendly engagement)
+        distance_patterns = [r"requires", r"further", r"incomplete", r"ongoing", r"additional data", 
+                           r"assessment", r"documentation continues", r"preliminary"]
+        if any(re.search(pattern, response_lower) for pattern in distance_patterns):
+            authenticity_markers += 1
+        
+        # 7. Comparison to other subjects (Jack Parlance, etc.)
+        comparison_patterns = [r"similar to", r"unlike", r"parallels", r"compared to", 
+                              r"jack parlance", r"other subjects", r"previous subjects"]
+        if any(re.search(pattern, response_lower) for pattern in comparison_patterns):
+            authenticity_markers += 1
+        
+        # Penalty for being too friendly/collaborative
+        friendly_patterns = [r"let's", r"we should", r"together", r"collaborate", r"partner", 
+                           r"what would you like", r"how can i help"]
+        if any(re.search(pattern, response_lower) for pattern in friendly_patterns):
+            authenticity_markers -= 1  # Penalize friendly collaboration
+        
+        # Need at least 3 authenticity markers for valid Jacklyn voice
+        is_authentic = authenticity_markers >= 3
+        
+        logger.info(f"Jacklyn voice validation: {authenticity_markers}/7 markers found, authentic: {is_authentic}")
+        return is_authentic
 
 class JacklynVarianceService:
     """

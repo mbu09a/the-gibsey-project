@@ -13,7 +13,8 @@ export class WebSocketService {
   private ws: WebSocket | null = null;
   
   connect(url?: string): Promise<void> {
-    const wsUrl = url || 'ws://localhost:8000/ws/chat-session';
+    const sessionId = `session-${Math.random().toString(36).substr(2, 9)}`;
+    const wsUrl = url || `ws://localhost:8000/ws/${sessionId}`;
     
     return new Promise((resolve, reject) => {
       try {

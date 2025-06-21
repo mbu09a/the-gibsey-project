@@ -1,0 +1,6 @@
+# Additional requirements for Retrieval API
+cassandra-driver>=3.28.0
+openai>=1.12.0
+sentence-transformers>=2.2.2
+numpy>=1.24.0
+python-dotenv>=1.0.0

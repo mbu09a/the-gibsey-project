@@ -1,0 +1,149 @@
+name: Retrieval API Tests
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'backend/app/retrieval_api.py'
+      - 'backend/app/tokenizer_service.py' 
+      - 'scripts/seed_embeddings.py'
+      - 'tests/test_*.py'
+      - 'requirements-retrieval.txt'
+      - 'gibsey-canon/corpus/pages/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'backend/app/retrieval_api.py'
+      - 'backend/app/tokenizer_service.py'
+      - 'scripts/seed_embeddings.py'
+      - 'tests/test_*.py'
+      - 'requirements-retrieval.txt'
+
+jobs:
+  test-api:
+    runs-on: ubuntu-latest
+    
+    services:
+      cassandra:
+        image: cassandra:5.0
+        ports:
+          - 9042:9042
+        env:
+          CASSANDRA_CLUSTER_NAME: test_cluster
+          CASSANDRA_DC: dc1
+          CASSANDRA_RACK: rack1
+        options: >-
+          --health-cmd "cqlsh -e 'DESCRIBE KEYSPACES'"
+          --health-interval 30s
+          --health-timeout 10s
+          --health-retries 10
+          --health-start-period 60s
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        cache: 'pip'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements-retrieval.txt
+        pip install fastapi[all] pytest httpx pytest-asyncio
+        
+    - name: Cache tokenizer model
+      uses: actions/cache@v3
+      with:
+        path: |
+          tokenizer/
+          ~/.cache/huggingface/
+        key: ${{ runner.os }}-tokenizer-${{ hashFiles('scripts/train_tokenizer.py') }}
+        restore-keys: |
+          ${{ runner.os }}-tokenizer-
+          
+    - name: Initialize Cassandra schema
+      run: |
+        # Wait for Cassandra to be ready
+        until cqlsh localhost 9042 -e 'DESCRIBE KEYSPACES'; do
+          echo "Waiting for Cassandra..."
+          sleep 5
+        done
+        
+        # Create keyspace and schema
+        cqlsh localhost 9042 -f scripts/cassandra_init.cql
+        
+    - name: Run tokenizer tests
+      run: |
+        python3 tests/test_tokenizer.py
+        
+    - name: Run API tests
+      env:
+        CASSANDRA_HOST: localhost
+        CASSANDRA_PORT: 9042
+        CASSANDRA_KEYSPACE: gibsey
+      run: |
+        python3 tests/test_read_endpoint.py
+        python3 tests/test_semantic_index.py
+        
+    - name: Test seed script (dry run)
+      env:
+        CASSANDRA_HOST: localhost
+        CASSANDRA_PORT: 9042
+        CASSANDRA_KEYSPACE: gibsey
+      run: |
+        # Test seeding with a few sample pages
+        mkdir -p test_corpus/pages
+        echo "# Test Page 1" > test_corpus/pages/001-test-page.md
+        echo "This is a test page about london-fox character." >> test_corpus/pages/001-test-page.md
+        echo "# Test Page 2" > test_corpus/pages/002-another-test.md  
+        echo "Another test page mentioning jacklyn-variance." >> test_corpus/pages/002-another-test.md
+        
+        # Mock the corpus path in the seeder for testing
+        python3 -c "
+        import sys
+        from pathlib import Path
+        sys.path.append('.')
+        
+        # Test that seeder can find and process files
+        from scripts.seed_embeddings import EmbeddingsSeeder
+        seeder = EmbeddingsSeeder()
+        
+        # Test metadata extraction
+        metadata = seeder.extract_metadata_from_filename('001-test-page.md')
+        assert metadata['page_index'] == 1
+        assert 'test page' in metadata['title'].lower()
+        
+        # Test character extraction
+        content = 'This mentions london-fox character'
+        symbol = seeder.extract_character_symbol(content)
+        assert symbol == 'london-fox'
+        
+        print('✓ Seeder validation tests passed')
+        "
+        
+    - name: Validate API startup
+      env:
+        CASSANDRA_HOST: localhost
+        CASSANDRA_PORT: 9042
+        CASSANDRA_KEYSPACE: gibsey
+      run: |
+        # Test that the API can start up (without actually starting the server)
+        python3 -c "
+        import sys
+        sys.path.append('.')
+        
+        # Test imports work
+        from backend.app.retrieval_api import app
+        from backend.app.tokenizer_service import get_tokenizer_service
+        
+        # Test tokenizer service loads
+        tokenizer = get_tokenizer_service()
+        info = tokenizer.get_tokenizer_info()
+        assert info['vocab_size'] > 30000
+        
+        print('✓ API validation tests passed')
+        "

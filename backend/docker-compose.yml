@@ -6,8 +6,11 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.init
+    volumes:
+      - ../gibsey-canon:/app/gibsey-canon
     environment:
       - CASSANDRA_HOSTS=cassandra
+      - CASSANDRA_HOST=cassandra
       - CASSANDRA_KEYSPACE=gibsey_network
       - STARGATE_URL=http://stargate:8082
     depends_on:
@@ -23,15 +26,21 @@ services:
     volumes:
       - .:/app
       - /app/__pycache__
+      - ../gibsey-canon:/app/gibsey-canon
     environment:
       - ENVIRONMENT=development
       - DATABASE_URL=cassandra://cassandra:9042
       - STARGATE_URL=http://stargate:8082
       - REDIS_URL=redis://redis:6379
       - CASSANDRA_KEYSPACE=gibsey_network
+      - CHROMA_HOST=chromadb
+      - CHROMA_PORT=8000
+      - SREC_ENV=production
+      - CORPUS_SYMBOLS_DIR=/app/public/corpus-symbols
     depends_on:
       - redis
       - db-init
+      - chromadb
     networks:
       - gibsey-network
 
@@ -39,6 +48,19 @@ services:
     image: redis:7-alpine
     ports:
       - "6379:6379"
+    networks:
+      - gibsey-network
+
+  chromadb:
+    image: ghcr.io/chroma-core/chroma:latest
+    container_name: gibsey-chromadb
+    ports:
+      - "8001:8000"
+    environment:
+      - ALLOW_ALL=TRUE
+      - PERSIST_DIRECTORY=/chroma/data
+    volumes:
+      - ./chroma-data:/chroma/data
     networks:
       - gibsey-network
 
@@ -59,7 +81,7 @@ services:
     networks:
       - gibsey-network
     healthcheck:
-      test: ["CMD", "cqlsh", "-c", "describe keyspaces"]
+      test: ["CMD", "cqlsh", "-e", "describe keyspaces"]
       interval: 30s
       timeout: 10s
       retries: 5

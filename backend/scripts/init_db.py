@@ -97,12 +97,27 @@ async def initialize_database():
             logger.error("Schema setup failed")
             return False
         
-        # 4. Run data migration
-        logger.info("Running data migration...")
-        migration_success = await run_migration()
+        # 4. Seed corpus data
+        logger.info("Seeding corpus data...")
+        import subprocess
+        import sys
         
-        if not migration_success:
-            logger.error("Data migration failed")
+        try:
+            # Import and run the seeding script directly
+            sys.path.append('/app')
+            from scripts.seed_embeddings import EmbeddingsSeeder
+            
+            seeder = EmbeddingsSeeder()
+            seeding_success = seeder.run(incremental=False)
+            
+            if not seeding_success:
+                logger.error("Corpus seeding failed")
+                return False
+            else:
+                logger.info("Corpus seeding completed successfully")
+                
+        except Exception as e:
+            logger.error(f"Error running corpus seeding: {e}")
             return False
         
         logger.info("✅ Database initialization completed successfully!")

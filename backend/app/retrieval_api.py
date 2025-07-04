@@ -45,7 +45,7 @@ tokenizer_service = None
 # Configuration from environment
 CASSANDRA_HOST = os.getenv("CASSANDRA_HOST", "localhost")
 CASSANDRA_PORT = int(os.getenv("CASSANDRA_PORT", "9042"))
-CASSANDRA_KEYSPACE = os.getenv("CASSANDRA_KEYSPACE", "gibsey")
+CASSANDRA_KEYSPACE = os.getenv("CASSANDRA_KEYSPACE", "gibsey_network")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 EMBED_MODEL = os.getenv("EMBED_MODEL", "text-embedding-3-small")
 

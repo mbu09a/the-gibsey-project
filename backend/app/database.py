@@ -37,7 +37,17 @@ class MockDatabase:
                     data = json.load(f)
                 
                 # Convert frontend pages to API format
-                for i, page_data in enumerate(data.get('pages', [])):
+                # Check if data is a list (array) or dict with pages property
+                pages_data = data if isinstance(data, list) else data.get('pages', [])
+                for i, page_data in enumerate(pages_data):
+                    # Parse section - could be int or string
+                    section = page_data.get('section')
+                    if isinstance(section, str):
+                        # Extract number from string like "Part One: The Entrance Way" -> None or actual number
+                        section = None
+                    elif section is not None:
+                        section = int(section)
+                    
                     story_page = StoryPage(
                         id=page_data.get('id', f"page_{i}"),
                         symbol_id=page_data.get('symbolId', 'unknown'),
@@ -46,7 +56,7 @@ class MockDatabase:
                         text=page_data.get('text', ''),
                         author=AuthorType.SYSTEM,
                         title=page_data.get('title'),
-                        section=page_data.get('section'),
+                        section=section,
                         child_ids=page_data.get('childIds', []),
                         branches=page_data.get('branches', []),
                         prompts=page_data.get('prompts', [])

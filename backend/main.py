@@ -9,7 +9,7 @@ import json
 from typing import Optional
 import uuid
 
-from app.api import pages, prompts, users, vector_search
+from app.api import pages, prompts, users, vector_search, retrieval, ask, symbols, symbol_search
 from app.websocket import manager, mock_stream_ai_response, stream_character_response
 from app.database import get_database, close_database
 from app.models import WebSocketMessage
@@ -47,6 +47,10 @@ app.include_router(pages.router)
 app.include_router(prompts.router)
 app.include_router(users.router)
 app.include_router(vector_search.router)
+app.include_router(retrieval.router)
+app.include_router(ask.router)
+app.include_router(symbols.router)
+app.include_router(symbol_search.router)
 
 @app.get("/")
 async def root():
@@ -61,7 +65,9 @@ async def root():
             "pages": "/api/v1/pages",
             "prompts": "/api/v1/prompts", 
             "users": "/api/v1/users",
-            "search": "/api/v1/search"
+            "search": "/api/v1/search",
+            "retrieval": "/api/v1/retrieval",
+            "ask": "/api/v1/ask"
         }
     }
 

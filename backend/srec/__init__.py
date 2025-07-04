@@ -1,0 +1,1 @@
+"""Symbol-Rotation Embedding Compiler (SREC) package."""

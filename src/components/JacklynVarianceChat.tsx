@@ -100,86 +100,59 @@ Recommend immediate engagement with analysis protocols. Standard procedures invo
     setIsProcessing(true);
 
     try {
-      // Use WebSocket service for backend communication
-      const { websocketService } = await import('../services/websocketService');
-      
-      // Connect to WebSocket if not already connected
-      await websocketService.connect();
-
-      let responseContent = '';
-      let responseMetadata = {};
-      
-      // Listen for streaming response
-      const unsubscribe = websocketService.onMessage((message: any) => {
-        if (message.type === 'ai_response_stream') {
-          responseContent += message.data.token;
-          
-          if (message.data.isComplete) {
-            responseMetadata = message.data.metadata || {};
-            
-            // Create response message with backend data
-            const responseMessage: ChatMessage = {
-              id: `jacklyn-${Date.now()}`,
-              type: 'jacklyn',
-              content: responseContent,
-              timestamp: new Date(),
-              metadata: {
-                jv_pass: "backend",
-                mode: "D.A.D.D.Y.S-H.A.R.D",
-                draftNumber: responseMetadata.rag_pages || 1,
-                biasLevel: responseMetadata.critique_applied ? 0.8 : 0.3,
-                timestamp: new Date().toLocaleTimeString()
-              }
-            };
-
-            setMessages(prev => [...prev, responseMessage]);
-            setIsProcessing(false);
-            unsubscribe();
-          }
-        }
-      });
-
-      // Send message via WebSocket with Jacklyn character ID
+      // Use the new /api/ask endpoint
       console.log('🎭 SENDING TO JACKLYN BACKEND:', {
         message: currentInput,
         characterId: 'jacklyn-variance', 
         pageId: currentPage?.symbolId
       });
-      websocketService.sendChatRequest(currentInput, 'jacklyn-variance', currentPage?.symbolId);
 
-      // Set timeout fallback in case of no response
-      setTimeout(() => {
-        if (isProcessing) {
-          console.warn('WebSocket response timeout');
-          setIsProcessing(false);
-          unsubscribe();
-          
-          // Fallback error message in Jacklyn's voice
-          const errorMessage: ChatMessage = {
-            id: `jacklyn-error-${Date.now()}`,
-            type: 'jacklyn',
-            content: `D.A.D.D.Y.S-H.A.R.D #ERROR — Analysis Report
-Subject: System Malfunction
+      const response = await fetch('/api/v1/ask', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          query: currentInput,
+          character_id: 'jacklyn-variance',
+          current_page_id: currentPage?.symbolId,
+          include_example: false
+        }),
+      });
 
-Analysis systems experiencing technical difficulties. Recommend retry or alternative approach. Data integrity compromised.
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+      }
 
-—JV`,
-            timestamp: new Date(),
-            metadata: {
-              jv_pass: "error",
-              mode: "error",
-              draftNumber: 1,
-              biasLevel: 0,
-              timestamp: new Date().toLocaleTimeString()
-            }
-          };
-          
-          setMessages(prev => [...prev, errorMessage]);
+      const data = await response.json();
+      
+      // Create response message with backend data
+      const responseMessage: ChatMessage = {
+        id: `jacklyn-${Date.now()}`,
+        type: 'jacklyn',
+        content: data.answer,
+        timestamp: new Date(),
+        metadata: {
+          jv_pass: "backend",
+          mode: "D.A.D.D.Y.S-H.A.R.D",
+          draftNumber: data.context_used || 1,
+          biasLevel: 0.8, // Backend processed
+          timestamp: new Date().toLocaleTimeString()
         }
-      }, 30000); // 30 second timeout
+      };
+
+      setMessages(prev => [...prev, responseMessage]);
+      setIsProcessing(false);
+
+      // Log processing stats
+      console.log('✅ Jacklyn response received:', {
+        processingTime: data.processing_time_ms,
+        contextUsed: data.context_used,
+        modelInfo: data.model_info
+      });
 
     } catch (error) {
-      console.error('Error with WebSocket communication:', error);
+      console.error('Error communicating with Jacklyn backend:', error);
       setIsProcessing(false);
       
       // Error message in Jacklyn's voice
@@ -189,7 +162,9 @@ Analysis systems experiencing technical difficulties. Recommend retry or alterna
         content: `D.A.D.D.Y.S-H.A.R.D #COMM_ERROR — Analysis Report
 Subject: Communication Failure
 
-Unable to establish connection with analysis backend. Local simulation protocols unavailable. Recommend checking system connectivity.
+Unable to establish connection with analysis backend. Network pathways compromised. Error: ${error.message}
+
+The tunnels echo with static. Preston would have known how to fix this.
 
 —JV`,
         timestamp: new Date(),

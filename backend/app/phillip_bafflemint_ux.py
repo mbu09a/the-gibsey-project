@@ -126,15 +126,18 @@ class WorkflowAutomation:
     output_buckets: List[OrganizationBucket]
     ritual_steps: List[str]
     success_metrics: Dict[str, float]
+    workflow_type: str = "routine_categorization"
     
     def to_dict(self) -> Dict[str, Any]:
         return {
             "automation_id": self.automation_id,
+            "workflow_type": self.workflow_type,
             "trigger": self.trigger.value,
             "phases": [phase.value for phase in self.phases],
             "completion_criteria": self.completion_criteria,
             "limiter_threshold": self.limiter_threshold.value,
             "output_buckets": [bucket.value for bucket in self.output_buckets],
+            "target_bucket": self.output_buckets[0].value if self.output_buckets else None,
             "ritual_steps": self.ritual_steps,
             "success_metrics": self.success_metrics
         }

@@ -209,6 +209,7 @@ async def create_workflow_automation(request: WorkflowAutomationRequest) -> Dict
         
         automation = WorkflowAutomation(
             automation_id=f"automation-{int(datetime.now().timestamp())}",
+            workflow_type=request.workflow_type,
             trigger=WorkflowTrigger.ROUTINE_COMPLETION,  # Default trigger
             phases=[QDPIPhase.READ, QDPIPhase.INDEX],  # Default phases
             completion_criteria=request.automation_criteria,

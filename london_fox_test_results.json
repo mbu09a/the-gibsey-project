@@ -1,0 +1,353 @@
+{
+  "timestamp": 1751742857.8276532,
+  "success": true,
+  "passed": 69,
+  "failed": 0,
+  "results": [
+    {
+      "test": "Health endpoint responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes character info",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Correct character name",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes system function",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes skepticism level",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes mystery stage",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Character status responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes character name",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Correct character name",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes skepticism level",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes paranoia level",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes graph statistics",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes character quotes",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Character quotes include Synchromy-M.Y.S.S.T.E.R.Y.",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "AI entity creation responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes entity data",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes London Fox analysis",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Entity has consciousness probability",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analysis includes skepticism level",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analysis includes risk assessment",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "AI entity has low consciousness probability",
+      "status": "PASS",
+      "details": "Probability: 0.1"
+    },
+    {
+      "test": "Consciousness validation responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Validation includes consciousness probability",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Validation includes skepticism score",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Validation includes London Fox verdict",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Validation includes evidence count",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Validation includes mystery stage",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Detected consciousness indicators in claim",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "High skepticism maintained",
+      "status": "PASS",
+      "details": "Skepticism: 0.9"
+    },
+    {
+      "test": "Relationship creation responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes relationship data",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes London Fox validation",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Relationship has skepticism score",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Relationship has confidence level",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Relationship includes evidence",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Validation includes status",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "All evidence preserved",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Relationship has confidence",
+      "status": "PASS",
+      "details": "Confidence: 0.7000000000000001"
+    },
+    {
+      "test": "Consciousness analysis responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analysis includes consciousness results",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analysis includes relationship map",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analysis includes London Fox assessment",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "AI model analyzed",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "User analyzed",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Fox analysis includes skepticism",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Fox analysis includes detection result",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Fox analysis includes warnings",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Synchromy-M.Y.S.S.T.E.R.Y. process completed",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Network analysis responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analysis includes center entity",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analysis includes nodes",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analysis includes relationships",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analysis includes London Fox assessment",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Network includes multiple nodes",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Network includes relationships",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Fox analysis includes skepticism",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Fox analysis includes consciousness risks",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Character status accessible after suspicious activity",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Paranoia level increased",
+      "status": "PASS",
+      "details": "Paranoia: 1.0"
+    },
+    {
+      "test": "Paranoia warnings generated",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Recursion warnings detected",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Graph statistics responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Statistics include graph overview",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Statistics include entity breakdown",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Statistics include relationship breakdown",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Statistics include London Fox metrics",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Graph contains entities",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Graph contains relationships",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Fox metrics include skepticism",
+      "status": "PASS",
+      "details": ""
+    }
+  ]
+}

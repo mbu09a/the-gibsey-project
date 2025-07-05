@@ -9,7 +9,7 @@ import json
 from typing import Optional
 import uuid
 
-from app.api import pages, prompts, users, vector_search, retrieval, ask, symbols, symbol_search, qdpi, qdpi_ux
+from app.api import pages, prompts, users, vector_search, retrieval, ask, symbols, symbol_search, qdpi, qdpi_ux, glyph_marrow_api
 from app.websocket import manager, mock_stream_ai_response, stream_character_response
 from app.qdpi_websocket import QDPI_WS_HANDLERS
 from app.database import get_database, close_database
@@ -54,6 +54,7 @@ app.include_router(symbols.router)
 app.include_router(symbol_search.router)
 app.include_router(qdpi.router)
 app.include_router(qdpi_ux.router)
+app.include_router(glyph_marrow_api.router)
 
 @app.get("/")
 async def root():
@@ -72,7 +73,8 @@ async def root():
             "retrieval": "/api/v1/retrieval",
             "ask": "/api/v1/ask",
             "qdpi": "/qdpi",
-            "qdpi_ux": "/api/v1/qdpi"
+            "qdpi_ux": "/api/v1/qdpi",
+            "glyph_marrow": "/api/glyph-marrow"
         }
     }
 

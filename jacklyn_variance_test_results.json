@@ -1,0 +1,443 @@
+{
+  "timestamp": 1751743660.4914088,
+  "success": true,
+  "passed": 87,
+  "failed": 0,
+  "results": [
+    {
+      "test": "Health endpoint responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes character info",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Correct character name",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes system function",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes surveillance mode",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes D.A.D.D.Y.S-H.A.R.D status",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Character status responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes character name",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Correct character name",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes analytical state",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes surveillance metrics",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes bias disclosure",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analytical state includes current pass",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analytical state includes operating mode",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Surveillance metrics include mode",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Database query responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes query data",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes Jacklyn analysis",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes query metadata",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analysis includes surveillance notes",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analysis includes current status",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analysis includes priority",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metadata includes analyst info",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Table query responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes data",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes analysis",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analysis excluded when requested",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Data still included without analysis",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "D.A.D.D.Y.S-H.A.R.D report generates",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes report data",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes Jacklyn analysis",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Report includes Data summary",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Report includes Anomaly detection",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Report includes Database health",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Report includes Detection alerts",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Report includes Yearly trends",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Report includes Surveillance notes",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Report includes Hierarchical analysis",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Report includes Access patterns",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Report includes Recommendations",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Report includes Documentation metadata",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Report includes analyst notes",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Report includes bias disclosures",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Report includes draft number",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Surveillance analysis responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes surveillance analysis",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes Jacklyn assessment",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes analysis metadata",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analysis includes query count",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analysis includes anomaly summary",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analysis includes access patterns",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analysis includes alerts",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Assessment includes operating mode",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Assessment includes confidence",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Assessment includes pattern analysis",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Assessment includes recommendations",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Bias disclosure responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes bias disclosure",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes Jacklyn statement",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes objectivity assessment",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Disclosure includes biases",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Disclosure includes confidence",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Disclosure includes transparency",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Disclosure includes strategies",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Assessment includes target status",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Assessment includes recommendations",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Statement includes Jacklyn's characteristic behavior",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Statement includes proper disclosure language",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Off-hours query responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Bulk operation query responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Preston-related query responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Anomalies detected in suspicious queries",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Bulk operation anomaly detected",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Preston query gets special priority",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Surveillance history responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes history",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes metadata",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "History contains surveillance entries",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metadata includes total entries",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metadata includes time range",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metadata includes analyst info",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Anomaly-only filter works correctly",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Retrieved report contains data",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Retrieved report contains metadata",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Report has valid ID",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Report ID matches date",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Non-existent report returns 404",
+      "status": "PASS",
+      "details": ""
+    }
+  ]
+}

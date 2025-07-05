@@ -1,0 +1,228 @@
+{
+  "timestamp": 1751742292.443802,
+  "success": true,
+  "passed": 44,
+  "failed": 0,
+  "results": [
+    {
+      "test": "Health endpoint responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes character info",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Correct character name",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes ailment status",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes confusion level",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Character status responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes character name",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Correct character name",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes current ailment",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes character quotes",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes real-time metrics",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Ailment includes linguistic vertigo",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Ailment includes word-object fusion",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Ailment includes confusion compass",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Encoding endpoint responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Encoding includes character info",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Encoding includes symbols",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Encoding includes character processing",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Processing includes linguistic vertigo",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Processing includes ailment state",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Processing includes confusion compass",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Encoding produces symbols",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Confusion episode endpoint responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes confusion episode",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes character response",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes updated ailment",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes processing enhancement",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Episode includes compass direction",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Episode includes peak vertigo",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Vertigo processing completes",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Processing includes realistic delays",
+      "status": "PASS",
+      "details": "Processing time: 1.25s"
+    },
+    {
+      "test": "Vertigo includes confusion level",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Vertigo includes processing time",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Fusion history endpoint responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "History includes character info",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "History includes fusion events",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "History includes total events count",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "History includes fusion statistics",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Event includes word perception",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Event includes fusion intensity",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Event includes fusion description",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Low confusion encoding works",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "High confusion encoding works",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Higher confusion improves encoding confidence",
+      "status": "PASS",
+      "details": "Low: 0.740, High: 0.750"
+    }
+  ]
+}

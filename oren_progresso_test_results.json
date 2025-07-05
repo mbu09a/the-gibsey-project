@@ -1,0 +1,488 @@
+{
+  "timestamp": 1751745539.1861062,
+  "success": true,
+  "passed": 96,
+  "failed": 0,
+  "results": [
+    {
+      "test": "Health endpoint responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes character info",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Correct character name",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes system function",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes stress level",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes budget authority",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes executive override status",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Character status responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes character name",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Correct character name",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes executive state",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes financial metrics",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes civilization oversight",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Executive state includes title",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Executive state includes stress level",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Financial metrics include savings",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Oversight includes component count",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Executive dashboard responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Dashboard includes character name",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Dashboard includes executive title",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Dashboard includes current status",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Dashboard includes civilization overview",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Dashboard includes real-time metrics",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes stress level",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes production phase",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Overview includes component count",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metrics include civilization health",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metrics include budget utilization",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Civilization health responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes civilization metrics",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes health assessment",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes monitoring metadata",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes component health",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes predictions",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metrics include overall health",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metrics include budget utilization",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metrics include production efficiency",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metrics include narrative coherence",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Assessment includes overall status",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metadata includes CEO stress level",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Executive decision executes",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes decision details",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes implementation status",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes impact analysis",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes Oren's statement",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Decision includes type",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Decision includes target",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Impact includes budget change",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Impact includes health after",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Budget allocation responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes budget overview",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes component allocations",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes efficiency metrics",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes executive controls",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Overview includes total allocated",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Overview includes utilization",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Overview includes burn rate",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Allocations include components",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Budget reallocation executes",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes reallocation details",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes allocation changes",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes decision record",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes impact analysis",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes Oren's statement",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Reallocation includes total budget",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Reallocation includes components count",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Changes include component details",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Phase transition executes",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes transition details",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes decision record",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes civilization impact",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes Oren's statement",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Transition includes previous phase",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Transition includes new phase",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Transition includes CEO authorization",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Impact includes components affected",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Decision history responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes decision history",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes analytics",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes executive state",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analytics include total decisions",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analytics include budget impact",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analytics include type breakdown",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "State includes today's decisions",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Dashboard accessible for stress testing",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes stress level",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes override state",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metrics include stress level",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Valid stress level detected",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Valid executive stress detected",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Override state is boolean",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Narrative monitoring accessible",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metrics include narrative coherence",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Narrative coherence is numeric",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Narrative coherence in valid range",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Valid narrative assessment",
+      "status": "PASS",
+      "details": ""
+    }
+  ]
+}

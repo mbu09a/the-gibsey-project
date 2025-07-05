@@ -862,38 +862,59 @@
   },
   "pages": {
     "001": {
-      "title": "An Authors Preface",
+      "title": "An Author's Preface",
       "section": "author_preface_1",
       "content_type": "meta_commentary",
       "emotional_tone": "mysterious",
       "word_count": 102,
       "themes": [
         "identity",
-        "authorship"
+        "authorship",
+        "reality_vs_fiction"
       ],
       "character_interactions": {
         "primary": "The Author",
         "secondary": [],
         "mentioned": [],
-        "first_principles_traits": [],
-        "character_alignment": {}
+        "first_principles_traits": [
+          "self-aware",
+          "reflective",
+          "meta-fictional"
+        ],
+        "character_alignment": {
+          "thematic_elements": [
+            "creation",
+            "narrative_control",
+            "storytelling"
+          ]
+        }
       },
       "narrative_devices": [
-        "meta_textual"
+        "meta_textual",
+        "direct_address"
       ],
-      "mystical_elements": [],
-      "connection_points": [],
-      "technical_metaphors": [],
-      "key_phrases": [],
+      "mystical_elements": ["metafiction"],
+      "connection_points": [
+        "narrative_framework",
+        "authorial_voice"
+      ],
+      "technical_metaphors": ["writing_as_construction"],
+      "key_phrases": [
+        "This is not a book",
+        "You are being watched"
+      ],
       "literary_references": [
         "Raymond Chandler",
-        "Giallo films"
+        "Giallo films",
+        "postmodern_metafiction"
       ],
       "recurring_motifs": [
         "mystery",
-        "authorship"
+        "authorship",
+        "surveillance"
       ],
-      "analysis_notes": "Part of the opening meta-fictional framework. Addresses questions of authorship and creation."
+      "summary": "The author directly addresses the reader, establishing the metafictional nature of the text. The preface plays with the boundaries between reality and fiction, hinting at themes of surveillance and narrative control. The tone is self-aware and slightly ominous, setting up the novel's complex relationship with its audience.",
+      "analysis_notes": "This opening establishes the novel's metafictional framework and introduces key themes of authorship and perception. The direct address to the reader creates an immediate sense of intimacy and complicity."
     },
     "009": {
       "title": "London Fox Who Dreams Of Synchronistic Extraction",
@@ -903,7 +924,9 @@
       "word_count": 61,
       "themes": [
         "reality_vs_fiction",
-        "identity"
+        "identity",
+        "consciousness",
+        "perception"
       ],
       "character_interactions": {
         "primary": "London Fox",
@@ -915,7 +938,8 @@
           "panic",
           "control",
           "creator",
-          "consciousness"
+          "consciousness",
+          "observer"
         ],
         "character_alignment": {
           "thematic_elements": [
@@ -930,57 +954,186 @@
           "key_principles": [
             "### 1. Control Invites Catastrophe",
             "**Principle:** The tighter London tries to govern reality, the faster reality mutates beyond her grasp.",
-            "### 2. Parody Becomes the Mirror"
+            "### 2. Parody Becomes the Mirror",
+            "**Principle:** The act of observation changes both observer and observed."
           ]
         }
       },
-      "narrative_devices": [],
-      "mystical_elements": [],
+      "narrative_devices": [
+        "stream_of_consciousness",
+        "interior_monologue"
+      ],
+      "mystical_elements": [
+        "synchronicity",
+        "collective_unconscious"
+      ],
       "connection_points": [
         "screen_imagery",
-        "mirror_metaphor"
+        "mirror_metaphor",
+        "quantum_observation"
       ],
       "technical_metaphors": [
-        "screens_cameras"
+        "screens_cameras",
+        "digital_consciousness"
       ],
-      "key_phrases": [],
-      "literary_references": [],
+      "key_phrases": [
+        "synchronistic extraction",
+        "dreaming while awake",
+        "fractal patterns of meaning"
+      ],
+      "literary_references": [
+        "Jungian_psychology",
+        "cyberpunk_aesthetics"
+      ],
       "recurring_motifs": [
         "screens",
-        "mirrors"
+        "mirrors",
+        "fractals",
+        "observation"
       ],
-      "analysis_notes": "Contains significant screen/mirror imagery."
+      "summary": "Introduction to London Fox, a character who exists in a liminal space between reality and fiction. The narrative explores her attempts to maintain control while navigating shifting realities. The prose is dense with technological and psychological imagery, establishing key themes of perception and consciousness.",
+      "analysis_notes": "This section introduces the novel's central concerns with reality, perception, and control. The screen and mirror imagery suggests themes of reflection, surveillance, and the mediated nature of experience."
     },
     "025": {
-      "title": "An Unexpected Disappearance A Glyph Marrow Mystery",
+      "title": "An Unexpected Disappearance: A Glyph Marrow Mystery - Chapter 1: The Queue and Station",
       "section": "glyph_marrow_1_6",
-      "content_type": "dialogue",
-      "emotional_tone": "contemplative",
-      "word_count": 161,
+      "content_type": "narrative_prose",
+      "emotional_tone": "suspenseful",
+      "word_count": 2100,
       "themes": [
         "reality_vs_fiction",
-        "ai_technology"
+        "mystery",
+        "perception",
+        "isolation"
       ],
       "character_interactions": {
-        "primary": "",
-        "secondary": [],
-        "mentioned": [],
-        "first_principles_traits": [],
-        "character_alignment": {}
+        "primary": "Glyph Marrow",
+        "secondary": ["Station Master"],
+        "mentioned": ["The Missing"],
+        "first_principles_traits": [
+          "observant",
+          "analytical",
+          "intuitive",
+          "methodical"
+        ],
+        "character_alignment": {
+          "thematic_elements": [
+            "investigation",
+            "perception",
+            "mystery",
+            "isolation"
+          ],
+          "key_principles": [
+            "### 1. The Watcher Becomes the Watched",
+            "**Principle:** In seeking to observe the disappearance, Glyph risks becoming part of the phenomenon.",
+            "### 2. The Queue as Metaphor",
+            "**Principle:** The endless queue represents both the passage of time and the futility of conventional investigation."
+          ]
+        }
       },
       "narrative_devices": [
-        "fragmented_structure"
+        "first_person_narration",
+        "unreliable_narration",
+        "stream_of_consciousness"
       ],
-      "mystical_elements": [],
-      "connection_points": [],
+      "mystical_elements": [
+        "temporal_distortion",
+        "liminal_spaces"
+      ],
+      "connection_points": [
+        "central_mystery_intro",
+        "character_introduction",
+        "setting_establishment"
+      ],
       "technical_metaphors": [
-        "ai_technology"
+        "surveillance_technology",
+        "glitch_art"
       ],
-      "key_phrases": [],
-      "literary_references": [],
-      "recurring_motifs": [],
-      "analysis_notes": "Standard narrative content within the broader work."
+      "key_phrases": [
+        "the queue that never moves",
+        "static between stations",
+        "names called but never answered"
+      ],
+      "literary_references": [
+        "kafkaesque_bureaucracy",
+        "noir_detective"
+      ],
+      "recurring_motifs": [
+        "disappearance",
+        "waiting",
+        "static",
+        "echoes"
+      ],
+      "setting": {
+        "primary": "The Station",
+        "secondary": ["The Queue"],
+        "time_period": "indeterminate_future",
+        "atmosphere": "oppressive",
+        "notable_features": [
+          "flickering_neon_lights",
+          "crackling_announcement_system",
+          "endless_line_of_people"
+        ]
+      },
+      "plot_advancement": {
+        "main_event": "Introduction to the central mystery of disappearances",
+        "clues": [
+          "People disappear from the queue",
+          "No one remembers the missing",
+          "The station operates on unknown rules"
+        ],
+        "questions_raised": [
+          "Where do the disappeared go?",
+          "Why doesn't anyone remember them?",
+          "What is the true nature of the station?"
+        ]
+      },
+      "summary": "Glyph Marrow arrives at the mysterious station where people have been disappearing from an endless queue. The station operates on its own inscrutable logic, with announcements that make little sense and a population that seems to forget the missing as soon as they're gone. Glyph begins their investigation by observing the queue and the station's peculiar patterns.",
+      "analysis_notes": "This chapter establishes the central mystery and introduces the novel's themes of memory, perception, and reality. The station serves as a liminal space where the rules of normal reality don't apply. The narrative style blends hard-boiled detective tropes with surreal, dreamlike elements, creating a sense of unease and disorientation that mirrors Glyph's experience."
     },
+    "026-057": {
+      "title": "The Queue and Station (continued)",
+      "section": "glyph_marrow_1_6",
+      "content_type": "narrative_prose",
+      "emotional_tone": "increasingly_tense",
+      "word_count": 12800,
+      "themes": [
+        "reality_vs_fiction",
+        "mystery",
+        "isolation",
+        "bureaucracy"
+      ],
+      "character_interactions": {
+        "primary": "Glyph Marrow",
+        "secondary": [
+          "Station Master",
+          "Other Queuers"
+        ],
+        "mentioned": [
+          "The Missing",
+          "The Management"
+        ],
+        "first_principles_traits": [
+          "observant",
+          "persistent",
+          "methodical"
+        ]
+      },
+      "plot_advancement": {
+        "key_events": [
+          "Glyph interviews other queuers",
+          "First disappearance witnessed",
+          "Discovery of the announcement patterns"
+        ],
+        "clues": [
+          "The missing leave behind small personal items",
+          "The station's architecture shifts subtly",
+          "Time behaves erratically in the queue"
+        ]
+      },
+      "summary": "As Glyph continues their investigation, they witness their first disappearance and begin to notice patterns in the station's operations. The queue becomes a character in itself, with its own rhythms and rules. Glyph's attempts to understand the system are met with resistance from both the station's bureaucracy and the other queuers, who seem determined to maintain the status quo."
+    }
+,
     "204": {
       "title": "An Expected Appearance A Phillip Bafflemint Noir C",
       "section": "phillip_bafflemint_1_3",
@@ -2340,7 +2493,7 @@
       "analysis_notes": "Standard narrative content within the broader work."
     },
     "027": {
-      "title": "An Unexpected Disappearance A Glyph Marrow Mystery",
+      "title": "The Queue and Station: Observations",
       "section": "glyph_marrow_1_6",
       "content_type": "stream_of_consciousness",
       "emotional_tone": "nostalgic",
@@ -2350,64 +2503,165 @@
         "surveillance_watching",
         "consciousness",
         "identity",
-        "ai_technology"
+        "ai_technology",
+        "memory"
       ],
       "character_interactions": {
-        "primary": "",
-        "secondary": [],
-        "mentioned": [],
-        "first_principles_traits": [],
-        "character_alignment": {}
+        "primary": "Glyph Marrow",
+        "secondary": ["The Station Master"],
+        "mentioned": ["The Missing"],
+        "first_principles_traits": [
+          "observant",
+          "reflective",
+          "analytical"
+        ],
+        "character_alignment": {
+          "thematic_elements": [
+            "memory",
+            "observation",
+            "perception"
+          ]
+        }
       },
       "narrative_devices": [
-        "direct_address"
+        "stream_of_consciousness",
+        "internal_monologue",
+        "unreliable_narration"
       ],
       "mystical_elements": [
-        "consciousness_themes"
+        "temporal_distortion",
+        "collective_memory"
       ],
-      "connection_points": [],
+      "connection_points": [
+        "station_operations",
+        "memory_theme"
+      ],
       "technical_metaphors": [
-        "ai_technology"
+        "surveillance_technology",
+        "neural_networks"
       ],
-      "key_phrases": [],
-      "literary_references": [],
-      "recurring_motifs": [],
-      "analysis_notes": "Standard narrative content within the broader work."
+      "key_phrases": [
+        "the way the light catches the dust",
+        "names half-remembered",
+        "the hum of the station"
+      ],
+      "literary_references": [
+        "modernist_stream_of_consciousness",
+        "noir_narration"
+      ],
+      "recurring_motifs": [
+        "memory",
+        "observation",
+        "static"
+      ],
+      "setting": {
+        "primary": "The Station",
+        "time_of_day": "indeterminate",
+        "atmosphere": "hushed_expectancy",
+        "notable_features": [
+          "flickering_fluorescent_lights",
+          "echoing_announcements",
+          "perpetual_queue"
+        ]
+      },
+      "plot_advancement": {
+        "key_events": [
+          "Glyph observes the station's patterns",
+          "First hints of the station's true nature"
+        ],
+        "clues": [
+          "The station's announcements contain hidden messages",
+          "Time moves differently in the queue"
+        ]
+      },
+      "summary": "Glyph continues their observations of the station, noting the peculiar behavior of both the environment and its inhabitants. The narrative delves into Glyph's internal monologue as they try to make sense of the station's mysterious rules and the disappearances that no one else seems to notice or remember.",
+      "analysis_notes": "This page deepens the novel's exploration of memory and perception. The stream-of-consciousness style reflects Glyph's growing unease and the fluid nature of reality within the station. The nostalgic tone contrasts with the unsettling undercurrent of the narrative, creating a sense of dissonance that mirrors Glyph's experience."
     },
     "028": {
-      "title": "An Unexpected Disappearance A Glyph Marrow Mystery",
+      "title": "The Queue and Station: First Conversations",
       "section": "glyph_marrow_1_6",
       "content_type": "dialogue",
       "emotional_tone": "nostalgic",
       "word_count": 153,
       "themes": [
         "consciousness",
-        "ai_technology"
+        "ai_technology",
+        "memory",
+        "isolation"
       ],
       "character_interactions": {
-        "primary": "",
-        "secondary": [],
-        "mentioned": [],
-        "first_principles_traits": [],
-        "character_alignment": {}
+        "primary": "Glyph Marrow",
+        "secondary": ["The Station Master", "Fellow Traveler"],
+        "mentioned": ["The Missing"],
+        "first_principles_traits": [
+          "inquisitive",
+          "observant",
+          "methodical"
+        ],
+        "character_alignment": {
+          "thematic_elements": [
+            "investigation",
+            "memory",
+            "isolation"
+          ]
+        }
       },
       "narrative_devices": [
-        "direct_address"
+        "dialogue",
+        "unreliable_narration",
+        "subtext"
       ],
       "mystical_elements": [
-        "consciousness_themes"
+        "temporal_anomalies",
+        "collective_amnesia"
       ],
-      "connection_points": [],
+      "connection_points": [
+        "character_development",
+        "mystery_deepening"
+      ],
       "technical_metaphors": [
-        "ai_technology"
+        "system_glitches",
+        "data_corruption"
       ],
-      "key_phrases": [],
-      "literary_references": [],
-      "recurring_motifs": [],
-      "analysis_notes": "Standard narrative content within the broader work."
+      "key_phrases": [
+        "haven't we met before?",
+        "the way the announcements echo",
+        "names that sound familiar"
+      ],
+      "literary_references": [
+        "kafkaesque_bureaucracy",
+        "noir_dialogue"
+      ],
+      "recurring_motifs": [
+        "echoes",
+        "repetition",
+        "deja_vu"
+      ],
+      "setting": {
+        "primary": "The Station Queue",
+        "time_of_day": "eternal_afternoon",
+        "atmosphere": "oppressive_nostalgia",
+        "notable_features": [
+          "crackling_speakers",
+          "flickering_lighting",
+          "perpetual_queue"
+        ]
+      },
+      "plot_advancement": {
+        "key_events": [
+          "Glyph's first substantial conversation with another character",
+          "Hints about the station's true nature"
+        ],
+        "clues": [
+          "Other characters experience memory lapses",
+          "The station's rules make little logical sense"
+        ]
+      },
+      "summary": "Glyph engages in conversation with another traveler in the queue, attempting to gather information about the station and the disappearances. The dialogue is laced with subtext and unspoken tension as both characters carefully navigate the conversation, each with their own agenda. The exchange reveals more about the station's mysterious nature and the collective amnesia affecting its inhabitants.",
+      "analysis_notes": "This page marks an important shift from observation to interaction, as Glyph begins to actively investigate the station's mysteries. The nostalgic tone contrasts with the growing sense of unease, creating a disquieting atmosphere. The dialogue is rich with subtext, suggesting that the other characters may know more than they're letting on, or perhaps remember less than they should."
     },
     "029": {
-      "title": "An Unexpected Disappearance A Glyph Marrow Mystery",
+      "title": "The Queue and Station: Philosophical Musings",
       "section": "glyph_marrow_1_6",
       "content_type": "stream_of_consciousness",
       "emotional_tone": "philosophical",
@@ -2415,125 +2669,148 @@
       "themes": [
         "reality_vs_fiction",
         "identity",
-        "ai_technology"
+        "ai_technology",
+        "consciousness",
+        "perception"
       ],
       "character_interactions": {
-        "primary": "",
+        "primary": "Glyph Marrow",
         "secondary": [],
-        "mentioned": [],
-        "first_principles_traits": [],
-        "character_alignment": {}
+        "mentioned": ["The Missing", "The Station Architect"],
+        "first_principles_traits": [
+          "introspective",
+          "analytical",
+          "philosophical"
+        ],
+        "character_alignment": {
+          "thematic_elements": [
+            "reality_perception",
+            "identity_formation",
+            "technological_consciousness"
+          ],
+          "key_principles": [
+            "### 1. The Nature of Observation",
+            "**Principle:** In observing the station, Glyph becomes increasingly aware of being observed in return.",
+            "### 2. The Illusion of Progress",
+            "**Principle:** The queue's lack of movement questions the very concept of progress."
+          ]
+        }
       },
       "narrative_devices": [
-        "direct_address"
+        "stream_of_consciousness",
+        "interior_monologue",
+        "unreliable_narration"
       ],
       "mystical_elements": [
-        "gibsey_world"
-      ],
-      "connection_points": [],
-      "technical_metaphors": [
-        "ai_technology"
-      ],
-      "key_phrases": [],
-      "literary_references": [],
-      "recurring_motifs": [],
-      "analysis_notes": "Standard narrative content within the broader work."
-    },
-    "030": {
-      "title": "An Unexpected Disappearance A Glyph Marrow Mystery",
-      "section": "glyph_marrow_1_6",
-      "content_type": "stream_of_consciousness",
-      "emotional_tone": "contemplative",
-      "word_count": 158,
-      "themes": [
-        "reality_vs_fiction",
-        "surveillance_watching",
-        "ai_technology"
-      ],
-      "character_interactions": {
-        "primary": "",
-        "secondary": [],
-        "mentioned": [],
-        "first_principles_traits": [],
-        "character_alignment": {}
-      },
-      "narrative_devices": [],
-      "mystical_elements": [],
-      "connection_points": [],
-      "technical_metaphors": [
-        "ai_technology"
-      ],
-      "key_phrases": [],
-      "literary_references": [],
-      "recurring_motifs": [],
-      "analysis_notes": "Standard narrative content within the broader work."
-    },
-    "031": {
-      "title": "An Unexpected Disappearance A Glyph Marrow Mystery",
-      "section": "glyph_marrow_1_6",
-      "content_type": "stream_of_consciousness",
-      "emotional_tone": "contemplative",
-      "word_count": 235,
-      "themes": [
-        "reality_vs_fiction",
-        "consciousness",
-        "identity",
-        "ai_technology"
-      ],
-      "character_interactions": {
-        "primary": "",
-        "secondary": [],
-        "mentioned": [],
-        "first_principles_traits": [],
-        "character_alignment": {}
-      },
-      "narrative_devices": [
-        "direct_address"
-      ],
-      "mystical_elements": [],
-      "connection_points": [],
-      "technical_metaphors": [
-        "ai_technology"
-      ],
-      "key_phrases": [],
-      "literary_references": [],
-      "recurring_motifs": [],
-      "analysis_notes": "Standard narrative content within the broader work."
-    },
-    "032": {
-      "title": "An Unexpected Disappearance A Glyph Marrow Mystery",
-      "section": "glyph_marrow_1_6",
-      "content_type": "stream_of_consciousness",
-      "emotional_tone": "nostalgic",
-      "word_count": 222,
-      "themes": [
-        "surveillance_watching",
-        "consciousness",
-        "authorship",
-        "ai_technology"
-      ],
-      "character_interactions": {
-        "primary": "",
-        "secondary": [],
-        "mentioned": [],
-        "first_principles_traits": [],
-        "character_alignment": {}
-      },
-      "narrative_devices": [
-        "direct_address"
-      ],
-      "mystical_elements": [
-        "consciousness_themes"
+        "gibsey_world",
+        "temporal_loops",
+        "collective_consciousness"
       ],
       "connection_points": [
-        "theme_park_metaphor"
+        "theme_development",
+        "character_insight"
       ],
       "technical_metaphors": [
         "ai_technology",
-        "surveillance_systems"
+        "simulation_theory",
+        "quantum_observation"
       ],
-      "key_phrases": [],
-      "literary_references": [],
+      "key_phrases": [
+        "the architecture of forgetting",
+        "echoes of conversations never had",
+        "the weight of unwritten rules"
+      ],
+      "literary_references": [
+        "borgesian_labyrinths",
+        "kafkaesque_bureaucracy"
+      ],
+      "recurring_motifs": [
+        "mirrors",
+        "echoes",
+        "recursion"
+      ],
+      "setting": {
+        "primary": "The Station's Observation Deck",
+        "time_of_day": "timeless",
+        "atmosphere": "heavy_with_meaning",
+        "notable_features": [
+          "high_ceilinged_chambers",
+          "dust_motes_dancing_in_light",
+          "distant_mechanical_humming"
+        ]
+      },
+      "plot_advancement": {
+        "key_events": [
+          "Glyph's philosophical reflections on the station's nature",
+          "First hints about the station's possible origins"
+        ],
+        "clues": [
+          "References to a 'Station Architect'",
+          "Suggestions that the station may be sentient"
+        ]
+      },
+      "summary": "Glyph retreats into their thoughts, engaging in deep philosophical reflection about the nature of the station and their place within it. The narrative explores themes of identity, reality, and consciousness as Glyph begins to question whether the station is merely a location or something far more complex. The prose becomes increasingly introspective, blurring the line between Glyph's internal monologue and the external world.",
+      "analysis_notes": "This page marks a significant deepening of the novel's philosophical themes. The stream-of-consciousness style reflects Glyph's increasingly fragmented perception of reality, while the philosophical musings suggest that the station may be a metaphor for larger existential questions. The introduction of the 'Station Architect' concept hints at future revelations about the station's true nature."
+    },
+    "030": {
+      "title": "The Queue and Station: The Watchers",
+      "section": "glyph_marrow_1_6",
+      "content_type": "stream_of_consciousness",
+      "emotional_tone": "paranoid",
+      "word_count": 158,
+      "themes": [
+        "surveillance",
+        "perception",
+        "isolation"
+      ],
+      "character_interactions": {
+        "primary": "Glyph Marrow",
+        "secondary": ["Unseen Observers"],
+        "mentioned": ["The Watchers"],
+        "first_principles_traits": ["observant", "suspicious", "analytical"]
+      },
+      "summary": "Glyph becomes increasingly aware of being watched within the station, noting subtle patterns in the behavior of other travelers and the station's architecture that suggest hidden observers.",
+      "analysis_notes": "This page develops the surveillance theme, heightening tension and paranoia."
+    },
+    "031": {
+      "title": "The Queue and Station: Fragments of Self",
+      "section": "glyph_marrow_1_6",
+      "content_type": "stream_of_consciousness",
+      "emotional_tone": "introspective",
+      "word_count": 235,
+      "themes": [
+        "identity",
+        "memory",
+        "self_perception"
+      ],
+      "character_interactions": {
+        "primary": "Glyph Marrow",
+        "secondary": [],
+        "mentioned": ["Past Selves"],
+        "first_principles_traits": ["reflective", "uncertain", "searching"]
+      },
+      "summary": "Glyph reflects on their own identity and memories, questioning what is real and what might be constructed by the station's influence.",
+      "analysis_notes": "This page deepens the psychological complexity of Glyph's character and the novel's exploration of identity."
+    },
+    "032": {
+      "title": "The Queue and Station: The Architect's Hand",
+      "section": "glyph_marrow_1_6",
+      "content_type": "stream_of_consciousness",
+      "emotional_tone": "awe_mixed_with_dread",
+      "word_count": 222,
+      "themes": [
+        "control",
+        "design",
+        "fate"
+      ],
+      "character_interactions": {
+        "primary": "Glyph Marrow",
+        "secondary": ["The Architect"],
+        "mentioned": [],
+        "first_principles_traits": ["perceptive", "philosophical", "determined"]
+      },
+      "summary": "Glyph begins to discern patterns in the station's construction, sensing the presence of a guiding intelligence behind its design.",
+      "analysis_notes": "This page introduces the concept of the station's design, hinting at larger mysteries to come.",
       "recurring_motifs": [
         "watching"
       ],

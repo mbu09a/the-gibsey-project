@@ -8,7 +8,10 @@ from pydantic import BaseModel
 
 from app.database import get_database
 from app.models import StoryPage
-from app.cassandra_database_v2 import ProductionCassandraDatabase
+try:
+    from app.cassandra_database_v2 import ProductionCassandraDatabase
+except ImportError:
+    ProductionCassandraDatabase = None
 
 router = APIRouter(prefix="/api/v1/search", tags=["Vector Search"])
 

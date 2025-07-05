@@ -44,7 +44,23 @@
 
 ## **3. QDPI**
 
-To be added later
+**Tools:** QDPI
+
+- [[1. Problems that QDPI and a glyph based  protocol solve]]
+    
+- [[2. QDPI Encoding Scheme and Technical Advantages]]
+    
+- [[3. QDPI Implementation and Workflow]]
+    
+- [[4. Current QDPI Progress (as of 7-4-2025)]]
+    
+- [[5. Long Term QDPI Vision]]
+
+1. What problem does QDPI solve, and why is a glyph-based protocol needed in the Gibsey architecture?
+2. How does the QDPI encoding scheme work, and what are its technical advantages over standard encodings?
+3. How will QDPI be integrated into Gibsey’s infrastructure and workflows once implemented?
+4. What is the current implementation progress of QDPI (e.g. SREC), and what steps remain to fully realize this system?
+5. What is the long-term vision for QDPI and how will it evolve as the Gibsey project grows?
 
 ## **4. Workflow Automation & Rituals**
 

@@ -9,8 +9,9 @@ import json
 from typing import Optional
 import uuid
 
-from app.api import pages, prompts, users, vector_search, retrieval, ask, symbols, symbol_search
+from app.api import pages, prompts, users, vector_search, retrieval, ask, symbols, symbol_search, qdpi, qdpi_ux
 from app.websocket import manager, mock_stream_ai_response, stream_character_response
+from app.qdpi_websocket import QDPI_WS_HANDLERS
 from app.database import get_database, close_database
 from app.models import WebSocketMessage
 from datetime import datetime
@@ -51,6 +52,8 @@ app.include_router(retrieval.router)
 app.include_router(ask.router)
 app.include_router(symbols.router)
 app.include_router(symbol_search.router)
+app.include_router(qdpi.router)
+app.include_router(qdpi_ux.router)
 
 @app.get("/")
 async def root():
@@ -67,7 +70,9 @@ async def root():
             "users": "/api/v1/users",
             "search": "/api/v1/search",
             "retrieval": "/api/v1/retrieval",
-            "ask": "/api/v1/ask"
+            "ask": "/api/v1/ask",
+            "qdpi": "/qdpi",
+            "qdpi_ux": "/api/v1/qdpi"
         }
     }
 
@@ -198,6 +203,11 @@ async def websocket_endpoint(
                     "type": "prompt_selected",
                     "data": {"prompt_id": prompt_id}
                 }, session_id)
+            
+            elif message_type in QDPI_WS_HANDLERS:
+                # Handle QDPI WebSocket messages
+                handler = QDPI_WS_HANDLERS[message_type]
+                await handler(session_id, message_data)
             
             else:
                 # Unknown message type

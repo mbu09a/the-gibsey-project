@@ -1,0 +1,100 @@
+# QDPI-256 Production Requirements
+# Aligned with 16-system architecture
+
+# Core API Framework (princhetta - orchestration)
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+starlette==0.27.0
+
+# Database Layer (old_natalie_weissman - core database)
+cassandra-driver==3.29.0
+redis==5.0.1
+chromadb==1.0.15
+
+# QDPI Core (glyph_marrow - symbolic protocol)
+sentence-transformers==2.2.2
+Wand==0.6.13
+numpy==1.26.4
+
+# Security & Auth (cop-e-right - security)
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+cryptography==41.0.8
+
+# Real-time Communication (jack_parlance - communication)
+websockets==12.0
+python-socketio==5.11.0
+
+# Event Streaming (shamrock_stillman - event processing)
+kafka-python==2.0.2
+aiokafka==0.8.11
+
+# AI Orchestration (jacklyn_variance - AI orchestration)
+langchain==0.0.350
+openai==1.6.1
+anthropic==0.8.1
+
+# Natural Language Processing (phillip_bafflemint - NLP)
+spacy==3.7.2
+transformers==4.36.2
+tokenizers==0.15.0
+
+# Workflow Automation (oren_progresso - automation)
+celery==5.3.4
+kombu==5.3.4
+
+# Graph Database (arieol_owlist - relationships)
+neo4j==5.15.0
+py2neo==2021.2.4
+
+# Monitoring & Observability (princhetta - orchestration)
+prometheus-client==0.19.0
+structlog==23.2.0
+
+# HTTP & Networking
+httpx==0.25.2
+aiohttp==3.9.1
+requests==2.31.0
+
+# Data Processing & Validation
+orjson==3.9.12
+jsonschema==4.20.0
+marshmallow==3.20.2
+
+# File & Image Processing
+Pillow==10.1.0
+python-magic==0.4.27
+
+# Utilities
+python-dotenv==1.0.0
+click==8.1.7
+typer==0.9.0
+rich==13.7.0
+
+# Development & Testing (production includes minimal dev tools)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+
+# Production Deployment
+gunicorn==21.2.0
+supervisor==4.2.5
+
+# Memory & Performance Optimization
+psutil==5.9.6
+memory-profiler==0.61.0
+
+# Time & Date Processing
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Async Support
+asyncio-mqtt==0.16.1
+aiofiles==23.2.1
+aioredis==2.0.1
+
+# Type Checking (minimal for production)
+types-redis==4.6.0.11
+types-requests==2.31.0.10

@@ -6,14 +6,14 @@
 
 #### What’s inside `gibsey-gift-srec.zip`
 
-|Path|Purpose|
-|---|---|
-|`srec/compiler.py`|250‑line production module that• hashes **SVG + rotation → deterministic ID**• rasterises at 0 / 90 / 180 / 270°• embeds each PNG with **CLIP (`clip‑ViT‑B/32`)**• upserts vector + metadata into **ChromaDB**|
-|`srec/__main__.py`|Lets you run the tool with `python -m srec ...`|
-|`srec/requirements.txt`|Pillow, CairoSVG, xxhash, Sentence‑Transformers, Chroma, tqdm|
-|`srec/README.md`|Quick‑start, env‑vars, docker‑compose drop‑in, pipeline diagram|
-|`srec/Dockerfile`|Minimal image you can point at any `symbols/` directory|
-|`srec/LICENSE`|MIT / CC0 – gift‑economy compliant|
+| Path                    | Purpose                                                                                                                                                                                                        |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `srec/compiler.py`      | 250‑line production module that• hashes **SVG + rotation → deterministic ID**• rasterises at 0 / 90 / 180 / 270°• embeds each PNG with **CLIP (`clip‑ViT‑B/32`)**• upserts vector + metadata into **ChromaDB** |
+| `srec/__main__.py`      | Lets you run the tool with `python -m srec ...`                                                                                                                                                                |
+| `srec/requirements.txt` | Pillow, CairoSVG, xxhash, Sentence‑Transformers, Chroma, tqdm                                                                                                                                                  |
+| `srec/README.md`        | Quick‑start, env‑vars, docker‑compose drop‑in, pipeline diagram                                                                                                                                                |
+| `srec/Dockerfile`       | Minimal image you can point at any `symbols/` directory                                                                                                                                                        |
+| `srec/LICENSE`          | MIT / CC0 – gift‑economy compliant                                                                                                                                                                             |
 
 ---
 

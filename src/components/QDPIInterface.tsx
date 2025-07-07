@@ -75,7 +75,7 @@ export const QDPIInterface: React.FC<QDPIInterfaceProps> = ({
   
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState<QDPISearchMatch[]>([]);
-  const [encodeData, setEncodeData] = useState('');
+  const [encodeInputData, setEncodeInputData] = useState('');
   const [encodedSymbols, setEncodedSymbols] = useState<QDPISymbol[]>([]);
   const [flowHistory, setFlowHistory] = useState<QDPIFlowResult[]>([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -389,21 +389,21 @@ export const QDPIInterface: React.FC<QDPIInterfaceProps> = ({
         <div className="flex gap-2 mb-3">
           <input
             type="text"
-            value={encodeData}
-            onChange={(e) => setEncodeData(e.target.value)}
+            value={encodeInputData}
+            onChange={(e) => setEncodeInputData(e.target.value)}
             placeholder="Enter data to encode into QDPI symbols..."
             className="flex-1 px-3 py-2 bg-gray-800 text-white rounded border border-gray-700 focus:border-blue-500"
           />
           <button
-            onClick={() => encodeData(encodeData, false)}
-            disabled={!encodeData.trim() || isLoading}
+            onClick={() => encodeData(encodeInputData, false)}
+            disabled={!encodeInputData.trim() || isLoading}
             className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 disabled:opacity-50"
           >
             Encode
           </button>
           <button
-            onClick={() => encodeData(encodeData, true)}
-            disabled={!encodeData.trim() || isLoading}
+            onClick={() => encodeData(encodeInputData, true)}
+            disabled={!encodeInputData.trim() || isLoading}
             className="px-4 py-2 bg-orange-600 text-white rounded hover:bg-orange-700 disabled:opacity-50"
           >
             Encode + Execute

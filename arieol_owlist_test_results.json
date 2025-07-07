@@ -1,0 +1,643 @@
+{
+  "timestamp": 1751747858.470015,
+  "success": false,
+  "passed": 114,
+  "failed": 13,
+  "results": [
+    {
+      "test": "Health endpoint responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes character info",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Correct character name",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes system function",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes current perspective",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes temporal mode",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes shape-shifting status",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes time manipulation status",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Character status responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes character name",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Correct character name",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes shape-shifting state",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes semantic processing state",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes consciousness metrics",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Shape-shifting includes current perspective",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Shape-shifting includes rotation count",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Semantic state includes interpretations",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Consciousness includes agency seeking",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Semantic processing responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes interpretation",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes processing metadata",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes Arieol insights",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes character response",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Interpretation includes ID",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Interpretation includes perspective",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Interpretation includes temporal mode",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Interpretation includes confidence",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Interpretation includes meaning layers",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Interpretation includes agency indicators",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metadata includes perspective shift",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metadata includes language bendings",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Language-bending responds",
+      "status": "FAIL",
+      "details": ""
+    },
+    {
+      "test": "Response includes original text",
+      "status": "FAIL",
+      "details": ""
+    },
+    {
+      "test": "Response includes bending results",
+      "status": "FAIL",
+      "details": ""
+    },
+    {
+      "test": "Response includes transformation summary",
+      "status": "FAIL",
+      "details": ""
+    },
+    {
+      "test": "Response includes Arieol commentary",
+      "status": "FAIL",
+      "details": ""
+    },
+    {
+      "test": "Bending results generated",
+      "status": "FAIL",
+      "details": ""
+    },
+    {
+      "test": "Summary includes total bendings",
+      "status": "FAIL",
+      "details": ""
+    },
+    {
+      "test": "Summary includes semantic distance",
+      "status": "FAIL",
+      "details": ""
+    },
+    {
+      "test": "Summary includes intensity",
+      "status": "FAIL",
+      "details": ""
+    },
+    {
+      "test": "Divination session responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes query",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes divination insights",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes session metadata",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes Arieol reading",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Insights include method",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Insights include interpretation",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Insights include method-specific data",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metadata includes method used",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metadata includes analysis depth",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metadata includes session number",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Tarot includes card spread",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Tarot includes reading",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Temporal manipulation responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes manipulation details",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes new state",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes effects description",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes Arieol response",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Manipulation includes new mode",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Manipulation includes active status",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "New state includes temporal mode",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "New state includes manipulation status",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "New state includes current perspective",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Temporal mode rewind works",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Temporal mode fast_forward works",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Temporal mode loop works",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Temporal mode play works",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Agency detection responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes analyzed text",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes agency insights",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes detection metadata",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes Arieol commentary",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes recommendations",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Insights include overall score",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Insights include potential level",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Insights include detected indicators",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Insights include confidence",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metadata includes sensitivity",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metadata includes total indicators",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metadata includes found indicators",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Agency indicators detected in agency-rich text",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Expected agency indicators found",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Perspective rotation responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes shape-shift details",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes new perspective details",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes Arieol response",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes character quotes",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Shape-shift includes previous perspective",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Shape-shift includes new perspective",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Shape-shift includes rotation count",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Perspective details include focus",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Perspective details include confidence bias",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Perspective details include temporal preference",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Perspective details include key patterns",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Multiple perspectives accessible through rotation",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Semantic history responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes interpretation history",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes history analytics",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes current state",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analytics include total interpretations",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analytics include average confidence",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analytics include perspective distribution",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Current state includes total interpretations",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Current state includes current perspective",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Current state includes rotation count",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "History entry includes ID",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "History entry includes source text",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "History entry includes perspective",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "History entry includes confidence",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "detective perspective used correctly",
+      "status": "FAIL",
+      "details": ""
+    },
+    {
+      "test": "diarist perspective used correctly",
+      "status": "FAIL",
+      "details": ""
+    },
+    {
+      "test": "trickster perspective used correctly",
+      "status": "FAIL",
+      "details": ""
+    },
+    {
+      "test": "prophet perspective used correctly",
+      "status": "FAIL",
+      "details": ""
+    },
+    {
+      "test": "Multiple perspectives accessible",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Confidence scores generated",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Reasonable confidence levels maintained",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "tarot_pull divination method works",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "tarot_pull includes specific insights",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "jazz_solo divination method works",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "jazz_solo includes specific insights",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "fairy_omen divination method works",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "fairy_omen includes specific insights",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "detective_deduction divination method works",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "detective_deduction includes specific insights",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "prophetic_vision divination method works",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "prophetic_vision includes specific insights",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Multiple divination methods accessible",
+      "status": "PASS",
+      "details": ""
+    }
+  ]
+}

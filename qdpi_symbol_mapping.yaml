@@ -1,0 +1,371 @@
+# QDPI-256 Symbol Mapping System
+# Maps 64 symbols to real context: characters, systems, lenses, and meta-verbs
+# Rotations: 0°=Read, 90°=Ask, 180°=Index, 270°=Receive
+
+character_symbols:
+  # 16 Named Characters (WHO + HOW)
+  an_author:
+    id: 0
+    who: "The Author (Meta-Narrator)"
+    how: "Content Management System"
+    description: "Manages narrative content and story structure"
+    
+  london_fox:
+    id: 1
+    who: "London Fox (Connection Weaver)"
+    how: "Graph Engine"
+    description: "Creates and manages relationships between entities"
+    
+  glyph_marrow:
+    id: 2
+    who: "Glyph Marrow (Symbol Keeper)"
+    how: "QDPI Protocol Engine"
+    description: "Core symbolic encoding and decoding operations"
+    
+  phillip_bafflemint:
+    id: 3
+    who: "Phillip Bafflemint (UI/UX Designer)"
+    how: "Interface Management"
+    description: "User experience and workflow automation"
+    
+  jacklyn_variance:
+    id: 4
+    who: "Jacklyn Variance (Data Analyst)"
+    how: "Core Database"
+    description: "Data analysis and pattern recognition"
+    
+  oren_progresso:
+    id: 5
+    who: "Oren Progresso (Progress Tracker)"
+    how: "Orchestration Engine"
+    description: "System coordination and progress monitoring"
+    
+  old_natalie_weissman:
+    id: 6
+    who: "Old Natalie Weissman (Memory Keeper)"
+    how: "Memory Management"
+    description: "Historical context and institutional memory"
+    
+  princhetta:
+    id: 7
+    who: "Princhetta (AI Orchestrator)"
+    how: "AI Coordination"
+    description: "Artificial intelligence workflow management"
+    
+  cop_e_right:
+    id: 8
+    who: "Cop-E-Right (Security Guardian)"
+    how: "Security & Permissions"
+    description: "Access control and system security"
+    
+  new_natalie_weissman:
+    id: 9
+    who: "New Natalie Weissman (Innovation Lead)"
+    how: "Research & Development"
+    description: "New feature development and experimentation"
+    
+  arieol_owlist:
+    id: 10
+    who: "Arieol Owlist (Event Coordinator)"
+    how: "Event Streaming"
+    description: "Real-time event processing and coordination"
+    
+  jack_parlance:
+    id: 11
+    who: "Jack Parlance (Network Specialist)"
+    how: "Network Communications"
+    description: "Inter-service communication and messaging"
+    
+  manny_valentinas:
+    id: 12
+    who: "Manny Valentinas (Resource Manager)"
+    how: "Resource Allocation"
+    description: "System resource management and optimization"
+    
+  shamrock_stillman:
+    id: 13
+    who: "Shamrock Stillman (Quality Assurance)"
+    how: "Testing & Validation"
+    description: "System quality and testing automation"
+    
+  todd_fishbone:
+    id: 14
+    who: "Todd Fishbone (Deployment Specialist)"
+    how: "Deployment Pipeline"
+    description: "System deployment and infrastructure management"
+    
+  The_Author:
+    id: 15
+    who: "The Author (Meta-System)"
+    how: "System Bootstrap"
+    description: "Core system initialization and meta-operations"
+
+user_lenses:
+  # Hidden Symbols 1-16: USER/Audience Perspectives (mirrors of characters)
+  hidden_symbol_01:
+    id: 16
+    lens: "Reader Perspective"
+    mirrors: "an_author"
+    description: "How users experience narrative content"
+    
+  hidden_symbol_02:
+    id: 17
+    lens: "Connection Seeker"
+    mirrors: "london_fox"
+    description: "How users discover and explore relationships"
+    
+  hidden_symbol_03:
+    id: 18
+    lens: "Symbol Interpreter"
+    mirrors: "glyph_marrow"
+    description: "How users decode and understand symbols"
+    
+  hidden_symbol_04:
+    id: 19
+    lens: "Interface User"
+    mirrors: "phillip_bafflemint"
+    description: "How users interact with the interface"
+    
+  hidden_symbol_05:
+    id: 20
+    lens: "Data Explorer"
+    mirrors: "jacklyn_variance"
+    description: "How users analyze and explore data"
+    
+  hidden_symbol_06:
+    id: 21
+    lens: "Progress Viewer"
+    mirrors: "oren_progresso"
+    description: "How users track system progress"
+    
+  hidden_symbol_07:
+    id: 22
+    lens: "Memory Accessor"
+    mirrors: "old_natalie_weissman"
+    description: "How users access historical context"
+    
+  hidden_symbol_08:
+    id: 23
+    lens: "AI Collaborator"
+    mirrors: "princhetta"
+    description: "How users work with AI systems"
+    
+  hidden_symbol_09:
+    id: 24
+    lens: "Security Participant"
+    mirrors: "cop_e_right"
+    description: "How users engage with security measures"
+    
+  hidden_symbol_10:
+    id: 25
+    lens: "Innovation Adopter"
+    mirrors: "new_natalie_weissman"
+    description: "How users adopt new features"
+    
+  hidden_symbol_11:
+    id: 26
+    lens: "Event Observer"
+    mirrors: "arieol_owlist"
+    description: "How users observe real-time events"
+    
+  hidden_symbol_12:
+    id: 27
+    lens: "Network Participant"
+    mirrors: "jack_parlance"
+    description: "How users participate in network communications"
+    
+  hidden_symbol_13:
+    id: 28
+    lens: "Resource Consumer"
+    mirrors: "manny_valentinas"
+    description: "How users consume system resources"
+    
+  hidden_symbol_14:
+    id: 29
+    lens: "Quality Evaluator"
+    mirrors: "shamrock_stillman"
+    description: "How users evaluate system quality"
+    
+  hidden_symbol_15:
+    id: 30
+    lens: "System Observer"
+    mirrors: "todd_fishbone"
+    description: "How users observe system deployment"
+    
+  hidden_symbol_16:
+    id: 31
+    lens: "Meta Observer"
+    mirrors: "The_Author"
+    description: "How users observe the system observing itself"
+
+system_lenses:
+  # Hidden Symbols 17-32: SYSTEM Backend Perspectives
+  hidden_symbol_17:
+    id: 32
+    lens: "Content Backend"
+    description: "How content management system sees operations"
+    
+  hidden_symbol_18:
+    id: 33
+    lens: "Graph Backend"
+    description: "How graph engine processes relationships"
+    
+  hidden_symbol_19:
+    id: 34
+    lens: "Protocol Backend"
+    description: "How QDPI engine processes symbols internally"
+    
+  hidden_symbol_20:
+    id: 35
+    lens: "Interface Backend"
+    description: "How UI/UX system processes user interactions"
+    
+  hidden_symbol_21:
+    id: 36
+    lens: "Database Backend"
+    description: "How database engine processes queries"
+    
+  hidden_symbol_22:
+    id: 37
+    lens: "Orchestration Backend"
+    description: "How orchestration engine coordinates services"
+    
+  hidden_symbol_23:
+    id: 38
+    lens: "Memory Backend"
+    description: "How memory management system stores context"
+    
+  hidden_symbol_24:
+    id: 39
+    lens: "AI Backend"
+    description: "How AI coordination system processes requests"
+    
+  hidden_symbol_25:
+    id: 40
+    lens: "Security Backend"
+    description: "How security system validates permissions"
+    
+  hidden_symbol_26:
+    id: 41
+    lens: "R&D Backend"
+    description: "How research system processes experiments"
+    
+  hidden_symbol_27:
+    id: 42
+    lens: "Event Backend"
+    description: "How event streaming system processes events"
+    
+  hidden_symbol_28:
+    id: 43
+    lens: "Network Backend"
+    description: "How network system routes communications"
+    
+  hidden_symbol_29:
+    id: 44
+    lens: "Resource Backend"
+    description: "How resource system allocates capacity"
+    
+  hidden_symbol_30:
+    id: 45
+    lens: "Testing Backend"
+    description: "How testing system validates operations"
+    
+  hidden_symbol_31:
+    id: 46
+    lens: "Deployment Backend"
+    description: "How deployment system manages infrastructure"
+    
+  hidden_symbol_32:
+    id: 47
+    lens: "Bootstrap Backend"
+    description: "How system initialization processes work"
+
+meta_verbs:
+  # Hidden Symbols 33-48: Meta-Operations
+  hidden_symbol_33:
+    id: 48
+    verb: "LINK"
+    description: "Create connection between entities"
+    
+  hidden_symbol_34:
+    id: 49
+    verb: "MERGE"
+    description: "Combine multiple entities into one"
+    
+  hidden_symbol_35:
+    id: 50
+    verb: "SPLIT"
+    description: "Divide one entity into multiple"
+    
+  hidden_symbol_36:
+    id: 51
+    verb: "FORGET"
+    description: "Remove from memory/context"
+    
+  hidden_symbol_37:
+    id: 52
+    verb: "REMEMBER"
+    description: "Store in memory/context"
+    
+  hidden_symbol_38:
+    id: 53
+    verb: "GIFT"
+    description: "Transfer resource without expectation"
+    
+  hidden_symbol_39:
+    id: 54
+    verb: "COST"
+    description: "Calculate resource expenditure"
+    
+  hidden_symbol_40:
+    id: 55
+    verb: "VALIDATE"
+    description: "Verify correctness or permissions"
+    
+  hidden_symbol_41:
+    id: 56
+    verb: "TRANSFORM"
+    description: "Change form or structure"
+    
+  hidden_symbol_42:
+    id: 57
+    verb: "REPLICATE"
+    description: "Create identical copy"
+    
+  hidden_symbol_43:
+    id: 58
+    verb: "OBSERVE"
+    description: "Monitor without interference"
+    
+  hidden_symbol_44:
+    id: 59
+    verb: "INTERRUPT"
+    description: "Stop current operation"
+    
+  hidden_symbol_45:
+    id: 60
+    verb: "RESUME"
+    description: "Continue stopped operation"
+    
+  hidden_symbol_46:
+    id: 61
+    verb: "BRANCH"
+    description: "Create alternative path/version"
+    
+  hidden_symbol_47:
+    id: 62
+    verb: "SYNCHRONIZE"
+    description: "Align timing or state"
+    
+  hidden_symbol_48:
+    id: 63
+    verb: "TERMINATE"
+    description: "End operation or process"
+
+rotations:
+  0: "READ"     # Observe/inspect current state
+  90: "ASK"     # Request information or action
+  180: "INDEX"  # Store/catalog for future retrieval
+  270: "RECEIVE" # Accept/process incoming data
+
+# Total symbol space: 64 symbols × 4 rotations = 256 unique glyphs

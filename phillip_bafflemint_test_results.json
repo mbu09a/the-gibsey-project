@@ -1,0 +1,678 @@
+{
+  "timestamp": 1751750224.958068,
+  "success": true,
+  "passed": 134,
+  "failed": 0,
+  "results": [
+    {
+      "test": "Health endpoint responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes character info",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Correct character name",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes system function",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes QDPI phase",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes limiter level",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes brain-silenced mode",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Health includes cognitive load",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Character status responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes character name",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Correct character name",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes workflow state",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes organization metrics",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Status includes QDPI integration",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Workflow includes QDPI phase",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Workflow includes limiter level",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Workflow includes brain-silenced mode",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Organization includes facts count",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "QDPI includes symbol ID",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Information processing responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes processed fact",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes QDPI phase",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes organization result",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes triggers",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes gaps count",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes automation suggestions",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes Phillip's analysis",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Fact includes ID",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Fact includes organization bucket",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Fact includes confidence score",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Fact includes negative space analysis",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Fact includes tags",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Interface state includes limiter level",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Interface state includes brain-silenced mode",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Automation creation responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes automation details",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes creation status",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes integration status",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes efficiency estimate",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes Phillip's analysis",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Automation includes ID",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Automation includes type",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Automation includes target bucket",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Automation includes ritual steps",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Automation includes success metrics",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Automation created successfully",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Automation ready for integration",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Interface personalization responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes personalization config",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes user ID",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes configuration status",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes privacy level",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes Phillip's response",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Config includes user profile",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Config includes interface styling",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Config includes automation settings",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Config includes privacy controls",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Profile includes preferred style",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Profile includes limiter sensitivity",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Styling includes primary color",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Privacy includes encryption level",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Limiter control responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes limiter adjustment",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes level effects",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes Phillip's response",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Adjustment includes previous level",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Adjustment includes new level",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Adjustment includes reason",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Adjustment includes brain-silenced mode",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Effects include description",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Effects include processing style",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Effects include escalation risk",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Level 6 limiter test responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Negative space analysis responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes analysis",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes metadata",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes gap visualization",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes Phillip's analysis",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analysis includes ID",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analysis includes gaps",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analysis includes questions",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analysis includes priority",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analysis includes suggested sources",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metadata includes gaps count",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metadata includes questions count",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metadata includes analysis depth",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Visualization includes missing elements",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Visualization includes completeness score",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Gaps identified in incomplete content",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Questions generated for gaps",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Organization query responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes organized facts",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes query metadata",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes analytics",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes system state",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metadata includes total results",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metadata includes bucket filter",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Metadata includes confidence threshold",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analytics include bucket distribution",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Analytics include confidence distribution",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "System state includes total facts",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "System state includes QDPI phase",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Fact includes ID",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Fact includes content",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Fact includes bucket",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Fact includes confidence",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "QDPI phase status responds",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes current phase",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes progress details",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes next phase",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes workflow ritual",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Response includes limiter state",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Current phase includes phase name",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Current phase includes description",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Current phase includes completion progress",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Progress includes facts processed",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Progress includes gaps identified",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Progress includes patterns detected",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Ritual includes steps",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Ritual includes current step",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Limiter state includes current level",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Limiter state includes brain-silenced mode",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Phase advancement includes advancement details",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Advancement includes previous phase",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Advancement includes new phase",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Workflow scenarios processed",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Reasonable confidence levels maintained",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Gap detection functional",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Trigger detection functional",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Multiple organization buckets utilized",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Level 6 processing allowed",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Brain-silenced mode tracked",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Cognitive load monitored",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "test": "Brain-silenced mode active at level 3",
+      "status": "PASS",
+      "details": ""
+    }
+  ]
+}

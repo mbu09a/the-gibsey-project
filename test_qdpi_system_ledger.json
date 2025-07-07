@@ -1,0 +1,737 @@
+{
+  "ledger_metadata": {
+    "created_at": "2025-07-05T18:07:48.772325",
+    "total_sequences": 4,
+    "corpus_validation": {
+      "total_expected": 64,
+      "found_count": 62,
+      "missing_count": 2,
+      "naming_issues": [
+        "Expected 'cop_e_right' but found variant"
+      ],
+      "found_symbols": [
+        "an_author.svg",
+        "london_fox.svg",
+        "glyph_marrow.svg",
+        "phillip_bafflemint.svg",
+        "manny_valentinas.svg",
+        "jacklyn_variance.svg",
+        "oren_progresso.svg",
+        "old_natalie_weissman.svg",
+        "princhetta.svg",
+        "cop-e-right.svg",
+        "new_natalie_weissman.svg",
+        "arieol_owlist.svg",
+        "jack_parlance.svg",
+        "shamrock_stillman.svg",
+        "hidden_symbol_01.svg",
+        "hidden_symbol_02.svg",
+        "hidden_symbol_03.svg",
+        "hidden_symbol_04.svg",
+        "hidden_symbol_05.svg",
+        "hidden_symbol_06.svg",
+        "hidden_symbol_07.svg",
+        "hidden_symbol_08.svg",
+        "hidden_symbol_09.svg",
+        "hidden_symbol_10.svg",
+        "hidden_symbol_11.svg",
+        "hidden_symbol_12.svg",
+        "hidden_symbol_13.svg",
+        "hidden_symbol_14.svg",
+        "hidden_symbol_15.svg",
+        "hidden_symbol_16.svg",
+        "hidden_symbol_17.svg",
+        "hidden_symbol_18.svg",
+        "hidden_symbol_19.svg",
+        "hidden_symbol_20.svg",
+        "hidden_symbol_21.svg",
+        "hidden_symbol_22.svg",
+        "hidden_symbol_23.svg",
+        "hidden_symbol_24.svg",
+        "hidden_symbol_25.svg",
+        "hidden_symbol_26.svg",
+        "hidden_symbol_27.svg",
+        "hidden_symbol_28.svg",
+        "hidden_symbol_29.svg",
+        "hidden_symbol_30.svg",
+        "hidden_symbol_31.svg",
+        "hidden_symbol_32.svg",
+        "hidden_symbol_33.svg",
+        "hidden_symbol_34.svg",
+        "hidden_symbol_35.svg",
+        "hidden_symbol_36.svg",
+        "hidden_symbol_37.svg",
+        "hidden_symbol_38.svg",
+        "hidden_symbol_39.svg",
+        "hidden_symbol_40.svg",
+        "hidden_symbol_41.svg",
+        "hidden_symbol_42.svg",
+        "hidden_symbol_43.svg",
+        "hidden_symbol_44.svg",
+        "hidden_symbol_45.svg",
+        "hidden_symbol_46.svg",
+        "hidden_symbol_47.svg",
+        "hidden_symbol_48.svg"
+      ],
+      "missing_symbols": [
+        "judy_s_cargot.svg",
+        "the_author.svg"
+      ],
+      "validation_status": "PARTIAL"
+    },
+    "system_architecture_version": "2.0"
+  },
+  "sequences": {
+    "auth_flow_001": {
+      "sequence_id": "auth_flow_001",
+      "created_at": "2025-07-05T18:07:48.772261",
+      "originating_system": "USER_AUTH",
+      "symbol_count": 3,
+      "symbols": [
+        {
+          "base_symbol": "an_author",
+          "rotation": "READ",
+          "rotation_value": 0,
+          "sequence_pos": 0,
+          "symbol_id": 0,
+          "system": "USER_AUTH",
+          "system_id": 1,
+          "confidence": 0.75,
+          "timestamp": "2025-07-05T18:07:48.772266",
+          "svg_path": "public/corpus-symbols/an_author.svg"
+        },
+        {
+          "base_symbol": "shamrock_stillman",
+          "rotation": "WRITE",
+          "rotation_value": 1,
+          "sequence_pos": 1,
+          "symbol_id": 57,
+          "system": "SECURITY_CDN",
+          "system_id": 14,
+          "confidence": 0.82,
+          "timestamp": "2025-07-05T18:07:48.772268",
+          "svg_path": "public/corpus-symbols/shamrock_stillman.svg"
+        },
+        {
+          "base_symbol": "jacklyn_variance",
+          "rotation": "REMEMBER",
+          "rotation_value": 2,
+          "sequence_pos": 2,
+          "symbol_id": 26,
+          "system": "CORE_DATABASE",
+          "system_id": 5,
+          "confidence": 0.9,
+          "timestamp": "2025-07-05T18:07:48.772270",
+          "svg_path": "public/corpus-symbols/jacklyn_variance.svg"
+        }
+      ],
+      "privacy_map": {
+        "READ": 1,
+        "WRITE": 1,
+        "REMEMBER": 1,
+        "DREAM": 0
+      },
+      "character_presence": {
+        "an_author": 1,
+        "shamrock_stillman": 1,
+        "jacklyn_variance": 1
+      },
+      "system_flow": {
+        "originating_system": "USER_AUTH",
+        "systems_involved": [
+          "SECURITY_CDN",
+          "USER_AUTH",
+          "CORE_DATABASE"
+        ],
+        "system_transitions": [
+          {
+            "from": "USER_AUTH",
+            "to": "SECURITY_CDN",
+            "privacy_shift": "READ\u2192WRITE"
+          },
+          {
+            "from": "SECURITY_CDN",
+            "to": "CORE_DATABASE",
+            "privacy_shift": "WRITE\u2192REMEMBER"
+          }
+        ]
+      }
+    },
+    "ai_pipeline_001": {
+      "sequence_id": "ai_pipeline_001",
+      "created_at": "2025-07-05T18:07:48.772282",
+      "originating_system": "AI_ORCHESTRATION",
+      "symbol_count": 4,
+      "symbols": [
+        {
+          "base_symbol": "glyph_marrow",
+          "rotation": "READ",
+          "rotation_value": 0,
+          "sequence_pos": 0,
+          "symbol_id": 8,
+          "system": "QDPI_PROTOCOL",
+          "system_id": 3,
+          "confidence": 0.95,
+          "timestamp": "2025-07-05T18:07:48.772284",
+          "svg_path": "public/corpus-symbols/glyph_marrow.svg"
+        },
+        {
+          "base_symbol": "princhetta",
+          "rotation": "DREAM",
+          "rotation_value": 3,
+          "sequence_pos": 1,
+          "symbol_id": 39,
+          "system": "AI_ORCHESTRATION",
+          "system_id": 8,
+          "confidence": 0.87,
+          "timestamp": "2025-07-05T18:07:48.772285",
+          "svg_path": "public/corpus-symbols/princhetta.svg"
+        },
+        {
+          "base_symbol": "cop_e_right",
+          "rotation": "WRITE",
+          "rotation_value": 1,
+          "sequence_pos": 2,
+          "symbol_id": 41,
+          "system": "LOCAL_AI",
+          "system_id": 9,
+          "confidence": 0.65,
+          "timestamp": "2025-07-05T18:07:48.772286",
+          "svg_path": "public/corpus-symbols/cop_e_right.svg"
+        },
+        {
+          "base_symbol": "london_fox",
+          "rotation": "REMEMBER",
+          "rotation_value": 2,
+          "sequence_pos": 3,
+          "symbol_id": 6,
+          "system": "GRAPH_ENGINE",
+          "system_id": 2,
+          "confidence": 0.92,
+          "timestamp": "2025-07-05T18:07:48.772287",
+          "svg_path": "public/corpus-symbols/london_fox.svg"
+        }
+      ],
+      "privacy_map": {
+        "READ": 1,
+        "WRITE": 1,
+        "REMEMBER": 1,
+        "DREAM": 1
+      },
+      "character_presence": {
+        "glyph_marrow": 1,
+        "princhetta": 1,
+        "cop_e_right": 1,
+        "london_fox": 1
+      },
+      "system_flow": {
+        "originating_system": "AI_ORCHESTRATION",
+        "systems_involved": [
+          "QDPI_PROTOCOL",
+          "AI_ORCHESTRATION",
+          "LOCAL_AI",
+          "GRAPH_ENGINE"
+        ],
+        "system_transitions": [
+          {
+            "from": "QDPI_PROTOCOL",
+            "to": "AI_ORCHESTRATION",
+            "privacy_shift": "READ\u2192DREAM"
+          },
+          {
+            "from": "AI_ORCHESTRATION",
+            "to": "LOCAL_AI",
+            "privacy_shift": "DREAM\u2192WRITE"
+          },
+          {
+            "from": "LOCAL_AI",
+            "to": "GRAPH_ENGINE",
+            "privacy_shift": "WRITE\u2192REMEMBER"
+          }
+        ]
+      }
+    },
+    "realtime_001": {
+      "sequence_id": "realtime_001",
+      "created_at": "2025-07-05T18:07:48.772293",
+      "originating_system": "EVENT_STREAMING",
+      "symbol_count": 4,
+      "symbols": [
+        {
+          "base_symbol": "arieol_owlist",
+          "rotation": "READ",
+          "rotation_value": 0,
+          "sequence_pos": 0,
+          "symbol_id": 48,
+          "system": "EVENT_STREAMING",
+          "system_id": 11,
+          "confidence": 0.85,
+          "timestamp": "2025-07-05T18:07:48.772294",
+          "svg_path": "public/corpus-symbols/arieol_owlist.svg"
+        },
+        {
+          "base_symbol": "phillip_bafflemint",
+          "rotation": "WRITE",
+          "rotation_value": 1,
+          "sequence_pos": 1,
+          "symbol_id": 13,
+          "system": "WORKFLOW_AUTOMATION",
+          "system_id": 4,
+          "confidence": 0.83,
+          "timestamp": "2025-07-05T18:07:48.772295",
+          "svg_path": "public/corpus-symbols/phillip_bafflemint.svg"
+        },
+        {
+          "base_symbol": "new_natalie_weissman",
+          "rotation": "DREAM",
+          "rotation_value": 3,
+          "sequence_pos": 2,
+          "symbol_id": 47,
+          "system": "REAL_TIME_DATA",
+          "system_id": 10,
+          "confidence": 0.68,
+          "timestamp": "2025-07-05T18:07:48.772296",
+          "svg_path": "public/corpus-symbols/new_natalie_weissman.svg"
+        },
+        {
+          "base_symbol": "oren_progresso",
+          "rotation": "REMEMBER",
+          "rotation_value": 2,
+          "sequence_pos": 3,
+          "symbol_id": 30,
+          "system": "ORCHESTRATION",
+          "system_id": 6,
+          "confidence": 0.88,
+          "timestamp": "2025-07-05T18:07:48.772297",
+          "svg_path": "public/corpus-symbols/oren_progresso.svg"
+        }
+      ],
+      "privacy_map": {
+        "READ": 1,
+        "WRITE": 1,
+        "REMEMBER": 1,
+        "DREAM": 1
+      },
+      "character_presence": {
+        "arieol_owlist": 1,
+        "phillip_bafflemint": 1,
+        "new_natalie_weissman": 1,
+        "oren_progresso": 1
+      },
+      "system_flow": {
+        "originating_system": "EVENT_STREAMING",
+        "systems_involved": [
+          "REAL_TIME_DATA",
+          "ORCHESTRATION",
+          "WORKFLOW_AUTOMATION",
+          "EVENT_STREAMING"
+        ],
+        "system_transitions": [
+          {
+            "from": "EVENT_STREAMING",
+            "to": "WORKFLOW_AUTOMATION",
+            "privacy_shift": "READ\u2192WRITE"
+          },
+          {
+            "from": "WORKFLOW_AUTOMATION",
+            "to": "REAL_TIME_DATA",
+            "privacy_shift": "WRITE\u2192DREAM"
+          },
+          {
+            "from": "REAL_TIME_DATA",
+            "to": "ORCHESTRATION",
+            "privacy_shift": "DREAM\u2192REMEMBER"
+          }
+        ]
+      }
+    },
+    "full_integration_001": {
+      "sequence_id": "full_integration_001",
+      "created_at": "2025-07-05T18:07:48.772302",
+      "originating_system": "ORCHESTRATION",
+      "symbol_count": 16,
+      "symbols": [
+        {
+          "base_symbol": "glyph_marrow",
+          "rotation": "READ",
+          "rotation_value": 0,
+          "sequence_pos": 0,
+          "symbol_id": 8,
+          "system": "QDPI_PROTOCOL",
+          "system_id": 3,
+          "confidence": 0.95,
+          "timestamp": "2025-07-05T18:07:48.772304",
+          "svg_path": "public/corpus-symbols/glyph_marrow.svg"
+        },
+        {
+          "base_symbol": "london_fox",
+          "rotation": "WRITE",
+          "rotation_value": 1,
+          "sequence_pos": 1,
+          "symbol_id": 5,
+          "system": "GRAPH_ENGINE",
+          "system_id": 2,
+          "confidence": 0.92,
+          "timestamp": "2025-07-05T18:07:48.772306",
+          "svg_path": "public/corpus-symbols/london_fox.svg"
+        },
+        {
+          "base_symbol": "jacklyn_variance",
+          "rotation": "REMEMBER",
+          "rotation_value": 2,
+          "sequence_pos": 2,
+          "symbol_id": 26,
+          "system": "CORE_DATABASE",
+          "system_id": 5,
+          "confidence": 0.9,
+          "timestamp": "2025-07-05T18:07:48.772308",
+          "svg_path": "public/corpus-symbols/jacklyn_variance.svg"
+        },
+        {
+          "base_symbol": "oren_progresso",
+          "rotation": "DREAM",
+          "rotation_value": 3,
+          "sequence_pos": 3,
+          "symbol_id": 31,
+          "system": "ORCHESTRATION",
+          "system_id": 6,
+          "confidence": 0.88,
+          "timestamp": "2025-07-05T18:07:48.772309",
+          "svg_path": "public/corpus-symbols/oren_progresso.svg"
+        },
+        {
+          "base_symbol": "princhetta",
+          "rotation": "READ",
+          "rotation_value": 0,
+          "sequence_pos": 4,
+          "symbol_id": 36,
+          "system": "AI_ORCHESTRATION",
+          "system_id": 8,
+          "confidence": 0.87,
+          "timestamp": "2025-07-05T18:07:48.772310",
+          "svg_path": "public/corpus-symbols/princhetta.svg"
+        },
+        {
+          "base_symbol": "arieol_owlist",
+          "rotation": "WRITE",
+          "rotation_value": 1,
+          "sequence_pos": 5,
+          "symbol_id": 49,
+          "system": "EVENT_STREAMING",
+          "system_id": 11,
+          "confidence": 0.85,
+          "timestamp": "2025-07-05T18:07:48.772311",
+          "svg_path": "public/corpus-symbols/arieol_owlist.svg"
+        },
+        {
+          "base_symbol": "phillip_bafflemint",
+          "rotation": "REMEMBER",
+          "rotation_value": 2,
+          "sequence_pos": 6,
+          "symbol_id": 14,
+          "system": "WORKFLOW_AUTOMATION",
+          "system_id": 4,
+          "confidence": 0.83,
+          "timestamp": "2025-07-05T18:07:48.772312",
+          "svg_path": "public/corpus-symbols/phillip_bafflemint.svg"
+        },
+        {
+          "base_symbol": "shamrock_stillman",
+          "rotation": "DREAM",
+          "rotation_value": 3,
+          "sequence_pos": 7,
+          "symbol_id": 59,
+          "system": "SECURITY_CDN",
+          "system_id": 14,
+          "confidence": 0.82,
+          "timestamp": "2025-07-05T18:07:48.772313",
+          "svg_path": "public/corpus-symbols/shamrock_stillman.svg"
+        },
+        {
+          "base_symbol": "an_author",
+          "rotation": "READ",
+          "rotation_value": 0,
+          "sequence_pos": 8,
+          "symbol_id": 0,
+          "system": "USER_AUTH",
+          "system_id": 1,
+          "confidence": 0.75,
+          "timestamp": "2025-07-05T18:07:48.772314",
+          "svg_path": "public/corpus-symbols/an_author.svg"
+        },
+        {
+          "base_symbol": "jack_parlance",
+          "rotation": "WRITE",
+          "rotation_value": 1,
+          "sequence_pos": 9,
+          "symbol_id": 53,
+          "system": "REAL_TIME_COMM",
+          "system_id": 12,
+          "confidence": 0.72,
+          "timestamp": "2025-07-05T18:07:48.772315",
+          "svg_path": "public/corpus-symbols/jack_parlance.svg"
+        },
+        {
+          "base_symbol": "old_natalie_weissman",
+          "rotation": "REMEMBER",
+          "rotation_value": 2,
+          "sequence_pos": 10,
+          "symbol_id": 34,
+          "system": "SEMANTIC_SEARCH",
+          "system_id": 7,
+          "confidence": 0.7,
+          "timestamp": "2025-07-05T18:07:48.772317",
+          "svg_path": "public/corpus-symbols/old_natalie_weissman.svg"
+        },
+        {
+          "base_symbol": "new_natalie_weissman",
+          "rotation": "DREAM",
+          "rotation_value": 3,
+          "sequence_pos": 11,
+          "symbol_id": 47,
+          "system": "REAL_TIME_DATA",
+          "system_id": 10,
+          "confidence": 0.68,
+          "timestamp": "2025-07-05T18:07:48.772318",
+          "svg_path": "public/corpus-symbols/new_natalie_weissman.svg"
+        },
+        {
+          "base_symbol": "cop_e_right",
+          "rotation": "READ",
+          "rotation_value": 0,
+          "sequence_pos": 12,
+          "symbol_id": 40,
+          "system": "LOCAL_AI",
+          "system_id": 9,
+          "confidence": 0.65,
+          "timestamp": "2025-07-05T18:07:48.772319",
+          "svg_path": "public/corpus-symbols/cop_e_right.svg"
+        },
+        {
+          "base_symbol": "the_author",
+          "rotation": "WRITE",
+          "rotation_value": 1,
+          "sequence_pos": 13,
+          "symbol_id": 61,
+          "system": "P2P_NETWORK",
+          "system_id": 16,
+          "confidence": 0.62,
+          "timestamp": "2025-07-05T18:07:48.772320",
+          "svg_path": "public/corpus-symbols/the_author.svg"
+        },
+        {
+          "base_symbol": "manny_valentinas",
+          "rotation": "REMEMBER",
+          "rotation_value": 2,
+          "sequence_pos": 14,
+          "symbol_id": 18,
+          "system": "KNOWLEDGE_BASE",
+          "system_id": 13,
+          "confidence": 0.5,
+          "timestamp": "2025-07-05T18:07:48.772321",
+          "svg_path": "public/corpus-symbols/manny_valentinas.svg"
+        },
+        {
+          "base_symbol": "judy_s_cargot",
+          "rotation": "DREAM",
+          "rotation_value": 3,
+          "sequence_pos": 15,
+          "symbol_id": 23,
+          "system": "NLU",
+          "system_id": 15,
+          "confidence": 0.55,
+          "timestamp": "2025-07-05T18:07:48.772322",
+          "svg_path": "public/corpus-symbols/judy_s_cargot.svg"
+        }
+      ],
+      "privacy_map": {
+        "READ": 4,
+        "WRITE": 4,
+        "REMEMBER": 4,
+        "DREAM": 4
+      },
+      "character_presence": {
+        "glyph_marrow": 1,
+        "london_fox": 1,
+        "jacklyn_variance": 1,
+        "oren_progresso": 1,
+        "princhetta": 1,
+        "arieol_owlist": 1,
+        "phillip_bafflemint": 1,
+        "shamrock_stillman": 1,
+        "an_author": 1,
+        "jack_parlance": 1,
+        "old_natalie_weissman": 1,
+        "new_natalie_weissman": 1,
+        "cop_e_right": 1,
+        "the_author": 1,
+        "manny_valentinas": 1,
+        "judy_s_cargot": 1
+      },
+      "system_flow": {
+        "originating_system": "ORCHESTRATION",
+        "systems_involved": [
+          "SEMANTIC_SEARCH",
+          "REAL_TIME_DATA",
+          "USER_AUTH",
+          "AI_ORCHESTRATION",
+          "ORCHESTRATION",
+          "EVENT_STREAMING",
+          "QDPI_PROTOCOL",
+          "KNOWLEDGE_BASE",
+          "CORE_DATABASE",
+          "GRAPH_ENGINE",
+          "SECURITY_CDN",
+          "NLU",
+          "WORKFLOW_AUTOMATION",
+          "P2P_NETWORK",
+          "LOCAL_AI",
+          "REAL_TIME_COMM"
+        ],
+        "system_transitions": [
+          {
+            "from": "QDPI_PROTOCOL",
+            "to": "GRAPH_ENGINE",
+            "privacy_shift": "READ\u2192WRITE"
+          },
+          {
+            "from": "GRAPH_ENGINE",
+            "to": "CORE_DATABASE",
+            "privacy_shift": "WRITE\u2192REMEMBER"
+          },
+          {
+            "from": "CORE_DATABASE",
+            "to": "ORCHESTRATION",
+            "privacy_shift": "REMEMBER\u2192DREAM"
+          },
+          {
+            "from": "ORCHESTRATION",
+            "to": "AI_ORCHESTRATION",
+            "privacy_shift": "DREAM\u2192READ"
+          },
+          {
+            "from": "AI_ORCHESTRATION",
+            "to": "EVENT_STREAMING",
+            "privacy_shift": "READ\u2192WRITE"
+          },
+          {
+            "from": "EVENT_STREAMING",
+            "to": "WORKFLOW_AUTOMATION",
+            "privacy_shift": "WRITE\u2192REMEMBER"
+          },
+          {
+            "from": "WORKFLOW_AUTOMATION",
+            "to": "SECURITY_CDN",
+            "privacy_shift": "REMEMBER\u2192DREAM"
+          },
+          {
+            "from": "SECURITY_CDN",
+            "to": "USER_AUTH",
+            "privacy_shift": "DREAM\u2192READ"
+          },
+          {
+            "from": "USER_AUTH",
+            "to": "REAL_TIME_COMM",
+            "privacy_shift": "READ\u2192WRITE"
+          },
+          {
+            "from": "REAL_TIME_COMM",
+            "to": "SEMANTIC_SEARCH",
+            "privacy_shift": "WRITE\u2192REMEMBER"
+          },
+          {
+            "from": "SEMANTIC_SEARCH",
+            "to": "REAL_TIME_DATA",
+            "privacy_shift": "REMEMBER\u2192DREAM"
+          },
+          {
+            "from": "REAL_TIME_DATA",
+            "to": "LOCAL_AI",
+            "privacy_shift": "DREAM\u2192READ"
+          },
+          {
+            "from": "LOCAL_AI",
+            "to": "P2P_NETWORK",
+            "privacy_shift": "READ\u2192WRITE"
+          },
+          {
+            "from": "P2P_NETWORK",
+            "to": "KNOWLEDGE_BASE",
+            "privacy_shift": "WRITE\u2192REMEMBER"
+          },
+          {
+            "from": "KNOWLEDGE_BASE",
+            "to": "NLU",
+            "privacy_shift": "REMEMBER\u2192DREAM"
+          }
+        ]
+      }
+    }
+  },
+  "system_mappings": {
+    "glyph_marrow": {
+      "system": "QDPI_PROTOCOL",
+      "confidence": 0.95
+    },
+    "london_fox": {
+      "system": "GRAPH_ENGINE",
+      "confidence": 0.92
+    },
+    "jacklyn_variance": {
+      "system": "CORE_DATABASE",
+      "confidence": 0.9
+    },
+    "oren_progresso": {
+      "system": "ORCHESTRATION",
+      "confidence": 0.88
+    },
+    "princhetta": {
+      "system": "AI_ORCHESTRATION",
+      "confidence": 0.87
+    },
+    "arieol_owlist": {
+      "system": "EVENT_STREAMING",
+      "confidence": 0.85
+    },
+    "phillip_bafflemint": {
+      "system": "WORKFLOW_AUTOMATION",
+      "confidence": 0.83
+    },
+    "shamrock_stillman": {
+      "system": "SECURITY_CDN",
+      "confidence": 0.82
+    },
+    "an_author": {
+      "system": "USER_AUTH",
+      "confidence": 0.75
+    },
+    "jack_parlance": {
+      "system": "REAL_TIME_COMM",
+      "confidence": 0.72
+    },
+    "old_natalie_weissman": {
+      "system": "SEMANTIC_SEARCH",
+      "confidence": 0.7
+    },
+    "new_natalie_weissman": {
+      "system": "REAL_TIME_DATA",
+      "confidence": 0.68
+    },
+    "cop_e_right": {
+      "system": "LOCAL_AI",
+      "confidence": 0.65
+    },
+    "the_author": {
+      "system": "P2P_NETWORK",
+      "confidence": 0.62
+    },
+    "manny_valentinas": {
+      "system": "KNOWLEDGE_BASE",
+      "confidence": 0.5
+    },
+    "judy_s_cargot": {
+      "system": "NLU",
+      "confidence": 0.55
+    }
+  }
+}

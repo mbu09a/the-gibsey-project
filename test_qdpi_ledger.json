@@ -1,0 +1,215 @@
+{
+  "ledger_metadata": {
+    "created_at": "2025-07-05T18:00:07.422796",
+    "total_sequences": 3,
+    "total_symbols": 10,
+    "corpus_path": "public/corpus-symbols",
+    "validation_results": {
+      "total_expected": 64,
+      "found_count": 53,
+      "missing_count": 11,
+      "found_symbols": [
+        "an_author.svg",
+        "london_fox.svg",
+        "glyph_marrow.svg",
+        "phillip_bafflemint.svg",
+        "manny_valentinas.svg",
+        "jacklyn_variance.svg",
+        "oren_progresso.svg",
+        "old_natalie_weissman.svg",
+        "princhetta.svg",
+        "new_natalie_weissman.svg",
+        "arieol_owlist.svg",
+        "jack_parlance.svg",
+        "shamrock_stillman.svg",
+        "the_author.svg",
+        "hidden_symbol_10.svg",
+        "hidden_symbol_11.svg",
+        "hidden_symbol_12.svg",
+        "hidden_symbol_13.svg",
+        "hidden_symbol_14.svg",
+        "hidden_symbol_15.svg",
+        "hidden_symbol_16.svg",
+        "hidden_symbol_17.svg",
+        "hidden_symbol_18.svg",
+        "hidden_symbol_19.svg",
+        "hidden_symbol_20.svg",
+        "hidden_symbol_21.svg",
+        "hidden_symbol_22.svg",
+        "hidden_symbol_23.svg",
+        "hidden_symbol_24.svg",
+        "hidden_symbol_25.svg",
+        "hidden_symbol_26.svg",
+        "hidden_symbol_27.svg",
+        "hidden_symbol_28.svg",
+        "hidden_symbol_29.svg",
+        "hidden_symbol_30.svg",
+        "hidden_symbol_31.svg",
+        "hidden_symbol_32.svg",
+        "hidden_symbol_33.svg",
+        "hidden_symbol_34.svg",
+        "hidden_symbol_35.svg",
+        "hidden_symbol_36.svg",
+        "hidden_symbol_37.svg",
+        "hidden_symbol_38.svg",
+        "hidden_symbol_39.svg",
+        "hidden_symbol_40.svg",
+        "hidden_symbol_41.svg",
+        "hidden_symbol_42.svg",
+        "hidden_symbol_43.svg",
+        "hidden_symbol_44.svg",
+        "hidden_symbol_45.svg",
+        "hidden_symbol_46.svg",
+        "hidden_symbol_47.svg",
+        "hidden_symbol_48.svg"
+      ],
+      "missing_symbols": [
+        "judy_s_cargot.svg",
+        "cop_e_right.svg",
+        "hidden_symbol_1.svg",
+        "hidden_symbol_2.svg",
+        "hidden_symbol_3.svg",
+        "hidden_symbol_4.svg",
+        "hidden_symbol_5.svg",
+        "hidden_symbol_6.svg",
+        "hidden_symbol_7.svg",
+        "hidden_symbol_8.svg",
+        "hidden_symbol_9.svg"
+      ],
+      "validation_status": "FAIL"
+    }
+  },
+  "sequences": {
+    "user_read_session_001": {
+      "sequence_id": "user_read_session_001",
+      "created_at": "2025-07-05T18:00:07.422741",
+      "symbol_count": 3,
+      "symbols": [
+        {
+          "base_symbol": "an_author",
+          "rotation": "READ",
+          "sequence_pos": 0,
+          "symbol_id": 0,
+          "timestamp": "2025-07-05T18:00:07.422747",
+          "svg_path": "public/corpus-symbols/an_author.svg"
+        },
+        {
+          "base_symbol": "an_author",
+          "rotation": "READ",
+          "sequence_pos": 1,
+          "symbol_id": 0,
+          "timestamp": "2025-07-05T18:00:07.422749",
+          "svg_path": "public/corpus-symbols/an_author.svg"
+        },
+        {
+          "base_symbol": "an_author",
+          "rotation": "READ",
+          "sequence_pos": 2,
+          "symbol_id": 0,
+          "timestamp": "2025-07-05T18:00:07.422750",
+          "svg_path": "public/corpus-symbols/an_author.svg"
+        }
+      ],
+      "privacy_map": {
+        "READ": 3,
+        "WRITE": 0,
+        "REMEMBER": 0,
+        "DREAM": 0
+      },
+      "character_presence": {
+        "an_author": 3
+      }
+    },
+    "ai_generation_001": {
+      "sequence_id": "ai_generation_001",
+      "created_at": "2025-07-05T18:00:07.422756",
+      "symbol_count": 3,
+      "symbols": [
+        {
+          "base_symbol": "london_fox",
+          "rotation": "DREAM",
+          "sequence_pos": 0,
+          "symbol_id": 7,
+          "timestamp": "2025-07-05T18:00:07.422757",
+          "svg_path": "public/corpus-symbols/london_fox.svg"
+        },
+        {
+          "base_symbol": "hidden_symbol_1",
+          "rotation": "DREAM",
+          "sequence_pos": 1,
+          "symbol_id": 67,
+          "timestamp": "2025-07-05T18:00:07.422758",
+          "svg_path": "public/corpus-symbols/hidden_symbol_1.svg"
+        },
+        {
+          "base_symbol": "london_fox",
+          "rotation": "WRITE",
+          "sequence_pos": 2,
+          "symbol_id": 5,
+          "timestamp": "2025-07-05T18:00:07.422759",
+          "svg_path": "public/corpus-symbols/london_fox.svg"
+        }
+      ],
+      "privacy_map": {
+        "READ": 0,
+        "WRITE": 1,
+        "REMEMBER": 0,
+        "DREAM": 2
+      },
+      "character_presence": {
+        "london_fox": 2,
+        "hidden_symbol_1": 1
+      }
+    },
+    "mixed_interaction_001": {
+      "sequence_id": "mixed_interaction_001",
+      "created_at": "2025-07-05T18:00:07.422764",
+      "symbol_count": 4,
+      "symbols": [
+        {
+          "base_symbol": "glyph_marrow",
+          "rotation": "READ",
+          "sequence_pos": 0,
+          "symbol_id": 8,
+          "timestamp": "2025-07-05T18:00:07.422765",
+          "svg_path": "public/corpus-symbols/glyph_marrow.svg"
+        },
+        {
+          "base_symbol": "glyph_marrow",
+          "rotation": "REMEMBER",
+          "sequence_pos": 1,
+          "symbol_id": 10,
+          "timestamp": "2025-07-05T18:00:07.422766",
+          "svg_path": "public/corpus-symbols/glyph_marrow.svg"
+        },
+        {
+          "base_symbol": "hidden_symbol_2",
+          "rotation": "WRITE",
+          "sequence_pos": 2,
+          "symbol_id": 69,
+          "timestamp": "2025-07-05T18:00:07.422767",
+          "svg_path": "public/corpus-symbols/hidden_symbol_2.svg"
+        },
+        {
+          "base_symbol": "princhetta",
+          "rotation": "DREAM",
+          "sequence_pos": 3,
+          "symbol_id": 39,
+          "timestamp": "2025-07-05T18:00:07.422768",
+          "svg_path": "public/corpus-symbols/princhetta.svg"
+        }
+      ],
+      "privacy_map": {
+        "READ": 1,
+        "WRITE": 1,
+        "REMEMBER": 1,
+        "DREAM": 1
+      },
+      "character_presence": {
+        "glyph_marrow": 2,
+        "hidden_symbol_2": 1,
+        "princhetta": 1
+      }
+    }
+  }
+}

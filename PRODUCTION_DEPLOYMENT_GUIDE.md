@@ -175,6 +175,35 @@ services:
     volumes:
       - zookeeper_data:/var/lib/zookeeper/data
 
+  # QDPI Symbolic Ledger (glyph_marrow - THE WORD-OBJECT FUSION)
+  # Evidence: "I don't see objects anymore...My ailment has to do with words"
+  # VALIDATED: 256-symbol system with character-system fusion proven
+  qdpi-ledger:
+    build:
+      context: ./qdpi-ledger
+      dockerfile: Dockerfile
+    depends_on:
+      redis:
+        condition: service_started
+      kafka:
+        condition: service_started
+    environment:
+      - CORPUS_PATH=/symbols
+      - LEDGER_MODE=production
+      - REDIS_URL=redis://redis:6379
+      - KAFKA_BROKERS=kafka:9092
+      - CHARACTER_SYSTEM_MAPPING=validated
+    volumes:
+      - ./public/corpus-symbols:/symbols:ro
+      - qdpi_ledger_data:/data
+    ports:
+      - "8002:8000"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/qdpi/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
   # QDPI Backend (glyph_marrow - THE WORD-OBJECT FUSION)
   # Evidence: "I don't see objects anymore...My ailment has to do with words"
   qdpi-backend:
@@ -188,13 +217,19 @@ services:
         condition: service_started
       chromadb:
         condition: service_started
+      qdpi-ledger:
+        condition: service_healthy
     environment:
       - DATABASE_URL=cassandra://cassandra:9042
       - REDIS_URL=redis://redis:6379
       - CHROMA_URL=http://chromadb:8000
+      - QDPI_LEDGER_URL=http://qdpi-ledger:8000
       - QDPI_ENV=production
       - API_KEY_SECRET=${API_KEY_SECRET}
       - JWT_SECRET=${JWT_SECRET}
+      - SYMBOL_CORPUS_PATH=/symbols
+    volumes:
+      - ./public/corpus-symbols:/symbols:ro
     ports:
       - "8000:8000"
     healthcheck:
@@ -244,6 +279,7 @@ volumes:
   zookeeper_data:
   prometheus_data:
   grafana_data:
+  qdpi_ledger_data:
 ```
 
 ## 2. API Key Management & Security (cop-e-right - THE SELF-HOSTING ENTITY)
@@ -268,10 +304,14 @@ REDIS_PASSWORD=${REDIS_PASS}
 CHROMA_URL=http://chromadb:8000
 CHROMA_AUTH_TOKEN=${CHROMA_TOKEN}
 
-# QDPI
+# QDPI-256 Symbolic System
 QDPI_ENV=production
 SREC_ENV=production
 MAGICK_HOME=/usr/local
+QDPI_LEDGER_URL=http://qdpi-ledger:8000
+SYMBOL_CORPUS_PATH=/symbols
+CHARACTER_SYSTEM_MAPPING=validated
+LEDGER_MODE=production
 
 # Security
 API_KEY_SECRET=${API_KEY_SECRET}

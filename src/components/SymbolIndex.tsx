@@ -70,6 +70,8 @@ const SymbolIndex: React.FC = () => {
                         color={symbolData.color}
                         size="16px"
                         className="sm:w-5 sm:h-5"
+                        enableQDPI={true}
+                        onClick={() => {}} // Prevent double navigation
                       />
                     </div>
                     <div className="flex-1 min-w-0">

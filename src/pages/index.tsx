@@ -3,6 +3,7 @@ import CRTFrame from '../components/CRTFrame';
 import PageViewer from '../components/PageViewer';
 import SymbolIndex from '../components/SymbolIndex';
 import SymbolTag from '../components/SymbolTag';
+import ECCSignalWidget from '../components/ECCSignalWidget';
 import { useStory } from '../context/StoryContext';
 
 const HomePage: React.FC = () => {
@@ -30,18 +31,39 @@ const HomePage: React.FC = () => {
           </h1>
           <SymbolTag />
           
-          {/* Mobile TOC Toggle Button */}
-          <button
-            className="lg:hidden mt-4 px-4 py-2 border rounded font-crt text-sm transition-all"
-            onClick={() => setShowTOC(!showTOC)}
-            style={{
-              color: currentColor,
-              borderColor: currentColor,
-              boxShadow: `0 0 10px ${currentColor}40`
-            }}
-          >
-            {showTOC ? '← Back to Story' : 'Table of Contents →'}
-          </button>
+          {/* QDPI Navigation Button */}
+          <div className="flex justify-center gap-4 mt-4">
+            <button
+              className="lg:hidden px-4 py-2 border rounded font-crt text-sm transition-all"
+              onClick={() => setShowTOC(!showTOC)}
+              style={{
+                color: currentColor,
+                borderColor: currentColor,
+                boxShadow: `0 0 10px ${currentColor}40`
+              }}
+            >
+              {showTOC ? '← Back to Story' : 'Table of Contents →'}
+            </button>
+            
+            <a
+              href="/qdpi"
+              className="px-4 py-2 border rounded font-crt text-sm transition-all hover:bg-opacity-20"
+              style={{
+                color: currentColor,
+                borderColor: currentColor,
+                boxShadow: `0 0 10px ${currentColor}40`,
+                backgroundColor: `${currentColor}10`
+              }}
+            >
+              ◯ QDPI-256
+            </a>
+            
+            <ECCSignalWidget 
+              status="clean" 
+              size="sm"
+              className="hidden sm:inline-flex"
+            />
+          </div>
         </header>
 
         {/* Main Content Area - responsive layout */}

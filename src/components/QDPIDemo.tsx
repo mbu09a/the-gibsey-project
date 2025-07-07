@@ -61,7 +61,7 @@ export const QDPIDemo: React.FC<QDPIDemoProps> = ({ className = '' }) => {
   useEffect(() => {
     const connectWebSocket = () => {
       try {
-        const ws = new WebSocket(`ws://localhost:8000/ws/${sessionId}`);
+        const ws = new WebSocket(`ws://localhost:8000/ws/qdpi/${sessionId}`);
         wsRef.current = ws;
         
         ws.onopen = () => {

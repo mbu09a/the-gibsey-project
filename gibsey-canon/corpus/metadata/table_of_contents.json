@@ -1,0 +1,285 @@
+{
+  "sections": [
+    {
+      "section_number": 1,
+      "title": "an author;'s preface",
+      "pages": "1-8",
+      "connected_character": "an author",
+      "parts": [
+        {
+          "title": "an author's preface",
+          "pages": "1-8"
+        }
+      ]
+    },
+    {
+      "section_number": 2,
+      "title": "London Fox Who Vertically Disintegrates",
+      "pages": "9-24",
+      "connected_character": "London Fox",
+      "parts": [
+        {
+          "title": "London Fox Who Vertically Disintegrates",
+          "pages": "9-24"
+        }
+      ]
+    },
+    {
+      "section_number": 3,
+      "title": "An Unexpected Disappearance: A Glyph Marrow Mystery",
+      "pages": "25-203",
+      "connected_character": "Glyph Marrow",
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "The Queue and Station",
+          "pages": "25-57"
+        },
+        {
+          "chapter": 2,
+          "title": "The Tunnel",
+          "pages": "58-74"
+        },
+        {
+          "chapter": 3,
+          "title": "The First Ascent",
+          "pages": "75-109"
+        },
+        {
+          "chapter": 4,
+          "title": "The Flooded Town",
+          "pages": "110-141"
+        },
+        {
+          "chapter": 5,
+          "title": "The Waterfall",
+          "pages": "142-176"
+        },
+        {
+          "chapter": 6,
+          "title": "The Tunneled Vision",
+          "pages": "177-203"
+        }
+      ]
+    },
+    {
+      "section_number": 4,
+      "title": "An Expected Appearance: A Phillip Bafflemint Noir",
+      "pages": "204-235",
+      "connected_character": "Phillip Bafflemint",
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "The Tunneled Vision",
+          "pages": "204-217"
+        },
+        {
+          "chapter": 2,
+          "title": "The Flooded House",
+          "pages": "218-228"
+        },
+        {
+          "chapter": 3,
+          "title": "The First Descent",
+          "pages": "229-235"
+        }
+      ]
+    },
+    {
+      "section_number": 5,
+      "title": "Jacklyn Variance, The Watcher, is Watched",
+      "pages": "236-307",
+      "connected_character": "Jacklyn Variance",
+      "parts": [
+        {
+          "part": 1,
+          "pages": "236-242"
+        },
+        {
+          "part": 2,
+          "pages": "243-271"
+        },
+        {
+          "part": 3,
+          "pages": "272-273"
+        },
+        {
+          "part": 4,
+          "pages": "274-307"
+        }
+      ]
+    },
+    {
+      "section_number": 6,
+      "title": "The Last Auteur",
+      "pages": "308-354",
+      "connected_character": "Oren Progresso",
+      "parts": [
+        {
+          "title": "The Last Auteur",
+          "pages": "308-354"
+        }
+      ]
+    },
+    {
+      "section_number": 7,
+      "title": "Gibseyan Mysticism and its Symbolism",
+      "pages": "355-380",
+      "connected_character": "Old Natalie Weissman",
+      "parts": [
+        {
+          "title": "Gibseyan Mysticism and its Symbolism",
+          "pages": "355-380"
+        }
+      ]
+    },
+    {
+      "section_number": 8,
+      "title": "Princhetta Who Thinks Herself Alive",
+      "pages": "381-385",
+      "connected_character": "Princhetta",
+      "parts": [
+        {
+          "title": "Princhetta Who Thinks Herself Alive",
+          "pages": "381-385"
+        }
+      ]
+    },
+    {
+      "section_number": 9,
+      "title": "Petition for Bankruptcy- Chapter 11, by Perdition Books, a Subsidiary of Skingraft Publishing",
+      "pages": "386-411",
+      "connected_character": "Cop-E-Right",
+      "parts": [
+        {
+          "title": "Petition for Bankruptcy- Chapter 11, by Perdition Books, a Subsidiary of Skingraft Publishing",
+          "pages": "386-411"
+        }
+      ]
+    },
+    {
+      "section_number": 10,
+      "title": "The Tempestuous Storm",
+      "pages": "412-432",
+      "connected_character": "New Natalie Weissman",
+      "parts": [
+        {
+          "title": "The Tempestuous Storm",
+          "pages": "412-432"
+        }
+      ]
+    },
+    {
+      "section_number": 11,
+      "title": "Arieol Owlist Who Wants to Achieve Agency",
+      "pages": "433-487",
+      "connected_character": "Arieol Owlist",
+      "parts": [
+        {
+          "part": 1,
+          "pages": "433-444"
+        },
+        {
+          "part": 2,
+          "pages": "445-461"
+        },
+        {
+          "part": 3,
+          "pages": "462-487"
+        }
+      ]
+    },
+    {
+      "section_number": 12,
+      "title": "The Biggest Shit of All Time",
+      "pages": "488-500",
+      "connected_character": "Jack Parlance",
+      "parts": [
+        {
+          "title": "The Biggest Shit of All Time",
+          "pages": "488-500"
+        }
+      ]
+    },
+    {
+      "section_number": 13,
+      "title": "An Expected Appearance: A Phillip Bafflemint Noir",
+      "pages": "501-564",
+      "connected_character": "Manny Valentinas",
+      "chapters": [
+        {
+          "chapter": 4,
+          "title": "The Slip and The Mistake",
+          "pages": "501-526"
+        },
+        {
+          "chapter": 5,
+          "title": "The Stations",
+          "pages": "527-545"
+        },
+        {
+          "chapter": 6,
+          "title": "The Second Descent",
+          "pages": "546-564"
+        }
+      ]
+    },
+    {
+      "section_number": 14,
+      "title": "An Unexpected Disappearance: A Glyph Marrow Mystery",
+      "pages": "565-641",
+      "connected_character": "Shamrock Stillman",
+      "chapters": [
+        {
+          "chapter": 7,
+          "title": "The Rainbows",
+          "pages": "565-584"
+        },
+        {
+          "chapter": 8,
+          "title": "The Caves",
+          "pages": "585-603"
+        },
+        {
+          "chapter": 9,
+          "title": "The Third Ascent",
+          "pages": "604-611"
+        },
+        {
+          "chapter": 10,
+          "title": "The Geyser",
+          "pages": "612-623"
+        },
+        {
+          "chapter": 11,
+          "title": "The Return to the Station",
+          "pages": "624-641"
+        }
+      ]
+    },
+    {
+      "section_number": 15,
+      "title": "Todd Fishbone Who Dreams of Synchronistic Extraction",
+      "pages": "642-677",
+      "connected_character": "Todd Fishbone",
+      "parts": [
+        {
+          "title": "Todd Fishbone Who Dreams of Synchronistic Extraction",
+          "pages": "642-677"
+        }
+      ]
+    },
+    {
+      "section_number": 16,
+      "title": "The Author's Preface",
+      "pages": "678-710",
+      "connected_character": "The Author",
+      "parts": [
+        {
+          "title": "The Author's Preface",
+          "pages": "678-710"
+        }
+      ]
+    }
+  ]
+}

@@ -5,6 +5,8 @@ services:
     build: ./src/auth_backend
     ports:
       - "8080:8080"
+    env_file:
+      - .env
     environment:
       - SUPABASE_URL=${SUPABASE_URL}
       - SUPABASE_SERVICE_KEY=${SUPABASE_SERVICE_KEY}

@@ -1,0 +1,1 @@
+# QDPI Protocol - 256‑glyph encoder/decoder

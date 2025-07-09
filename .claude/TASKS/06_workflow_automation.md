@@ -1,0 +1,1 @@
+# Workflow Automation - Temporal / n8n "ritual" engine

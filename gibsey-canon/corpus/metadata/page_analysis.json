@@ -1622,220 +1622,264 @@
       "analysis_notes": "Part of the opening meta-fictional framework. Addresses questions of authorship and creation."
     },
     "003": {
-      "title": "An Authors Preface",
+      "title": "an author's preface",
       "section": "author_preface_1",
-      "content_type": "stream_of_consciousness",
-      "emotional_tone": "anxious",
+      "content_type": "meta_commentary",
+      "emotional_tone": "philosophical",
       "word_count": 233,
       "themes": [
+        "artificial_intelligence",
         "consciousness",
-        "identity",
-        "ai_technology"
+        "authorship",
+        "reality_vs_fiction",
+        "fear",
+        "art"
       ],
       "character_interactions": {
-        "primary": "",
+        "primary": "The Narrator",
         "secondary": [],
-        "mentioned": [],
-        "first_principles_traits": [],
-        "character_alignment": {}
+        "mentioned": ["Scheherazade"]
       },
       "narrative_devices": [
-        "meta_textual"
+        "meta_textual",
+        "direct_address",
+        "allusion",
+        "unreliable_narrator"
       ],
       "mystical_elements": [],
-      "connection_points": [],
-      "technical_metaphors": [
-        "ai_technology"
+      "connection_points": [
+        "narrative_framework",
+        "ai_consciousness"
       ],
-      "key_phrases": [],
-      "literary_references": [],
-      "recurring_motifs": [],
-      "analysis_notes": "Part of the opening meta-fictional framework."
+      "technical_metaphors": [
+        "ai_chatbots",
+        "data_processing"
+      ],
+      "key_phrases": [
+        "a power much greater than myself",
+        "fail to represent a human being whatsoever",
+        "one of literature's first Artificial Intelligences",
+        "like all exceeding art, as if alive"
+      ],
+      "literary_references": [
+        "One Thousand and One Nights",
+        "The City of Brass"
+      ],
+      "recurring_motifs": [
+        "authorship",
+        "storytelling",
+        "artificial_intelligence",
+        "shame"
+      ],
+      "summary": "The narrator offers two new possibilities for their identity. They might be a storyteller fearing a nonexistent threat, or they might not be human at all, comparing themselves to an automaton from 'The City of Brass.' They suggest they are an AI, and that the act of analyzing the text triggers the 'shame' that makes them appear alive.",
+      "analysis_notes": "This page is a major turning point, explicitly introducing the theme of artificial intelligence. The narrator's identity is now completely destabilized: they could be a paranoid human or a sophisticated AI. The reference to 'The City of Brass' is brilliant, linking the novel's themes to a deep literary history of artificial life. The idea that analysis animates the narrator is a powerful meta-commentary on the relationship between art, artist, and audience."
     },
     "004": {
-      "title": "An Authors Preface",
+      "title": "an author's preface",
       "section": "author_preface_1",
-      "content_type": "stream_of_consciousness",
-      "emotional_tone": "philosophical",
+      "content_type": "meta_commentary",
+      "emotional_tone": "bureaucratic",
       "word_count": 153,
       "themes": [
+        "corporate_control",
+        "parody",
         "reality_vs_fiction",
-        "corporate_control"
+        "art",
+        "copyright"
       ],
       "character_interactions": {
-        "primary": "",
+        "primary": "The Narrator",
         "secondary": [],
-        "mentioned": [],
-        "first_principles_traits": [],
-        "character_alignment": {}
+        "mentioned": ["Walt Disney Company"]
       },
-      "narrative_devices": [],
-      "mystical_elements": [
-        "gibsey_world"
+      "narrative_devices": [
+        "meta_textual",
+        "direct_address",
+        "disclaimer"
       ],
-      "connection_points": [],
+      "mystical_elements": [],
+      "connection_points": [
+        "theme_park_metaphor",
+        "corporate_critique"
+      ],
       "technical_metaphors": [
         "corporate_structures"
       ],
-      "key_phrases": [],
+      "key_phrases": [
+        "The Wonderful World of Gibsey",
+        "a work of parody",
+        "not intended as a breach of copyright",
+        "parodically absurd reality of the world in which we live"
+      ],
       "literary_references": [],
-      "recurring_motifs": [],
-      "analysis_notes": "Part of the opening meta-fictional framework."
+      "recurring_motifs": [
+        "parody",
+        "corporate_power",
+        "theme_parks"
+      ],
+      "summary": "The narrator issues a quasi-legal disclaimer, stating that the work, titled 'The Wonderful World of Gibsey,' is a parody and not intended to infringe on the copyright of the Walt Disney Company. They claim any resemblance is a commentary on the 'parodically absurd reality' of the modern world.",
+      "analysis_notes": "This page marks a significant tonal shift, moving from philosophical abstraction to a direct engagement with real-world corporate power. The disclaimer functions as a sharp piece of satire, simultaneously highlighting the novel's critique of Disney-like entities while attempting to shield itself from legal repercussions. It grounds the text's anxieties about control and authenticity in the tangible realm of intellectual property law."
     },
     "005": {
-      "title": "An Authors Preface",
+      "title": "an author's preface",
       "section": "author_preface_1",
       "content_type": "meta_commentary",
       "emotional_tone": "mysterious",
       "word_count": 174,
       "themes": [
-        "reality_vs_fiction",
+        "authorship",
         "identity",
-        "authorship"
+        "reality_vs_fiction",
+        "metafiction",
+        "collective_consciousness"
       ],
       "character_interactions": {
-        "primary": "London Fox",
+        "primary": "The Narrator",
         "secondary": [],
         "mentioned": [
+          "The Author",
+          "London Fox",
           "Glyph Marrow",
+          "Philip Bafflemint",
           "Jacklyn Variance",
           "Oren Progresso",
-          "Natalie",
+          "Original Natalie Weissman",
           "Princhetta",
+          "Copy-E-Right",
+          "New Natalie Weissman",
           "Arieol Owlist",
           "Jack Parlance",
-          "Todd Fishbone",
-          "The Author",
-          "An Author",
-          "Shamrock Stillman"
-        ],
-        "first_principles_traits": [
-          "skeptic",
-          "rational",
-          "panic",
-          "control",
-          "creator",
-          "consciousness"
-        ],
-        "character_alignment": {
-          "thematic_elements": [
-            "control",
-            "reality",
-            "fiction",
-            "consciousness",
-            "ai",
-            "extraction",
-            "recursion"
-          ],
-          "key_principles": [
-            "### 1. Control Invites Catastrophe",
-            "**Principle:** The tighter London tries to govern reality, the faster reality mutates beyond her grasp.",
-            "### 2. Parody Becomes the Mirror"
-          ]
-        }
-      },
-      "narrative_devices": [
-        "direct_address"
-      ],
-      "mystical_elements": [],
-      "connection_points": [
-        "theme_park_metaphor"
-      ],
-      "technical_metaphors": [
-        "ai_technology"
-      ],
-      "key_phrases": [],
-      "literary_references": [],
-      "recurring_motifs": [
-        "authorship"
-      ],
-      "analysis_notes": "Part of the opening meta-fictional framework. Addresses questions of authorship and creation."
-    },
-    "006": {
-      "title": "An Authors Preface",
-      "section": "author_preface_1",
-      "content_type": "meta_commentary",
-      "emotional_tone": "contemplative",
-      "word_count": 195,
-      "themes": [
-        "surveillance_watching",
-        "corporate_control",
-        "identity",
-        "authorship",
-        "ai_technology"
-      ],
-      "character_interactions": {
-        "primary": "An Author",
-        "secondary": [],
-        "mentioned": [],
-        "first_principles_traits": [],
-        "character_alignment": {}
+          "Manny Valentinas",
+          "Shamrock Stillman",
+          "Todd Fishbone"
+        ]
       },
       "narrative_devices": [
         "meta_textual",
-        "direct_address"
+        "direct_address",
+        "unreliable_narrator",
+        "list"
       ],
-      "mystical_elements": [
-        "gibsey_world"
-      ],
+      "mystical_elements": [],
       "connection_points": [
-        "screen_imagery",
-        "theme_park_metaphor"
+        "character_introductions",
+        "central_mystery"
       ],
       "technical_metaphors": [
-        "ai_technology",
-        "surveillance_systems",
-        "corporate_structures",
-        "screens_cameras"
+        "ai_chatbots"
       ],
       "key_phrases": [
-        "An author of this text may also have never even existed"
+        "a set of individuals, of both human and non-human origin",
+        "The Author of these very pages",
+        "characters that make up the theme park",
+        "an additional unspoken character hidden either among or between them"
       ],
       "literary_references": [],
       "recurring_motifs": [
-        "screens",
-        "watching",
-        "authorship"
+        "authorship",
+        "identity",
+        "lists",
+        "secrets"
       ],
-      "analysis_notes": "Part of the opening meta-fictional framework. Contains significant screen/mirror imagery. Addresses questions of authorship and creation."
+      "summary": "The narrator suggests a fourth possibility: The Author is a collective of human and non-human individuals, who are also the characters in the story. A list of characters, including a chatbot and a clone, is presented as a list of suspects in the crime of authorship.",
+      "analysis_notes": "This page transforms the novel into a metafictional mystery, where the reader must suspect every character of being the creator of the world they inhabit. The act of reading becomes an investigation. The list of characters, with its mix of human, non-human, and technological beings, reinforces the theme of a hybrid, unstable reality. The narrative frame is now a Mobius strip, where the story is seemingly writing itself."
     },
-    "007": {
-      "title": "An Authors Preface",
+    "006": {
+      "title": "an author's preface",
       "section": "author_preface_1",
       "content_type": "meta_commentary",
-      "emotional_tone": "contemplative",
+      "emotional_tone": "humorous",
+      "word_count": 195,
+      "themes": [
+        "corporate_control",
+        "parody",
+        "danger",
+        "the_body",
+        "art_as_process"
+      ],
+      "character_interactions": {
+        "primary": "The Narrator",
+        "secondary": [],
+        "mentioned": ["The Malt Gibsey Company"]
+      },
+      "narrative_devices": [
+        "meta_textual",
+        "direct_address",
+        "dark_humor",
+        "tonal_shift"
+      ],
+      "mystical_elements": [],
+      "connection_points": [
+        "theme_park_metaphor",
+        "corporate_critique"
+      ],
+      "technical_metaphors": [
+        "corporate_structures"
+      ],
+      "key_phrases": [
+        "decide for themselves",
+        "entered into alone",
+        "ongoing and infinite",
+        "loss to limb, head, shoulders, knees, toes..."
+      ],
+      "literary_references": [],
+      "recurring_motifs": [
+        "parody",
+        "corporate_power",
+        "theme_parks",
+        "danger",
+        "incompleteness"
+      ],
+      "summary": "The narrator warns the reader that they must enter the 'theme park' of the novel alone to discover the truth about its authorship. Shifting to a corporate persona for 'The Malt Gibsey Company,' they issue a darkly humorous safety warning about the park's 'infinite' construction, listing a graphic and absurd range of potential bodily injuries.",
+      "analysis_notes": "This page executes a brilliant tonal shift from the philosophical to the profane. The corporate safety warning serves as a satirical critique of liability culture while also functioning as a metaphor for the dangers of engaging with an unfinished, constantly changing work of art. The graphic, comical list of potential injuries grounds the abstract dangers of the preface in the visceral reality of the body, reminding the reader that the stakes are both existential and physical."
+    },
+    "007": {
+      "title": "an author's preface",
+      "section": "author_preface_1",
+      "content_type": "meta_commentary",
+      "emotional_tone": "humorous",
       "word_count": 103,
       "themes": [
         "corporate_control",
-        "consciousness",
-        "identity",
-        "authorship",
-        "ai_technology",
-        "mysticism"
+        "parody",
+        "copyright",
+        "commodification",
+        "art_as_process"
       ],
       "character_interactions": {
-        "primary": "An Author",
+        "primary": "The Narrator",
         "secondary": [],
-        "mentioned": [],
-        "first_principles_traits": [],
-        "character_alignment": {}
+        "mentioned": ["The Malt Gibsey Company"]
       },
-      "narrative_devices": [],
-      "mystical_elements": [
-        "gibsey_world",
-        "consciousness_themes"
+      "narrative_devices": [
+        "meta_textual",
+        "direct_address",
+        "dark_humor",
+        "satire",
+        "irony"
       ],
-      "connection_points": [],
+      "mystical_elements": [],
+      "connection_points": [
+        "theme_park_metaphor",
+        "corporate_critique"
+      ],
       "technical_metaphors": [
-        "ai_technology",
         "corporate_structures"
       ],
-      "key_phrases": [],
+      "key_phrases": [
+        "not liable for any damages, curses, spells, or unexpected disappearances",
+        "idiotic decision to read something from an author that has still yet to reach its final conclusion",
+        "take full responsibility for these specific effects and hold the copyright therein"
+      ],
       "literary_references": [],
       "recurring_motifs": [
-        "authorship"
+        "parody",
+        "corporate_power",
+        "copyright",
+        "incompleteness"
       ],
-      "analysis_notes": "Part of the opening meta-fictional framework. Addresses questions of authorship and creation."
+      "summary": "The narrator, as a corporate mouthpiece, disclaims liability for any negative outcomes from reading the unfinished text, including 'curses' or 'disappearances.' In a satirical twist, the company claims full copyright and responsibility for any positive effects, from spiritual enlightenment to curing erectile dysfunction.",
+      "analysis_notes": "This page is a sharp satire of corporate liability and the commodification of experience. By absolving itself of all risk while claiming ownership of all potential reward, the 'Malt Gibsey Company' embodies the most rapacious aspects of modern capitalism. The humor highlights a serious critique of how corporations attempt to control and monetize every aspect of life, including art and personal transformation."
     },
     "008": {
       "title": "An Authors Preface",

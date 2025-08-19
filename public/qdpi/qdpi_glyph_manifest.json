@@ -1,0 +1,4610 @@
+[
+  {
+    "glyph_id": 0,
+    "char_hex": 0,
+    "char_slug": "an-author",
+    "orientation": "X",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "00",
+    "filename": "an-author_X_0.svg",
+    "color": "#34FF78",
+    "label": "An Author — X @0°",
+    "tags": [
+      "character",
+      "X",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 1,
+    "char_hex": 0,
+    "char_slug": "an-author",
+    "orientation": "X",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "01",
+    "filename": "an-author_X_90.svg",
+    "color": "#34FF78",
+    "label": "An Author — X @90°",
+    "tags": [
+      "character",
+      "X",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 2,
+    "char_hex": 0,
+    "char_slug": "an-author",
+    "orientation": "X",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "02",
+    "filename": "an-author_X_180.svg",
+    "color": "#34FF78",
+    "label": "An Author — X @180°",
+    "tags": [
+      "character",
+      "X",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 3,
+    "char_hex": 0,
+    "char_slug": "an-author",
+    "orientation": "X",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "03",
+    "filename": "an-author_X_270.svg",
+    "color": "#34FF78",
+    "label": "An Author — X @270°",
+    "tags": [
+      "character",
+      "X",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 4,
+    "char_hex": 0,
+    "char_slug": "an-author",
+    "orientation": "Y",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "04",
+    "filename": "an-author_Y_0.svg",
+    "color": "#34FF78",
+    "label": "An Author — Y @0°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 5,
+    "char_hex": 0,
+    "char_slug": "an-author",
+    "orientation": "Y",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "05",
+    "filename": "an-author_Y_90.svg",
+    "color": "#34FF78",
+    "label": "An Author — Y @90°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 6,
+    "char_hex": 0,
+    "char_slug": "an-author",
+    "orientation": "Y",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "06",
+    "filename": "an-author_Y_180.svg",
+    "color": "#34FF78",
+    "label": "An Author — Y @180°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 7,
+    "char_hex": 0,
+    "char_slug": "an-author",
+    "orientation": "Y",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "07",
+    "filename": "an-author_Y_270.svg",
+    "color": "#34FF78",
+    "label": "An Author — Y @270°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 8,
+    "char_hex": 0,
+    "char_slug": "an-author",
+    "orientation": "A",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "08",
+    "filename": "an-author_A_0.svg",
+    "color": "#34FF78",
+    "label": "An Author — A @0°",
+    "tags": [
+      "character",
+      "A",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 9,
+    "char_hex": 0,
+    "char_slug": "an-author",
+    "orientation": "A",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "09",
+    "filename": "an-author_A_90.svg",
+    "color": "#34FF78",
+    "label": "An Author — A @90°",
+    "tags": [
+      "character",
+      "A",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 10,
+    "char_hex": 0,
+    "char_slug": "an-author",
+    "orientation": "A",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "0A",
+    "filename": "an-author_A_180.svg",
+    "color": "#34FF78",
+    "label": "An Author — A @180°",
+    "tags": [
+      "character",
+      "A",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 11,
+    "char_hex": 0,
+    "char_slug": "an-author",
+    "orientation": "A",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "0B",
+    "filename": "an-author_A_270.svg",
+    "color": "#34FF78",
+    "label": "An Author — A @270°",
+    "tags": [
+      "character",
+      "A",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 12,
+    "char_hex": 0,
+    "char_slug": "an-author",
+    "orientation": "Z",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "0C",
+    "filename": "an-author_Z_0.svg",
+    "color": "#34FF78",
+    "label": "An Author — Z @0°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 13,
+    "char_hex": 0,
+    "char_slug": "an-author",
+    "orientation": "Z",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "0D",
+    "filename": "an-author_Z_90.svg",
+    "color": "#34FF78",
+    "label": "An Author — Z @90°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 14,
+    "char_hex": 0,
+    "char_slug": "an-author",
+    "orientation": "Z",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "0E",
+    "filename": "an-author_Z_180.svg",
+    "color": "#34FF78",
+    "label": "An Author — Z @180°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 15,
+    "char_hex": 0,
+    "char_slug": "an-author",
+    "orientation": "Z",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "0F",
+    "filename": "an-author_Z_270.svg",
+    "color": "#34FF78",
+    "label": "An Author — Z @270°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 16,
+    "char_hex": 1,
+    "char_slug": "london-fox",
+    "orientation": "X",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "10",
+    "filename": "london-fox_X_0.svg",
+    "color": "#FF3B3B",
+    "label": "London Fox — X @0°",
+    "tags": [
+      "character",
+      "X",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 17,
+    "char_hex": 1,
+    "char_slug": "london-fox",
+    "orientation": "X",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "11",
+    "filename": "london-fox_X_90.svg",
+    "color": "#FF3B3B",
+    "label": "London Fox — X @90°",
+    "tags": [
+      "character",
+      "X",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 18,
+    "char_hex": 1,
+    "char_slug": "london-fox",
+    "orientation": "X",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "12",
+    "filename": "london-fox_X_180.svg",
+    "color": "#FF3B3B",
+    "label": "London Fox — X @180°",
+    "tags": [
+      "character",
+      "X",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 19,
+    "char_hex": 1,
+    "char_slug": "london-fox",
+    "orientation": "X",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "13",
+    "filename": "london-fox_X_270.svg",
+    "color": "#FF3B3B",
+    "label": "London Fox — X @270°",
+    "tags": [
+      "character",
+      "X",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 20,
+    "char_hex": 1,
+    "char_slug": "london-fox",
+    "orientation": "Y",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "14",
+    "filename": "london-fox_Y_0.svg",
+    "color": "#FF3B3B",
+    "label": "London Fox — Y @0°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 21,
+    "char_hex": 1,
+    "char_slug": "london-fox",
+    "orientation": "Y",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "15",
+    "filename": "london-fox_Y_90.svg",
+    "color": "#FF3B3B",
+    "label": "London Fox — Y @90°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 22,
+    "char_hex": 1,
+    "char_slug": "london-fox",
+    "orientation": "Y",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "16",
+    "filename": "london-fox_Y_180.svg",
+    "color": "#FF3B3B",
+    "label": "London Fox — Y @180°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 23,
+    "char_hex": 1,
+    "char_slug": "london-fox",
+    "orientation": "Y",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "17",
+    "filename": "london-fox_Y_270.svg",
+    "color": "#FF3B3B",
+    "label": "London Fox — Y @270°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 24,
+    "char_hex": 1,
+    "char_slug": "london-fox",
+    "orientation": "A",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "18",
+    "filename": "london-fox_A_0.svg",
+    "color": "#FF3B3B",
+    "label": "London Fox — A @0°",
+    "tags": [
+      "character",
+      "A",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 25,
+    "char_hex": 1,
+    "char_slug": "london-fox",
+    "orientation": "A",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "19",
+    "filename": "london-fox_A_90.svg",
+    "color": "#FF3B3B",
+    "label": "London Fox — A @90°",
+    "tags": [
+      "character",
+      "A",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 26,
+    "char_hex": 1,
+    "char_slug": "london-fox",
+    "orientation": "A",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "1A",
+    "filename": "london-fox_A_180.svg",
+    "color": "#FF3B3B",
+    "label": "London Fox — A @180°",
+    "tags": [
+      "character",
+      "A",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 27,
+    "char_hex": 1,
+    "char_slug": "london-fox",
+    "orientation": "A",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "1B",
+    "filename": "london-fox_A_270.svg",
+    "color": "#FF3B3B",
+    "label": "London Fox — A @270°",
+    "tags": [
+      "character",
+      "A",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 28,
+    "char_hex": 1,
+    "char_slug": "london-fox",
+    "orientation": "Z",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "1C",
+    "filename": "london-fox_Z_0.svg",
+    "color": "#FF3B3B",
+    "label": "London Fox — Z @0°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 29,
+    "char_hex": 1,
+    "char_slug": "london-fox",
+    "orientation": "Z",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "1D",
+    "filename": "london-fox_Z_90.svg",
+    "color": "#FF3B3B",
+    "label": "London Fox — Z @90°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 30,
+    "char_hex": 1,
+    "char_slug": "london-fox",
+    "orientation": "Z",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "1E",
+    "filename": "london-fox_Z_180.svg",
+    "color": "#FF3B3B",
+    "label": "London Fox — Z @180°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 31,
+    "char_hex": 1,
+    "char_slug": "london-fox",
+    "orientation": "Z",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "1F",
+    "filename": "london-fox_Z_270.svg",
+    "color": "#FF3B3B",
+    "label": "London Fox — Z @270°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 32,
+    "char_hex": 2,
+    "char_slug": "glyph-marrow",
+    "orientation": "X",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "20",
+    "filename": "glyph-marrow_X_0.svg",
+    "color": "#00A2FF",
+    "label": "Glyph Marrow — X @0°",
+    "tags": [
+      "character",
+      "X",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 33,
+    "char_hex": 2,
+    "char_slug": "glyph-marrow",
+    "orientation": "X",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "21",
+    "filename": "glyph-marrow_X_90.svg",
+    "color": "#00A2FF",
+    "label": "Glyph Marrow — X @90°",
+    "tags": [
+      "character",
+      "X",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 34,
+    "char_hex": 2,
+    "char_slug": "glyph-marrow",
+    "orientation": "X",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "22",
+    "filename": "glyph-marrow_X_180.svg",
+    "color": "#00A2FF",
+    "label": "Glyph Marrow — X @180°",
+    "tags": [
+      "character",
+      "X",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 35,
+    "char_hex": 2,
+    "char_slug": "glyph-marrow",
+    "orientation": "X",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "23",
+    "filename": "glyph-marrow_X_270.svg",
+    "color": "#00A2FF",
+    "label": "Glyph Marrow — X @270°",
+    "tags": [
+      "character",
+      "X",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 36,
+    "char_hex": 2,
+    "char_slug": "glyph-marrow",
+    "orientation": "Y",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "24",
+    "filename": "glyph-marrow_Y_0.svg",
+    "color": "#00A2FF",
+    "label": "Glyph Marrow — Y @0°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 37,
+    "char_hex": 2,
+    "char_slug": "glyph-marrow",
+    "orientation": "Y",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "25",
+    "filename": "glyph-marrow_Y_90.svg",
+    "color": "#00A2FF",
+    "label": "Glyph Marrow — Y @90°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 38,
+    "char_hex": 2,
+    "char_slug": "glyph-marrow",
+    "orientation": "Y",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "26",
+    "filename": "glyph-marrow_Y_180.svg",
+    "color": "#00A2FF",
+    "label": "Glyph Marrow — Y @180°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 39,
+    "char_hex": 2,
+    "char_slug": "glyph-marrow",
+    "orientation": "Y",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "27",
+    "filename": "glyph-marrow_Y_270.svg",
+    "color": "#00A2FF",
+    "label": "Glyph Marrow — Y @270°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 40,
+    "char_hex": 2,
+    "char_slug": "glyph-marrow",
+    "orientation": "A",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "28",
+    "filename": "glyph-marrow_A_0.svg",
+    "color": "#00A2FF",
+    "label": "Glyph Marrow — A @0°",
+    "tags": [
+      "character",
+      "A",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 41,
+    "char_hex": 2,
+    "char_slug": "glyph-marrow",
+    "orientation": "A",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "29",
+    "filename": "glyph-marrow_A_90.svg",
+    "color": "#00A2FF",
+    "label": "Glyph Marrow — A @90°",
+    "tags": [
+      "character",
+      "A",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 42,
+    "char_hex": 2,
+    "char_slug": "glyph-marrow",
+    "orientation": "A",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "2A",
+    "filename": "glyph-marrow_A_180.svg",
+    "color": "#00A2FF",
+    "label": "Glyph Marrow — A @180°",
+    "tags": [
+      "character",
+      "A",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 43,
+    "char_hex": 2,
+    "char_slug": "glyph-marrow",
+    "orientation": "A",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "2B",
+    "filename": "glyph-marrow_A_270.svg",
+    "color": "#00A2FF",
+    "label": "Glyph Marrow — A @270°",
+    "tags": [
+      "character",
+      "A",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 44,
+    "char_hex": 2,
+    "char_slug": "glyph-marrow",
+    "orientation": "Z",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "2C",
+    "filename": "glyph-marrow_Z_0.svg",
+    "color": "#00A2FF",
+    "label": "Glyph Marrow — Z @0°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 45,
+    "char_hex": 2,
+    "char_slug": "glyph-marrow",
+    "orientation": "Z",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "2D",
+    "filename": "glyph-marrow_Z_90.svg",
+    "color": "#00A2FF",
+    "label": "Glyph Marrow — Z @90°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 46,
+    "char_hex": 2,
+    "char_slug": "glyph-marrow",
+    "orientation": "Z",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "2E",
+    "filename": "glyph-marrow_Z_180.svg",
+    "color": "#00A2FF",
+    "label": "Glyph Marrow — Z @180°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 47,
+    "char_hex": 2,
+    "char_slug": "glyph-marrow",
+    "orientation": "Z",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "2F",
+    "filename": "glyph-marrow_Z_270.svg",
+    "color": "#00A2FF",
+    "label": "Glyph Marrow — Z @270°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 48,
+    "char_hex": 3,
+    "char_slug": "phillip-bafflemint",
+    "orientation": "X",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "30",
+    "filename": "phillip-bafflemint_X_0.svg",
+    "color": "#FFFF33",
+    "label": "Phillip Bafflemint — X @0°",
+    "tags": [
+      "character",
+      "X",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 49,
+    "char_hex": 3,
+    "char_slug": "phillip-bafflemint",
+    "orientation": "X",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "31",
+    "filename": "phillip-bafflemint_X_90.svg",
+    "color": "#FFFF33",
+    "label": "Phillip Bafflemint — X @90°",
+    "tags": [
+      "character",
+      "X",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 50,
+    "char_hex": 3,
+    "char_slug": "phillip-bafflemint",
+    "orientation": "X",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "32",
+    "filename": "phillip-bafflemint_X_180.svg",
+    "color": "#FFFF33",
+    "label": "Phillip Bafflemint — X @180°",
+    "tags": [
+      "character",
+      "X",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 51,
+    "char_hex": 3,
+    "char_slug": "phillip-bafflemint",
+    "orientation": "X",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "33",
+    "filename": "phillip-bafflemint_X_270.svg",
+    "color": "#FFFF33",
+    "label": "Phillip Bafflemint — X @270°",
+    "tags": [
+      "character",
+      "X",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 52,
+    "char_hex": 3,
+    "char_slug": "phillip-bafflemint",
+    "orientation": "Y",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "34",
+    "filename": "phillip-bafflemint_Y_0.svg",
+    "color": "#FFFF33",
+    "label": "Phillip Bafflemint — Y @0°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 53,
+    "char_hex": 3,
+    "char_slug": "phillip-bafflemint",
+    "orientation": "Y",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "35",
+    "filename": "phillip-bafflemint_Y_90.svg",
+    "color": "#FFFF33",
+    "label": "Phillip Bafflemint — Y @90°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 54,
+    "char_hex": 3,
+    "char_slug": "phillip-bafflemint",
+    "orientation": "Y",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "36",
+    "filename": "phillip-bafflemint_Y_180.svg",
+    "color": "#FFFF33",
+    "label": "Phillip Bafflemint — Y @180°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 55,
+    "char_hex": 3,
+    "char_slug": "phillip-bafflemint",
+    "orientation": "Y",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "37",
+    "filename": "phillip-bafflemint_Y_270.svg",
+    "color": "#FFFF33",
+    "label": "Phillip Bafflemint — Y @270°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 56,
+    "char_hex": 3,
+    "char_slug": "phillip-bafflemint",
+    "orientation": "A",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "38",
+    "filename": "phillip-bafflemint_A_0.svg",
+    "color": "#FFFF33",
+    "label": "Phillip Bafflemint — A @0°",
+    "tags": [
+      "character",
+      "A",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 57,
+    "char_hex": 3,
+    "char_slug": "phillip-bafflemint",
+    "orientation": "A",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "39",
+    "filename": "phillip-bafflemint_A_90.svg",
+    "color": "#FFFF33",
+    "label": "Phillip Bafflemint — A @90°",
+    "tags": [
+      "character",
+      "A",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 58,
+    "char_hex": 3,
+    "char_slug": "phillip-bafflemint",
+    "orientation": "A",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "3A",
+    "filename": "phillip-bafflemint_A_180.svg",
+    "color": "#FFFF33",
+    "label": "Phillip Bafflemint — A @180°",
+    "tags": [
+      "character",
+      "A",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 59,
+    "char_hex": 3,
+    "char_slug": "phillip-bafflemint",
+    "orientation": "A",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "3B",
+    "filename": "phillip-bafflemint_A_270.svg",
+    "color": "#FFFF33",
+    "label": "Phillip Bafflemint — A @270°",
+    "tags": [
+      "character",
+      "A",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 60,
+    "char_hex": 3,
+    "char_slug": "phillip-bafflemint",
+    "orientation": "Z",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "3C",
+    "filename": "phillip-bafflemint_Z_0.svg",
+    "color": "#FFFF33",
+    "label": "Phillip Bafflemint — Z @0°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 61,
+    "char_hex": 3,
+    "char_slug": "phillip-bafflemint",
+    "orientation": "Z",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "3D",
+    "filename": "phillip-bafflemint_Z_90.svg",
+    "color": "#FFFF33",
+    "label": "Phillip Bafflemint — Z @90°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 62,
+    "char_hex": 3,
+    "char_slug": "phillip-bafflemint",
+    "orientation": "Z",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "3E",
+    "filename": "phillip-bafflemint_Z_180.svg",
+    "color": "#FFFF33",
+    "label": "Phillip Bafflemint — Z @180°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 63,
+    "char_hex": 3,
+    "char_slug": "phillip-bafflemint",
+    "orientation": "Z",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "3F",
+    "filename": "phillip-bafflemint_Z_270.svg",
+    "color": "#FFFF33",
+    "label": "Phillip Bafflemint — Z @270°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 64,
+    "char_hex": 4,
+    "char_slug": "jacklyn-variance",
+    "orientation": "X",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "40",
+    "filename": "jacklyn-variance_X_0.svg",
+    "color": "#FF00FF",
+    "label": "Jacklyn Variance — X @0°",
+    "tags": [
+      "character",
+      "X",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 65,
+    "char_hex": 4,
+    "char_slug": "jacklyn-variance",
+    "orientation": "X",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "41",
+    "filename": "jacklyn-variance_X_90.svg",
+    "color": "#FF00FF",
+    "label": "Jacklyn Variance — X @90°",
+    "tags": [
+      "character",
+      "X",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 66,
+    "char_hex": 4,
+    "char_slug": "jacklyn-variance",
+    "orientation": "X",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "42",
+    "filename": "jacklyn-variance_X_180.svg",
+    "color": "#FF00FF",
+    "label": "Jacklyn Variance — X @180°",
+    "tags": [
+      "character",
+      "X",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 67,
+    "char_hex": 4,
+    "char_slug": "jacklyn-variance",
+    "orientation": "X",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "43",
+    "filename": "jacklyn-variance_X_270.svg",
+    "color": "#FF00FF",
+    "label": "Jacklyn Variance — X @270°",
+    "tags": [
+      "character",
+      "X",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 68,
+    "char_hex": 4,
+    "char_slug": "jacklyn-variance",
+    "orientation": "Y",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "44",
+    "filename": "jacklyn-variance_Y_0.svg",
+    "color": "#FF00FF",
+    "label": "Jacklyn Variance — Y @0°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 69,
+    "char_hex": 4,
+    "char_slug": "jacklyn-variance",
+    "orientation": "Y",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "45",
+    "filename": "jacklyn-variance_Y_90.svg",
+    "color": "#FF00FF",
+    "label": "Jacklyn Variance — Y @90°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 70,
+    "char_hex": 4,
+    "char_slug": "jacklyn-variance",
+    "orientation": "Y",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "46",
+    "filename": "jacklyn-variance_Y_180.svg",
+    "color": "#FF00FF",
+    "label": "Jacklyn Variance — Y @180°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 71,
+    "char_hex": 4,
+    "char_slug": "jacklyn-variance",
+    "orientation": "Y",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "47",
+    "filename": "jacklyn-variance_Y_270.svg",
+    "color": "#FF00FF",
+    "label": "Jacklyn Variance — Y @270°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 72,
+    "char_hex": 4,
+    "char_slug": "jacklyn-variance",
+    "orientation": "A",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "48",
+    "filename": "jacklyn-variance_A_0.svg",
+    "color": "#FF00FF",
+    "label": "Jacklyn Variance — A @0°",
+    "tags": [
+      "character",
+      "A",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 73,
+    "char_hex": 4,
+    "char_slug": "jacklyn-variance",
+    "orientation": "A",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "49",
+    "filename": "jacklyn-variance_A_90.svg",
+    "color": "#FF00FF",
+    "label": "Jacklyn Variance — A @90°",
+    "tags": [
+      "character",
+      "A",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 74,
+    "char_hex": 4,
+    "char_slug": "jacklyn-variance",
+    "orientation": "A",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "4A",
+    "filename": "jacklyn-variance_A_180.svg",
+    "color": "#FF00FF",
+    "label": "Jacklyn Variance — A @180°",
+    "tags": [
+      "character",
+      "A",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 75,
+    "char_hex": 4,
+    "char_slug": "jacklyn-variance",
+    "orientation": "A",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "4B",
+    "filename": "jacklyn-variance_A_270.svg",
+    "color": "#FF00FF",
+    "label": "Jacklyn Variance — A @270°",
+    "tags": [
+      "character",
+      "A",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 76,
+    "char_hex": 4,
+    "char_slug": "jacklyn-variance",
+    "orientation": "Z",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "4C",
+    "filename": "jacklyn-variance_Z_0.svg",
+    "color": "#FF00FF",
+    "label": "Jacklyn Variance — Z @0°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 77,
+    "char_hex": 4,
+    "char_slug": "jacklyn-variance",
+    "orientation": "Z",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "4D",
+    "filename": "jacklyn-variance_Z_90.svg",
+    "color": "#FF00FF",
+    "label": "Jacklyn Variance — Z @90°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 78,
+    "char_hex": 4,
+    "char_slug": "jacklyn-variance",
+    "orientation": "Z",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "4E",
+    "filename": "jacklyn-variance_Z_180.svg",
+    "color": "#FF00FF",
+    "label": "Jacklyn Variance — Z @180°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 79,
+    "char_hex": 4,
+    "char_slug": "jacklyn-variance",
+    "orientation": "Z",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "4F",
+    "filename": "jacklyn-variance_Z_270.svg",
+    "color": "#FF00FF",
+    "label": "Jacklyn Variance — Z @270°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 80,
+    "char_hex": 5,
+    "char_slug": "oren-progresso",
+    "orientation": "X",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "50",
+    "filename": "oren-progresso_X_0.svg",
+    "color": "#00FFAA",
+    "label": "Oren Progresso — X @0°",
+    "tags": [
+      "character",
+      "X",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 81,
+    "char_hex": 5,
+    "char_slug": "oren-progresso",
+    "orientation": "X",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "51",
+    "filename": "oren-progresso_X_90.svg",
+    "color": "#00FFAA",
+    "label": "Oren Progresso — X @90°",
+    "tags": [
+      "character",
+      "X",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 82,
+    "char_hex": 5,
+    "char_slug": "oren-progresso",
+    "orientation": "X",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "52",
+    "filename": "oren-progresso_X_180.svg",
+    "color": "#00FFAA",
+    "label": "Oren Progresso — X @180°",
+    "tags": [
+      "character",
+      "X",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 83,
+    "char_hex": 5,
+    "char_slug": "oren-progresso",
+    "orientation": "X",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "53",
+    "filename": "oren-progresso_X_270.svg",
+    "color": "#00FFAA",
+    "label": "Oren Progresso — X @270°",
+    "tags": [
+      "character",
+      "X",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 84,
+    "char_hex": 5,
+    "char_slug": "oren-progresso",
+    "orientation": "Y",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "54",
+    "filename": "oren-progresso_Y_0.svg",
+    "color": "#00FFAA",
+    "label": "Oren Progresso — Y @0°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 85,
+    "char_hex": 5,
+    "char_slug": "oren-progresso",
+    "orientation": "Y",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "55",
+    "filename": "oren-progresso_Y_90.svg",
+    "color": "#00FFAA",
+    "label": "Oren Progresso — Y @90°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 86,
+    "char_hex": 5,
+    "char_slug": "oren-progresso",
+    "orientation": "Y",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "56",
+    "filename": "oren-progresso_Y_180.svg",
+    "color": "#00FFAA",
+    "label": "Oren Progresso — Y @180°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 87,
+    "char_hex": 5,
+    "char_slug": "oren-progresso",
+    "orientation": "Y",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "57",
+    "filename": "oren-progresso_Y_270.svg",
+    "color": "#00FFAA",
+    "label": "Oren Progresso — Y @270°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 88,
+    "char_hex": 5,
+    "char_slug": "oren-progresso",
+    "orientation": "A",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "58",
+    "filename": "oren-progresso_A_0.svg",
+    "color": "#00FFAA",
+    "label": "Oren Progresso — A @0°",
+    "tags": [
+      "character",
+      "A",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 89,
+    "char_hex": 5,
+    "char_slug": "oren-progresso",
+    "orientation": "A",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "59",
+    "filename": "oren-progresso_A_90.svg",
+    "color": "#00FFAA",
+    "label": "Oren Progresso — A @90°",
+    "tags": [
+      "character",
+      "A",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 90,
+    "char_hex": 5,
+    "char_slug": "oren-progresso",
+    "orientation": "A",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "5A",
+    "filename": "oren-progresso_A_180.svg",
+    "color": "#00FFAA",
+    "label": "Oren Progresso — A @180°",
+    "tags": [
+      "character",
+      "A",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 91,
+    "char_hex": 5,
+    "char_slug": "oren-progresso",
+    "orientation": "A",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "5B",
+    "filename": "oren-progresso_A_270.svg",
+    "color": "#00FFAA",
+    "label": "Oren Progresso — A @270°",
+    "tags": [
+      "character",
+      "A",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 92,
+    "char_hex": 5,
+    "char_slug": "oren-progresso",
+    "orientation": "Z",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "5C",
+    "filename": "oren-progresso_Z_0.svg",
+    "color": "#00FFAA",
+    "label": "Oren Progresso — Z @0°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 93,
+    "char_hex": 5,
+    "char_slug": "oren-progresso",
+    "orientation": "Z",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "5D",
+    "filename": "oren-progresso_Z_90.svg",
+    "color": "#00FFAA",
+    "label": "Oren Progresso — Z @90°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 94,
+    "char_hex": 5,
+    "char_slug": "oren-progresso",
+    "orientation": "Z",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "5E",
+    "filename": "oren-progresso_Z_180.svg",
+    "color": "#00FFAA",
+    "label": "Oren Progresso — Z @180°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 95,
+    "char_hex": 5,
+    "char_slug": "oren-progresso",
+    "orientation": "Z",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "5F",
+    "filename": "oren-progresso_Z_270.svg",
+    "color": "#00FFAA",
+    "label": "Oren Progresso — Z @270°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 96,
+    "char_hex": 6,
+    "char_slug": "old-natalie-weissman",
+    "orientation": "X",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "60",
+    "filename": "old-natalie-weissman_X_0.svg",
+    "color": null,
+    "label": "Old Natalie Weissman — X @0°",
+    "tags": [
+      "character",
+      "X",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 97,
+    "char_hex": 6,
+    "char_slug": "old-natalie-weissman",
+    "orientation": "X",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "61",
+    "filename": "old-natalie-weissman_X_90.svg",
+    "color": null,
+    "label": "Old Natalie Weissman — X @90°",
+    "tags": [
+      "character",
+      "X",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 98,
+    "char_hex": 6,
+    "char_slug": "old-natalie-weissman",
+    "orientation": "X",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "62",
+    "filename": "old-natalie-weissman_X_180.svg",
+    "color": null,
+    "label": "Old Natalie Weissman — X @180°",
+    "tags": [
+      "character",
+      "X",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 99,
+    "char_hex": 6,
+    "char_slug": "old-natalie-weissman",
+    "orientation": "X",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "63",
+    "filename": "old-natalie-weissman_X_270.svg",
+    "color": null,
+    "label": "Old Natalie Weissman — X @270°",
+    "tags": [
+      "character",
+      "X",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 100,
+    "char_hex": 6,
+    "char_slug": "old-natalie-weissman",
+    "orientation": "Y",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "64",
+    "filename": "old-natalie-weissman_Y_0.svg",
+    "color": null,
+    "label": "Old Natalie Weissman — Y @0°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 101,
+    "char_hex": 6,
+    "char_slug": "old-natalie-weissman",
+    "orientation": "Y",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "65",
+    "filename": "old-natalie-weissman_Y_90.svg",
+    "color": null,
+    "label": "Old Natalie Weissman — Y @90°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 102,
+    "char_hex": 6,
+    "char_slug": "old-natalie-weissman",
+    "orientation": "Y",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "66",
+    "filename": "old-natalie-weissman_Y_180.svg",
+    "color": null,
+    "label": "Old Natalie Weissman — Y @180°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 103,
+    "char_hex": 6,
+    "char_slug": "old-natalie-weissman",
+    "orientation": "Y",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "67",
+    "filename": "old-natalie-weissman_Y_270.svg",
+    "color": null,
+    "label": "Old Natalie Weissman — Y @270°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 104,
+    "char_hex": 6,
+    "char_slug": "old-natalie-weissman",
+    "orientation": "A",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "68",
+    "filename": "old-natalie-weissman_A_0.svg",
+    "color": null,
+    "label": "Old Natalie Weissman — A @0°",
+    "tags": [
+      "character",
+      "A",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 105,
+    "char_hex": 6,
+    "char_slug": "old-natalie-weissman",
+    "orientation": "A",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "69",
+    "filename": "old-natalie-weissman_A_90.svg",
+    "color": null,
+    "label": "Old Natalie Weissman — A @90°",
+    "tags": [
+      "character",
+      "A",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 106,
+    "char_hex": 6,
+    "char_slug": "old-natalie-weissman",
+    "orientation": "A",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "6A",
+    "filename": "old-natalie-weissman_A_180.svg",
+    "color": null,
+    "label": "Old Natalie Weissman — A @180°",
+    "tags": [
+      "character",
+      "A",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 107,
+    "char_hex": 6,
+    "char_slug": "old-natalie-weissman",
+    "orientation": "A",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "6B",
+    "filename": "old-natalie-weissman_A_270.svg",
+    "color": null,
+    "label": "Old Natalie Weissman — A @270°",
+    "tags": [
+      "character",
+      "A",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 108,
+    "char_hex": 6,
+    "char_slug": "old-natalie-weissman",
+    "orientation": "Z",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "6C",
+    "filename": "old-natalie-weissman_Z_0.svg",
+    "color": null,
+    "label": "Old Natalie Weissman — Z @0°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 109,
+    "char_hex": 6,
+    "char_slug": "old-natalie-weissman",
+    "orientation": "Z",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "6D",
+    "filename": "old-natalie-weissman_Z_90.svg",
+    "color": null,
+    "label": "Old Natalie Weissman — Z @90°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 110,
+    "char_hex": 6,
+    "char_slug": "old-natalie-weissman",
+    "orientation": "Z",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "6E",
+    "filename": "old-natalie-weissman_Z_180.svg",
+    "color": null,
+    "label": "Old Natalie Weissman — Z @180°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 111,
+    "char_hex": 6,
+    "char_slug": "old-natalie-weissman",
+    "orientation": "Z",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "6F",
+    "filename": "old-natalie-weissman_Z_270.svg",
+    "color": null,
+    "label": "Old Natalie Weissman — Z @270°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 112,
+    "char_hex": 7,
+    "char_slug": "princhetta",
+    "orientation": "X",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "70",
+    "filename": "princhetta_X_0.svg",
+    "color": "#AAAAAA",
+    "label": "Princhetta — X @0°",
+    "tags": [
+      "character",
+      "X",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 113,
+    "char_hex": 7,
+    "char_slug": "princhetta",
+    "orientation": "X",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "71",
+    "filename": "princhetta_X_90.svg",
+    "color": "#AAAAAA",
+    "label": "Princhetta — X @90°",
+    "tags": [
+      "character",
+      "X",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 114,
+    "char_hex": 7,
+    "char_slug": "princhetta",
+    "orientation": "X",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "72",
+    "filename": "princhetta_X_180.svg",
+    "color": "#AAAAAA",
+    "label": "Princhetta — X @180°",
+    "tags": [
+      "character",
+      "X",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 115,
+    "char_hex": 7,
+    "char_slug": "princhetta",
+    "orientation": "X",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "73",
+    "filename": "princhetta_X_270.svg",
+    "color": "#AAAAAA",
+    "label": "Princhetta — X @270°",
+    "tags": [
+      "character",
+      "X",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 116,
+    "char_hex": 7,
+    "char_slug": "princhetta",
+    "orientation": "Y",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "74",
+    "filename": "princhetta_Y_0.svg",
+    "color": "#AAAAAA",
+    "label": "Princhetta — Y @0°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 117,
+    "char_hex": 7,
+    "char_slug": "princhetta",
+    "orientation": "Y",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "75",
+    "filename": "princhetta_Y_90.svg",
+    "color": "#AAAAAA",
+    "label": "Princhetta — Y @90°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 118,
+    "char_hex": 7,
+    "char_slug": "princhetta",
+    "orientation": "Y",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "76",
+    "filename": "princhetta_Y_180.svg",
+    "color": "#AAAAAA",
+    "label": "Princhetta — Y @180°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 119,
+    "char_hex": 7,
+    "char_slug": "princhetta",
+    "orientation": "Y",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "77",
+    "filename": "princhetta_Y_270.svg",
+    "color": "#AAAAAA",
+    "label": "Princhetta — Y @270°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 120,
+    "char_hex": 7,
+    "char_slug": "princhetta",
+    "orientation": "A",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "78",
+    "filename": "princhetta_A_0.svg",
+    "color": "#AAAAAA",
+    "label": "Princhetta — A @0°",
+    "tags": [
+      "character",
+      "A",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 121,
+    "char_hex": 7,
+    "char_slug": "princhetta",
+    "orientation": "A",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "79",
+    "filename": "princhetta_A_90.svg",
+    "color": "#AAAAAA",
+    "label": "Princhetta — A @90°",
+    "tags": [
+      "character",
+      "A",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 122,
+    "char_hex": 7,
+    "char_slug": "princhetta",
+    "orientation": "A",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "7A",
+    "filename": "princhetta_A_180.svg",
+    "color": "#AAAAAA",
+    "label": "Princhetta — A @180°",
+    "tags": [
+      "character",
+      "A",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 123,
+    "char_hex": 7,
+    "char_slug": "princhetta",
+    "orientation": "A",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "7B",
+    "filename": "princhetta_A_270.svg",
+    "color": "#AAAAAA",
+    "label": "Princhetta — A @270°",
+    "tags": [
+      "character",
+      "A",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 124,
+    "char_hex": 7,
+    "char_slug": "princhetta",
+    "orientation": "Z",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "7C",
+    "filename": "princhetta_Z_0.svg",
+    "color": "#AAAAAA",
+    "label": "Princhetta — Z @0°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 125,
+    "char_hex": 7,
+    "char_slug": "princhetta",
+    "orientation": "Z",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "7D",
+    "filename": "princhetta_Z_90.svg",
+    "color": "#AAAAAA",
+    "label": "Princhetta — Z @90°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 126,
+    "char_hex": 7,
+    "char_slug": "princhetta",
+    "orientation": "Z",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "7E",
+    "filename": "princhetta_Z_180.svg",
+    "color": "#AAAAAA",
+    "label": "Princhetta — Z @180°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 127,
+    "char_hex": 7,
+    "char_slug": "princhetta",
+    "orientation": "Z",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "7F",
+    "filename": "princhetta_Z_270.svg",
+    "color": "#AAAAAA",
+    "label": "Princhetta — Z @270°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 128,
+    "char_hex": 8,
+    "char_slug": "cop-e-right",
+    "orientation": "X",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "80",
+    "filename": "cop-e-right_X_0.svg",
+    "color": "#FFFFFF",
+    "label": "Cop E Right — X @0°",
+    "tags": [
+      "character",
+      "X",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 129,
+    "char_hex": 8,
+    "char_slug": "cop-e-right",
+    "orientation": "X",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "81",
+    "filename": "cop-e-right_X_90.svg",
+    "color": "#FFFFFF",
+    "label": "Cop E Right — X @90°",
+    "tags": [
+      "character",
+      "X",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 130,
+    "char_hex": 8,
+    "char_slug": "cop-e-right",
+    "orientation": "X",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "82",
+    "filename": "cop-e-right_X_180.svg",
+    "color": "#FFFFFF",
+    "label": "Cop E Right — X @180°",
+    "tags": [
+      "character",
+      "X",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 131,
+    "char_hex": 8,
+    "char_slug": "cop-e-right",
+    "orientation": "X",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "83",
+    "filename": "cop-e-right_X_270.svg",
+    "color": "#FFFFFF",
+    "label": "Cop E Right — X @270°",
+    "tags": [
+      "character",
+      "X",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 132,
+    "char_hex": 8,
+    "char_slug": "cop-e-right",
+    "orientation": "Y",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "84",
+    "filename": "cop-e-right_Y_0.svg",
+    "color": "#FFFFFF",
+    "label": "Cop E Right — Y @0°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 133,
+    "char_hex": 8,
+    "char_slug": "cop-e-right",
+    "orientation": "Y",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "85",
+    "filename": "cop-e-right_Y_90.svg",
+    "color": "#FFFFFF",
+    "label": "Cop E Right — Y @90°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 134,
+    "char_hex": 8,
+    "char_slug": "cop-e-right",
+    "orientation": "Y",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "86",
+    "filename": "cop-e-right_Y_180.svg",
+    "color": "#FFFFFF",
+    "label": "Cop E Right — Y @180°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 135,
+    "char_hex": 8,
+    "char_slug": "cop-e-right",
+    "orientation": "Y",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "87",
+    "filename": "cop-e-right_Y_270.svg",
+    "color": "#FFFFFF",
+    "label": "Cop E Right — Y @270°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 136,
+    "char_hex": 8,
+    "char_slug": "cop-e-right",
+    "orientation": "A",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "88",
+    "filename": "cop-e-right_A_0.svg",
+    "color": "#FFFFFF",
+    "label": "Cop E Right — A @0°",
+    "tags": [
+      "character",
+      "A",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 137,
+    "char_hex": 8,
+    "char_slug": "cop-e-right",
+    "orientation": "A",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "89",
+    "filename": "cop-e-right_A_90.svg",
+    "color": "#FFFFFF",
+    "label": "Cop E Right — A @90°",
+    "tags": [
+      "character",
+      "A",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 138,
+    "char_hex": 8,
+    "char_slug": "cop-e-right",
+    "orientation": "A",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "8A",
+    "filename": "cop-e-right_A_180.svg",
+    "color": "#FFFFFF",
+    "label": "Cop E Right — A @180°",
+    "tags": [
+      "character",
+      "A",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 139,
+    "char_hex": 8,
+    "char_slug": "cop-e-right",
+    "orientation": "A",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "8B",
+    "filename": "cop-e-right_A_270.svg",
+    "color": "#FFFFFF",
+    "label": "Cop E Right — A @270°",
+    "tags": [
+      "character",
+      "A",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 140,
+    "char_hex": 8,
+    "char_slug": "cop-e-right",
+    "orientation": "Z",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "8C",
+    "filename": "cop-e-right_Z_0.svg",
+    "color": "#FFFFFF",
+    "label": "Cop E Right — Z @0°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 141,
+    "char_hex": 8,
+    "char_slug": "cop-e-right",
+    "orientation": "Z",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "8D",
+    "filename": "cop-e-right_Z_90.svg",
+    "color": "#FFFFFF",
+    "label": "Cop E Right — Z @90°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 142,
+    "char_hex": 8,
+    "char_slug": "cop-e-right",
+    "orientation": "Z",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "8E",
+    "filename": "cop-e-right_Z_180.svg",
+    "color": "#FFFFFF",
+    "label": "Cop E Right — Z @180°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 143,
+    "char_hex": 8,
+    "char_slug": "cop-e-right",
+    "orientation": "Z",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "8F",
+    "filename": "cop-e-right_Z_270.svg",
+    "color": "#FFFFFF",
+    "label": "Cop E Right — Z @270°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 144,
+    "char_hex": 9,
+    "char_slug": "new-natalie-weissman",
+    "orientation": "X",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "90",
+    "filename": "new-natalie-weissman_X_0.svg",
+    "color": null,
+    "label": "New Natalie Weissman — X @0°",
+    "tags": [
+      "character",
+      "X",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 145,
+    "char_hex": 9,
+    "char_slug": "new-natalie-weissman",
+    "orientation": "X",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "91",
+    "filename": "new-natalie-weissman_X_90.svg",
+    "color": null,
+    "label": "New Natalie Weissman — X @90°",
+    "tags": [
+      "character",
+      "X",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 146,
+    "char_hex": 9,
+    "char_slug": "new-natalie-weissman",
+    "orientation": "X",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "92",
+    "filename": "new-natalie-weissman_X_180.svg",
+    "color": null,
+    "label": "New Natalie Weissman — X @180°",
+    "tags": [
+      "character",
+      "X",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 147,
+    "char_hex": 9,
+    "char_slug": "new-natalie-weissman",
+    "orientation": "X",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "93",
+    "filename": "new-natalie-weissman_X_270.svg",
+    "color": null,
+    "label": "New Natalie Weissman — X @270°",
+    "tags": [
+      "character",
+      "X",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 148,
+    "char_hex": 9,
+    "char_slug": "new-natalie-weissman",
+    "orientation": "Y",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "94",
+    "filename": "new-natalie-weissman_Y_0.svg",
+    "color": null,
+    "label": "New Natalie Weissman — Y @0°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 149,
+    "char_hex": 9,
+    "char_slug": "new-natalie-weissman",
+    "orientation": "Y",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "95",
+    "filename": "new-natalie-weissman_Y_90.svg",
+    "color": null,
+    "label": "New Natalie Weissman — Y @90°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 150,
+    "char_hex": 9,
+    "char_slug": "new-natalie-weissman",
+    "orientation": "Y",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "96",
+    "filename": "new-natalie-weissman_Y_180.svg",
+    "color": null,
+    "label": "New Natalie Weissman — Y @180°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 151,
+    "char_hex": 9,
+    "char_slug": "new-natalie-weissman",
+    "orientation": "Y",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "97",
+    "filename": "new-natalie-weissman_Y_270.svg",
+    "color": null,
+    "label": "New Natalie Weissman — Y @270°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 152,
+    "char_hex": 9,
+    "char_slug": "new-natalie-weissman",
+    "orientation": "A",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "98",
+    "filename": "new-natalie-weissman_A_0.svg",
+    "color": null,
+    "label": "New Natalie Weissman — A @0°",
+    "tags": [
+      "character",
+      "A",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 153,
+    "char_hex": 9,
+    "char_slug": "new-natalie-weissman",
+    "orientation": "A",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "99",
+    "filename": "new-natalie-weissman_A_90.svg",
+    "color": null,
+    "label": "New Natalie Weissman — A @90°",
+    "tags": [
+      "character",
+      "A",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 154,
+    "char_hex": 9,
+    "char_slug": "new-natalie-weissman",
+    "orientation": "A",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "9A",
+    "filename": "new-natalie-weissman_A_180.svg",
+    "color": null,
+    "label": "New Natalie Weissman — A @180°",
+    "tags": [
+      "character",
+      "A",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 155,
+    "char_hex": 9,
+    "char_slug": "new-natalie-weissman",
+    "orientation": "A",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "9B",
+    "filename": "new-natalie-weissman_A_270.svg",
+    "color": null,
+    "label": "New Natalie Weissman — A @270°",
+    "tags": [
+      "character",
+      "A",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 156,
+    "char_hex": 9,
+    "char_slug": "new-natalie-weissman",
+    "orientation": "Z",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "9C",
+    "filename": "new-natalie-weissman_Z_0.svg",
+    "color": null,
+    "label": "New Natalie Weissman — Z @0°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 157,
+    "char_hex": 9,
+    "char_slug": "new-natalie-weissman",
+    "orientation": "Z",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "9D",
+    "filename": "new-natalie-weissman_Z_90.svg",
+    "color": null,
+    "label": "New Natalie Weissman — Z @90°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 158,
+    "char_hex": 9,
+    "char_slug": "new-natalie-weissman",
+    "orientation": "Z",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "9E",
+    "filename": "new-natalie-weissman_Z_180.svg",
+    "color": null,
+    "label": "New Natalie Weissman — Z @180°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 159,
+    "char_hex": 9,
+    "char_slug": "new-natalie-weissman",
+    "orientation": "Z",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "9F",
+    "filename": "new-natalie-weissman_Z_270.svg",
+    "color": null,
+    "label": "New Natalie Weissman — Z @270°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 160,
+    "char_hex": 10,
+    "char_slug": "arieol-owlist",
+    "orientation": "X",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "A0",
+    "filename": "arieol-owlist_X_0.svg",
+    "color": "#99CCFF",
+    "label": "Arieol Owlist — X @0°",
+    "tags": [
+      "character",
+      "X",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 161,
+    "char_hex": 10,
+    "char_slug": "arieol-owlist",
+    "orientation": "X",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "A1",
+    "filename": "arieol-owlist_X_90.svg",
+    "color": "#99CCFF",
+    "label": "Arieol Owlist — X @90°",
+    "tags": [
+      "character",
+      "X",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 162,
+    "char_hex": 10,
+    "char_slug": "arieol-owlist",
+    "orientation": "X",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "A2",
+    "filename": "arieol-owlist_X_180.svg",
+    "color": "#99CCFF",
+    "label": "Arieol Owlist — X @180°",
+    "tags": [
+      "character",
+      "X",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 163,
+    "char_hex": 10,
+    "char_slug": "arieol-owlist",
+    "orientation": "X",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "A3",
+    "filename": "arieol-owlist_X_270.svg",
+    "color": "#99CCFF",
+    "label": "Arieol Owlist — X @270°",
+    "tags": [
+      "character",
+      "X",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 164,
+    "char_hex": 10,
+    "char_slug": "arieol-owlist",
+    "orientation": "Y",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "A4",
+    "filename": "arieol-owlist_Y_0.svg",
+    "color": "#99CCFF",
+    "label": "Arieol Owlist — Y @0°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 165,
+    "char_hex": 10,
+    "char_slug": "arieol-owlist",
+    "orientation": "Y",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "A5",
+    "filename": "arieol-owlist_Y_90.svg",
+    "color": "#99CCFF",
+    "label": "Arieol Owlist — Y @90°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 166,
+    "char_hex": 10,
+    "char_slug": "arieol-owlist",
+    "orientation": "Y",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "A6",
+    "filename": "arieol-owlist_Y_180.svg",
+    "color": "#99CCFF",
+    "label": "Arieol Owlist — Y @180°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 167,
+    "char_hex": 10,
+    "char_slug": "arieol-owlist",
+    "orientation": "Y",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "A7",
+    "filename": "arieol-owlist_Y_270.svg",
+    "color": "#99CCFF",
+    "label": "Arieol Owlist — Y @270°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 168,
+    "char_hex": 10,
+    "char_slug": "arieol-owlist",
+    "orientation": "A",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "A8",
+    "filename": "arieol-owlist_A_0.svg",
+    "color": "#99CCFF",
+    "label": "Arieol Owlist — A @0°",
+    "tags": [
+      "character",
+      "A",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 169,
+    "char_hex": 10,
+    "char_slug": "arieol-owlist",
+    "orientation": "A",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "A9",
+    "filename": "arieol-owlist_A_90.svg",
+    "color": "#99CCFF",
+    "label": "Arieol Owlist — A @90°",
+    "tags": [
+      "character",
+      "A",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 170,
+    "char_hex": 10,
+    "char_slug": "arieol-owlist",
+    "orientation": "A",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "AA",
+    "filename": "arieol-owlist_A_180.svg",
+    "color": "#99CCFF",
+    "label": "Arieol Owlist — A @180°",
+    "tags": [
+      "character",
+      "A",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 171,
+    "char_hex": 10,
+    "char_slug": "arieol-owlist",
+    "orientation": "A",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "AB",
+    "filename": "arieol-owlist_A_270.svg",
+    "color": "#99CCFF",
+    "label": "Arieol Owlist — A @270°",
+    "tags": [
+      "character",
+      "A",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 172,
+    "char_hex": 10,
+    "char_slug": "arieol-owlist",
+    "orientation": "Z",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "AC",
+    "filename": "arieol-owlist_Z_0.svg",
+    "color": "#99CCFF",
+    "label": "Arieol Owlist — Z @0°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 173,
+    "char_hex": 10,
+    "char_slug": "arieol-owlist",
+    "orientation": "Z",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "AD",
+    "filename": "arieol-owlist_Z_90.svg",
+    "color": "#99CCFF",
+    "label": "Arieol Owlist — Z @90°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 174,
+    "char_hex": 10,
+    "char_slug": "arieol-owlist",
+    "orientation": "Z",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "AE",
+    "filename": "arieol-owlist_Z_180.svg",
+    "color": "#99CCFF",
+    "label": "Arieol Owlist — Z @180°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 175,
+    "char_hex": 10,
+    "char_slug": "arieol-owlist",
+    "orientation": "Z",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "AF",
+    "filename": "arieol-owlist_Z_270.svg",
+    "color": "#99CCFF",
+    "label": "Arieol Owlist — Z @270°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 176,
+    "char_hex": 11,
+    "char_slug": "jack-parlance",
+    "orientation": "X",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "B0",
+    "filename": "jack-parlance_X_0.svg",
+    "color": "#FF3385",
+    "label": "Jack Parlance — X @0°",
+    "tags": [
+      "character",
+      "X",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 177,
+    "char_hex": 11,
+    "char_slug": "jack-parlance",
+    "orientation": "X",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "B1",
+    "filename": "jack-parlance_X_90.svg",
+    "color": "#FF3385",
+    "label": "Jack Parlance — X @90°",
+    "tags": [
+      "character",
+      "X",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 178,
+    "char_hex": 11,
+    "char_slug": "jack-parlance",
+    "orientation": "X",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "B2",
+    "filename": "jack-parlance_X_180.svg",
+    "color": "#FF3385",
+    "label": "Jack Parlance — X @180°",
+    "tags": [
+      "character",
+      "X",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 179,
+    "char_hex": 11,
+    "char_slug": "jack-parlance",
+    "orientation": "X",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "B3",
+    "filename": "jack-parlance_X_270.svg",
+    "color": "#FF3385",
+    "label": "Jack Parlance — X @270°",
+    "tags": [
+      "character",
+      "X",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 180,
+    "char_hex": 11,
+    "char_slug": "jack-parlance",
+    "orientation": "Y",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "B4",
+    "filename": "jack-parlance_Y_0.svg",
+    "color": "#FF3385",
+    "label": "Jack Parlance — Y @0°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 181,
+    "char_hex": 11,
+    "char_slug": "jack-parlance",
+    "orientation": "Y",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "B5",
+    "filename": "jack-parlance_Y_90.svg",
+    "color": "#FF3385",
+    "label": "Jack Parlance — Y @90°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 182,
+    "char_hex": 11,
+    "char_slug": "jack-parlance",
+    "orientation": "Y",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "B6",
+    "filename": "jack-parlance_Y_180.svg",
+    "color": "#FF3385",
+    "label": "Jack Parlance — Y @180°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 183,
+    "char_hex": 11,
+    "char_slug": "jack-parlance",
+    "orientation": "Y",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "B7",
+    "filename": "jack-parlance_Y_270.svg",
+    "color": "#FF3385",
+    "label": "Jack Parlance — Y @270°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 184,
+    "char_hex": 11,
+    "char_slug": "jack-parlance",
+    "orientation": "A",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "B8",
+    "filename": "jack-parlance_A_0.svg",
+    "color": "#FF3385",
+    "label": "Jack Parlance — A @0°",
+    "tags": [
+      "character",
+      "A",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 185,
+    "char_hex": 11,
+    "char_slug": "jack-parlance",
+    "orientation": "A",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "B9",
+    "filename": "jack-parlance_A_90.svg",
+    "color": "#FF3385",
+    "label": "Jack Parlance — A @90°",
+    "tags": [
+      "character",
+      "A",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 186,
+    "char_hex": 11,
+    "char_slug": "jack-parlance",
+    "orientation": "A",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "BA",
+    "filename": "jack-parlance_A_180.svg",
+    "color": "#FF3385",
+    "label": "Jack Parlance — A @180°",
+    "tags": [
+      "character",
+      "A",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 187,
+    "char_hex": 11,
+    "char_slug": "jack-parlance",
+    "orientation": "A",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "BB",
+    "filename": "jack-parlance_A_270.svg",
+    "color": "#FF3385",
+    "label": "Jack Parlance — A @270°",
+    "tags": [
+      "character",
+      "A",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 188,
+    "char_hex": 11,
+    "char_slug": "jack-parlance",
+    "orientation": "Z",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "BC",
+    "filename": "jack-parlance_Z_0.svg",
+    "color": "#FF3385",
+    "label": "Jack Parlance — Z @0°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 189,
+    "char_hex": 11,
+    "char_slug": "jack-parlance",
+    "orientation": "Z",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "BD",
+    "filename": "jack-parlance_Z_90.svg",
+    "color": "#FF3385",
+    "label": "Jack Parlance — Z @90°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 190,
+    "char_hex": 11,
+    "char_slug": "jack-parlance",
+    "orientation": "Z",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "BE",
+    "filename": "jack-parlance_Z_180.svg",
+    "color": "#FF3385",
+    "label": "Jack Parlance — Z @180°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 191,
+    "char_hex": 11,
+    "char_slug": "jack-parlance",
+    "orientation": "Z",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "BF",
+    "filename": "jack-parlance_Z_270.svg",
+    "color": "#FF3385",
+    "label": "Jack Parlance — Z @270°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 192,
+    "char_hex": 12,
+    "char_slug": "manny-valentinas",
+    "orientation": "X",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "C0",
+    "filename": "manny-valentinas_X_0.svg",
+    "color": "#FFB000",
+    "label": "Manny Valentinas — X @0°",
+    "tags": [
+      "character",
+      "X",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 193,
+    "char_hex": 12,
+    "char_slug": "manny-valentinas",
+    "orientation": "X",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "C1",
+    "filename": "manny-valentinas_X_90.svg",
+    "color": "#FFB000",
+    "label": "Manny Valentinas — X @90°",
+    "tags": [
+      "character",
+      "X",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 194,
+    "char_hex": 12,
+    "char_slug": "manny-valentinas",
+    "orientation": "X",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "C2",
+    "filename": "manny-valentinas_X_180.svg",
+    "color": "#FFB000",
+    "label": "Manny Valentinas — X @180°",
+    "tags": [
+      "character",
+      "X",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 195,
+    "char_hex": 12,
+    "char_slug": "manny-valentinas",
+    "orientation": "X",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "C3",
+    "filename": "manny-valentinas_X_270.svg",
+    "color": "#FFB000",
+    "label": "Manny Valentinas — X @270°",
+    "tags": [
+      "character",
+      "X",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 196,
+    "char_hex": 12,
+    "char_slug": "manny-valentinas",
+    "orientation": "Y",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "C4",
+    "filename": "manny-valentinas_Y_0.svg",
+    "color": "#FFB000",
+    "label": "Manny Valentinas — Y @0°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 197,
+    "char_hex": 12,
+    "char_slug": "manny-valentinas",
+    "orientation": "Y",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "C5",
+    "filename": "manny-valentinas_Y_90.svg",
+    "color": "#FFB000",
+    "label": "Manny Valentinas — Y @90°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 198,
+    "char_hex": 12,
+    "char_slug": "manny-valentinas",
+    "orientation": "Y",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "C6",
+    "filename": "manny-valentinas_Y_180.svg",
+    "color": "#FFB000",
+    "label": "Manny Valentinas — Y @180°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 199,
+    "char_hex": 12,
+    "char_slug": "manny-valentinas",
+    "orientation": "Y",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "C7",
+    "filename": "manny-valentinas_Y_270.svg",
+    "color": "#FFB000",
+    "label": "Manny Valentinas — Y @270°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 200,
+    "char_hex": 12,
+    "char_slug": "manny-valentinas",
+    "orientation": "A",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "C8",
+    "filename": "manny-valentinas_A_0.svg",
+    "color": "#FFB000",
+    "label": "Manny Valentinas — A @0°",
+    "tags": [
+      "character",
+      "A",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 201,
+    "char_hex": 12,
+    "char_slug": "manny-valentinas",
+    "orientation": "A",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "C9",
+    "filename": "manny-valentinas_A_90.svg",
+    "color": "#FFB000",
+    "label": "Manny Valentinas — A @90°",
+    "tags": [
+      "character",
+      "A",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 202,
+    "char_hex": 12,
+    "char_slug": "manny-valentinas",
+    "orientation": "A",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "CA",
+    "filename": "manny-valentinas_A_180.svg",
+    "color": "#FFB000",
+    "label": "Manny Valentinas — A @180°",
+    "tags": [
+      "character",
+      "A",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 203,
+    "char_hex": 12,
+    "char_slug": "manny-valentinas",
+    "orientation": "A",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "CB",
+    "filename": "manny-valentinas_A_270.svg",
+    "color": "#FFB000",
+    "label": "Manny Valentinas — A @270°",
+    "tags": [
+      "character",
+      "A",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 204,
+    "char_hex": 12,
+    "char_slug": "manny-valentinas",
+    "orientation": "Z",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "CC",
+    "filename": "manny-valentinas_Z_0.svg",
+    "color": "#FFB000",
+    "label": "Manny Valentinas — Z @0°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 205,
+    "char_hex": 12,
+    "char_slug": "manny-valentinas",
+    "orientation": "Z",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "CD",
+    "filename": "manny-valentinas_Z_90.svg",
+    "color": "#FFB000",
+    "label": "Manny Valentinas — Z @90°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 206,
+    "char_hex": 12,
+    "char_slug": "manny-valentinas",
+    "orientation": "Z",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "CE",
+    "filename": "manny-valentinas_Z_180.svg",
+    "color": "#FFB000",
+    "label": "Manny Valentinas — Z @180°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 207,
+    "char_hex": 12,
+    "char_slug": "manny-valentinas",
+    "orientation": "Z",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "CF",
+    "filename": "manny-valentinas_Z_270.svg",
+    "color": "#FFB000",
+    "label": "Manny Valentinas — Z @270°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 208,
+    "char_hex": 13,
+    "char_slug": "shamrock-stillman",
+    "orientation": "X",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "D0",
+    "filename": "shamrock-stillman_X_0.svg",
+    "color": "#00FFFF",
+    "label": "Shamrock Stillman — X @0°",
+    "tags": [
+      "character",
+      "X",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 209,
+    "char_hex": 13,
+    "char_slug": "shamrock-stillman",
+    "orientation": "X",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "D1",
+    "filename": "shamrock-stillman_X_90.svg",
+    "color": "#00FFFF",
+    "label": "Shamrock Stillman — X @90°",
+    "tags": [
+      "character",
+      "X",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 210,
+    "char_hex": 13,
+    "char_slug": "shamrock-stillman",
+    "orientation": "X",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "D2",
+    "filename": "shamrock-stillman_X_180.svg",
+    "color": "#00FFFF",
+    "label": "Shamrock Stillman — X @180°",
+    "tags": [
+      "character",
+      "X",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 211,
+    "char_hex": 13,
+    "char_slug": "shamrock-stillman",
+    "orientation": "X",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "D3",
+    "filename": "shamrock-stillman_X_270.svg",
+    "color": "#00FFFF",
+    "label": "Shamrock Stillman — X @270°",
+    "tags": [
+      "character",
+      "X",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 212,
+    "char_hex": 13,
+    "char_slug": "shamrock-stillman",
+    "orientation": "Y",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "D4",
+    "filename": "shamrock-stillman_Y_0.svg",
+    "color": "#00FFFF",
+    "label": "Shamrock Stillman — Y @0°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 213,
+    "char_hex": 13,
+    "char_slug": "shamrock-stillman",
+    "orientation": "Y",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "D5",
+    "filename": "shamrock-stillman_Y_90.svg",
+    "color": "#00FFFF",
+    "label": "Shamrock Stillman — Y @90°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 214,
+    "char_hex": 13,
+    "char_slug": "shamrock-stillman",
+    "orientation": "Y",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "D6",
+    "filename": "shamrock-stillman_Y_180.svg",
+    "color": "#00FFFF",
+    "label": "Shamrock Stillman — Y @180°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 215,
+    "char_hex": 13,
+    "char_slug": "shamrock-stillman",
+    "orientation": "Y",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "D7",
+    "filename": "shamrock-stillman_Y_270.svg",
+    "color": "#00FFFF",
+    "label": "Shamrock Stillman — Y @270°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 216,
+    "char_hex": 13,
+    "char_slug": "shamrock-stillman",
+    "orientation": "A",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "D8",
+    "filename": "shamrock-stillman_A_0.svg",
+    "color": "#00FFFF",
+    "label": "Shamrock Stillman — A @0°",
+    "tags": [
+      "character",
+      "A",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 217,
+    "char_hex": 13,
+    "char_slug": "shamrock-stillman",
+    "orientation": "A",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "D9",
+    "filename": "shamrock-stillman_A_90.svg",
+    "color": "#00FFFF",
+    "label": "Shamrock Stillman — A @90°",
+    "tags": [
+      "character",
+      "A",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 218,
+    "char_hex": 13,
+    "char_slug": "shamrock-stillman",
+    "orientation": "A",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "DA",
+    "filename": "shamrock-stillman_A_180.svg",
+    "color": "#00FFFF",
+    "label": "Shamrock Stillman — A @180°",
+    "tags": [
+      "character",
+      "A",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 219,
+    "char_hex": 13,
+    "char_slug": "shamrock-stillman",
+    "orientation": "A",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "DB",
+    "filename": "shamrock-stillman_A_270.svg",
+    "color": "#00FFFF",
+    "label": "Shamrock Stillman — A @270°",
+    "tags": [
+      "character",
+      "A",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 220,
+    "char_hex": 13,
+    "char_slug": "shamrock-stillman",
+    "orientation": "Z",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "DC",
+    "filename": "shamrock-stillman_Z_0.svg",
+    "color": "#00FFFF",
+    "label": "Shamrock Stillman — Z @0°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 221,
+    "char_hex": 13,
+    "char_slug": "shamrock-stillman",
+    "orientation": "Z",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "DD",
+    "filename": "shamrock-stillman_Z_90.svg",
+    "color": "#00FFFF",
+    "label": "Shamrock Stillman — Z @90°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 222,
+    "char_hex": 13,
+    "char_slug": "shamrock-stillman",
+    "orientation": "Z",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "DE",
+    "filename": "shamrock-stillman_Z_180.svg",
+    "color": "#00FFFF",
+    "label": "Shamrock Stillman — Z @180°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 223,
+    "char_hex": 13,
+    "char_slug": "shamrock-stillman",
+    "orientation": "Z",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "DF",
+    "filename": "shamrock-stillman_Z_270.svg",
+    "color": "#00FFFF",
+    "label": "Shamrock Stillman — Z @270°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 224,
+    "char_hex": 14,
+    "char_slug": "todd-fishbone",
+    "orientation": "X",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "E0",
+    "filename": "todd-fishbone_X_0.svg",
+    "color": "#FF7744",
+    "label": "Todd Fishbone — X @0°",
+    "tags": [
+      "character",
+      "X",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 225,
+    "char_hex": 14,
+    "char_slug": "todd-fishbone",
+    "orientation": "X",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "E1",
+    "filename": "todd-fishbone_X_90.svg",
+    "color": "#FF7744",
+    "label": "Todd Fishbone — X @90°",
+    "tags": [
+      "character",
+      "X",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 226,
+    "char_hex": 14,
+    "char_slug": "todd-fishbone",
+    "orientation": "X",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "E2",
+    "filename": "todd-fishbone_X_180.svg",
+    "color": "#FF7744",
+    "label": "Todd Fishbone — X @180°",
+    "tags": [
+      "character",
+      "X",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 227,
+    "char_hex": 14,
+    "char_slug": "todd-fishbone",
+    "orientation": "X",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "E3",
+    "filename": "todd-fishbone_X_270.svg",
+    "color": "#FF7744",
+    "label": "Todd Fishbone — X @270°",
+    "tags": [
+      "character",
+      "X",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 228,
+    "char_hex": 14,
+    "char_slug": "todd-fishbone",
+    "orientation": "Y",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "E4",
+    "filename": "todd-fishbone_Y_0.svg",
+    "color": "#FF7744",
+    "label": "Todd Fishbone — Y @0°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 229,
+    "char_hex": 14,
+    "char_slug": "todd-fishbone",
+    "orientation": "Y",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "E5",
+    "filename": "todd-fishbone_Y_90.svg",
+    "color": "#FF7744",
+    "label": "Todd Fishbone — Y @90°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 230,
+    "char_hex": 14,
+    "char_slug": "todd-fishbone",
+    "orientation": "Y",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "E6",
+    "filename": "todd-fishbone_Y_180.svg",
+    "color": "#FF7744",
+    "label": "Todd Fishbone — Y @180°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 231,
+    "char_hex": 14,
+    "char_slug": "todd-fishbone",
+    "orientation": "Y",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "E7",
+    "filename": "todd-fishbone_Y_270.svg",
+    "color": "#FF7744",
+    "label": "Todd Fishbone — Y @270°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 232,
+    "char_hex": 14,
+    "char_slug": "todd-fishbone",
+    "orientation": "A",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "E8",
+    "filename": "todd-fishbone_A_0.svg",
+    "color": "#FF7744",
+    "label": "Todd Fishbone — A @0°",
+    "tags": [
+      "character",
+      "A",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 233,
+    "char_hex": 14,
+    "char_slug": "todd-fishbone",
+    "orientation": "A",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "E9",
+    "filename": "todd-fishbone_A_90.svg",
+    "color": "#FF7744",
+    "label": "Todd Fishbone — A @90°",
+    "tags": [
+      "character",
+      "A",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 234,
+    "char_hex": 14,
+    "char_slug": "todd-fishbone",
+    "orientation": "A",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "EA",
+    "filename": "todd-fishbone_A_180.svg",
+    "color": "#FF7744",
+    "label": "Todd Fishbone — A @180°",
+    "tags": [
+      "character",
+      "A",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 235,
+    "char_hex": 14,
+    "char_slug": "todd-fishbone",
+    "orientation": "A",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "EB",
+    "filename": "todd-fishbone_A_270.svg",
+    "color": "#FF7744",
+    "label": "Todd Fishbone — A @270°",
+    "tags": [
+      "character",
+      "A",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 236,
+    "char_hex": 14,
+    "char_slug": "todd-fishbone",
+    "orientation": "Z",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "EC",
+    "filename": "todd-fishbone_Z_0.svg",
+    "color": "#FF7744",
+    "label": "Todd Fishbone — Z @0°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 237,
+    "char_hex": 14,
+    "char_slug": "todd-fishbone",
+    "orientation": "Z",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "ED",
+    "filename": "todd-fishbone_Z_90.svg",
+    "color": "#FF7744",
+    "label": "Todd Fishbone — Z @90°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 238,
+    "char_hex": 14,
+    "char_slug": "todd-fishbone",
+    "orientation": "Z",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "EE",
+    "filename": "todd-fishbone_Z_180.svg",
+    "color": "#FF7744",
+    "label": "Todd Fishbone — Z @180°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 239,
+    "char_hex": 14,
+    "char_slug": "todd-fishbone",
+    "orientation": "Z",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "EF",
+    "filename": "todd-fishbone_Z_270.svg",
+    "color": "#FF7744",
+    "label": "Todd Fishbone — Z @270°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 240,
+    "char_hex": 15,
+    "char_slug": "the-author",
+    "orientation": "X",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "F0",
+    "filename": "the-author_X_0.svg",
+    "color": "#BFFF00",
+    "label": "The Author — X @0°",
+    "tags": [
+      "character",
+      "X",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 241,
+    "char_hex": 15,
+    "char_slug": "the-author",
+    "orientation": "X",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "F1",
+    "filename": "the-author_X_90.svg",
+    "color": "#BFFF00",
+    "label": "The Author — X @90°",
+    "tags": [
+      "character",
+      "X",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 242,
+    "char_hex": 15,
+    "char_slug": "the-author",
+    "orientation": "X",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "F2",
+    "filename": "the-author_X_180.svg",
+    "color": "#BFFF00",
+    "label": "The Author — X @180°",
+    "tags": [
+      "character",
+      "X",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 243,
+    "char_hex": 15,
+    "char_slug": "the-author",
+    "orientation": "X",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "F3",
+    "filename": "the-author_X_270.svg",
+    "color": "#BFFF00",
+    "label": "The Author — X @270°",
+    "tags": [
+      "character",
+      "X",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 244,
+    "char_hex": 15,
+    "char_slug": "the-author",
+    "orientation": "Y",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "F4",
+    "filename": "the-author_Y_0.svg",
+    "color": "#BFFF00",
+    "label": "The Author — Y @0°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 245,
+    "char_hex": 15,
+    "char_slug": "the-author",
+    "orientation": "Y",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "F5",
+    "filename": "the-author_Y_90.svg",
+    "color": "#BFFF00",
+    "label": "The Author — Y @90°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 246,
+    "char_hex": 15,
+    "char_slug": "the-author",
+    "orientation": "Y",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "F6",
+    "filename": "the-author_Y_180.svg",
+    "color": "#BFFF00",
+    "label": "The Author — Y @180°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 247,
+    "char_hex": 15,
+    "char_slug": "the-author",
+    "orientation": "Y",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "F7",
+    "filename": "the-author_Y_270.svg",
+    "color": "#BFFF00",
+    "label": "The Author — Y @270°",
+    "tags": [
+      "character",
+      "Y",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 248,
+    "char_hex": 15,
+    "char_slug": "the-author",
+    "orientation": "A",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "F8",
+    "filename": "the-author_A_0.svg",
+    "color": "#BFFF00",
+    "label": "The Author — A @0°",
+    "tags": [
+      "character",
+      "A",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 249,
+    "char_hex": 15,
+    "char_slug": "the-author",
+    "orientation": "A",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "F9",
+    "filename": "the-author_A_90.svg",
+    "color": "#BFFF00",
+    "label": "The Author — A @90°",
+    "tags": [
+      "character",
+      "A",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 250,
+    "char_hex": 15,
+    "char_slug": "the-author",
+    "orientation": "A",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "FA",
+    "filename": "the-author_A_180.svg",
+    "color": "#BFFF00",
+    "label": "The Author — A @180°",
+    "tags": [
+      "character",
+      "A",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 251,
+    "char_hex": 15,
+    "char_slug": "the-author",
+    "orientation": "A",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "FB",
+    "filename": "the-author_A_270.svg",
+    "color": "#BFFF00",
+    "label": "The Author — A @270°",
+    "tags": [
+      "character",
+      "A",
+      "rot-270"
+    ]
+  },
+  {
+    "glyph_id": 252,
+    "char_hex": 15,
+    "char_slug": "the-author",
+    "orientation": "Z",
+    "rotation_deg": 0,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "FC",
+    "filename": "the-author_Z_0.svg",
+    "color": "#BFFF00",
+    "label": "The Author — Z @0°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-0"
+    ]
+  },
+  {
+    "glyph_id": 253,
+    "char_hex": 15,
+    "char_slug": "the-author",
+    "orientation": "Z",
+    "rotation_deg": 90,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "FD",
+    "filename": "the-author_Z_90.svg",
+    "color": "#BFFF00",
+    "label": "The Author — Z @90°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-90"
+    ]
+  },
+  {
+    "glyph_id": 254,
+    "char_hex": 15,
+    "char_slug": "the-author",
+    "orientation": "Z",
+    "rotation_deg": 180,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "FE",
+    "filename": "the-author_Z_180.svg",
+    "color": "#BFFF00",
+    "label": "The Author — Z @180°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-180"
+    ]
+  },
+  {
+    "glyph_id": 255,
+    "char_hex": 15,
+    "char_slug": "the-author",
+    "orientation": "Z",
+    "rotation_deg": 270,
+    "symbol_code": null,
+    "behavior": null,
+    "hex": "FF",
+    "filename": "the-author_Z_270.svg",
+    "color": "#BFFF00",
+    "label": "The Author — Z @270°",
+    "tags": [
+      "character",
+      "Z",
+      "rot-270"
+    ]
+  }
+]

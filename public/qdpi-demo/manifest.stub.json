@@ -1,0 +1,22 @@
+{
+  "glyphs": [
+    {
+      "glyph_id": 0,
+      "hex": "0x00",
+      "char_hex": 0,
+      "charName": "an-author",
+      "behavior": 0,
+      "behaviorName": "XC",
+      "rotation": 0,
+      "filename": "an_author.svg",
+      "url": "/qdpi-256-glyphs/an_author.svg"
+    }
+  ],
+  "characters": [
+    {
+      "char_hex": 0,
+      "name": "an-author",
+      "color": "#4A90E2"
+    }
+  ]
+}

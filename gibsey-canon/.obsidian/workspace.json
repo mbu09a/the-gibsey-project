@@ -27,16 +27,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "documentation/Claude Code's How to Test the System.md",
+                "file": "8-18-2025 Documentation/8-18-2025 Documentation TOC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Claude Code's How to Test the System"
+              "title": "8-18-2025 Documentation TOC"
+            }
+          },
+          {
+            "id": "9d639230a2eab408",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.10"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -175,6 +187,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -183,44 +196,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3541e16700b908e0",
+  "active": "9d639230a2eab408",
   "lastOpenFiles": [
-    "documentation/7-7-2025 Paper Research.md",
-    "documentation/Claude Code's How to Test the System.md",
+    "8-18-2025 Documentation/doc 7- Plan for Coordinating Claude Code, Codex CLI, and Gemini CLI.md",
+    "metadata/technical-and-research-summaries/chunk-A-summary.md",
+    "metadata/technical-and-research-summaries/chunk-A-inventory.md",
+    "metadata/Deep Dive Plan and Checklist.md",
+    "metadata/technical-and-research-summaries",
+    "metadata",
+    "corpus/metadata/table_of_contents.json",
+    "8-18-2025 Documentation/doc 10- Claude Code — Tonight’s Backend Orchestrator Prompt.md",
+    "8-18-2025 Documentation/8-18-2025 Documentation TOC.md",
+    "8-18-2025 Documentation/doc 8- QDPI to DSPy- 256‑Symbol Operating Map v0.1.md",
+    "8-18-2025 Documentation/doc 9- Original Prompt for GPT‑5 Pro- Repo Audit to QDPI and DSPy Game Plan.md",
+    "8-18-2025 Documentation/doc 34.md",
+    "8-18-2025 Documentation/doc 1- QDPI to DSPy Implementation Plan for the Gibsey Project.md",
+    "8-18-2025 Documentation/doc 1.md",
+    "8-18-2025 Documentation/doc 2- Mini-Architecture- “Gibsey as an Event-Driven Play”.md",
+    "8-18-2025 Documentation/doc 3- Gibsey QDPI and DSPy and Kafka- Repo‑Ready Implementation Plan for Claude Code.md",
+    "8-18-2025 Documentation/doc 6- Gibsey UI Wireframe — ASCII Storyboard.md",
+    "8-18-2025 Documentation/doc 5- Pseudo-UI Storyboard for Gibsey.md",
+    "8-18-2025 Documentation/doc 4- Visual Systems Sketch- From 2D Symbols to 4D Holography.md",
     "architecture systems/Game Plan for Building the 16 Architectural Systems.md",
+    "8-18-2025 Documentation",
+    "8-18-2025 Documentation.md",
+    "metadata/summaries/chunk-A-inventory.md",
+    "metadata/summaries",
+    "meta/Deep Dive Plan and Checklist.md",
+    "meta",
+    "documentation/Claude Code's How to Test the System.md",
+    "documentation/7-7-2025 Paper Research.md",
     "QDPI docs/Mathematical_Description_of_the_Fold_Mechanism.md",
     "QDPI docs/QDPI_Integration_Implementation_Plan.md",
     "QDPI docs/Post-Quantum_Hashing_for_QDPI_Merkle_Trees.md",
-    "QDPI docs/QDPI_256.md",
-    "QDPI docs/QDPI_and_CSL_Interop_Endcoding.md",
-    "QDPI docs/QDPI_Enhancements.md",
-    "QDPI docs/QDPI_Fold-Rotation_Lattice.md",
-    "QDPI docs/QDPI_Glyph_Lattice_for_Microservices.md",
-    "QDPI docs/QDPI-256_Context-Adaptive_Source_Coder.md",
-    "QDPI docs/Two-Tier_ECC_Encoding_for_QDPI_Orientation.md",
-    "architecture systems/1. User & Auth Management Backend/5. auth onboarding documentation.md",
     "QDPI docs",
     "corpus/pages/character_profiles.json",
-    "corpus/metadata/world_lore.md",
     "corpus/metadata/metadata_integration_report.json",
     "corpus/metadata/character_profiles.json",
-    "corpus/metadata/section_summaries.json",
-    "corpus/metadata/page_analysis_generator.py",
-    "corpus/metadata/page_analysis.json",
-    "corpus/metadata/character_architecture_mapping.json",
-    "architecture systems/architecture table of contents.md",
-    "architecture systems/1. User & Auth Management Backend/1. supabase firebase core guides.md",
-    "architecture systems/3. QDPI/4. Current QDPI Progress (as of 7-4-2025).md",
-    "architecture systems/3. QDPI/3. QDPI Implementation and Workflow.md",
-    "architecture systems/3. QDPI/2. QDPI Encoding Scheme and Technical Advantages.md",
-    "architecture systems/3. QDPI/1. Problems that QDPI and a glyph based  protocol solve.md",
-    "architecture systems/3. QDPI/5. Long Term QDPI Vision.md",
-    "architecture systems/2. Graph & Relationship Engine/5. graph schema documentation tips.md",
-    "SREC – Symbol-Rotation Embedding Compiler.md",
-    "gibsey o3 gifts/SREC Alt.md",
-    "QDRG – Quad-Directional Reflex Graph Scheduler.md",
-    "gifts",
-    "gibsey o3 gifts",
     "corpus/characters/an-author/symbol.svg",
     "corpus/characters/old-natalie/symbol.svg",
     "corpus/characters/new-natalie/symbol.svg",
